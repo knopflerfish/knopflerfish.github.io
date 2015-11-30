@@ -1,0 +1,1381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by cl on Thu November 5 2015, 11:36:44 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="News and announcements about the Knopflerfish OSGi Service Platform">
+  <meta name="title" content="Knopflerfish News - news and announcements about the Knopflerfish OSGi Service Platform">
+  <title>Knopflerfish News - news and announcements about the Knopflerfish OSGi Service Platform</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_open" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_closed" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_open.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_open" href="news.html">News</a></div>
+	<div class="nrow1_open"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_open"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_closed"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_closed"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_closed"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_closed"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_closed">Shortcuts</div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_closed"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_closed"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_closed"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <H1 class="kf">News</h1>
+
+<h2 class="kf">Latest News</h2>
+
+<table class="newstable">
+
+<tr id="framework_7.2.2">
+  <td class="newsdate">04 Nov 2015</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release Knopflerfish framework 7.2.2
+    </div>
+    <div class="newssubhd">
+      framework 7.2.2
+    </div>
+    <p class="newsbody">
+      Corrected issue where the resolver under certain conditions
+      couldo go into an infinite loop when a bundle wasn't resolvable.
+    </p>
+  </td>
+</tr>
+
+<tr id="http_5.1.2">
+  <td class="newsdate">23 Sep 2015</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release HTTP server bundle 5.1.2
+    </div>
+    <div class="newssubhd">
+      http 5.1.2
+    </div>
+    <p class="newsbody">
+      Removed debug printout that incorrectly indicated a NPE problem.
+    </p>
+    <p class="newsbody">
+      HttpServletResponse.getLocale() incorrectly returned null if no locale had been set.
+      Corrected to return the default locale.
+    </p>
+  </td>
+</tr>
+
+<tr id="framework_7.2.1">
+  <td class="newsdate">11 Sep 2015</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release for better Android support of OSGi Framework
+      and Http Client Connector
+    </div>
+    <div class="newssubhd">
+      framework 7.2.1
+    </div>
+    <p class="newsbody">
+      Some packages from org.apache.commons added as exported by default
+    </p>
+    <p class="newsbody">
+      Property
+      <code>org.knopflerfish.framework.is_doublechecked_locking_safe </code>
+      set to true on Android by default.
+    </p>
+    <div class="newssubhd">
+      Http Client Connector 3.1.3.kf5-001
+    </div>
+    <p class="newsbody">
+      Bundle repackaged to avoid class loader problems on Android
+    </p>
+  </td>
+</tr>
+
+<tr id="http_5.1.1">
+  <td class="newsdate">18 Aug 2015</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release HTTP server bundle 5.1.1
+    </div>
+    <div class="newssubhd">
+      http 5.1.1
+    </div>
+    <p class="newsbody">
+       Corrected issues in the HttpServletRequest class. Some methods
+       caused NPE or gave incorrect results during the second GET call in a Keep-Alive connection.
+       Methods affected: getLocalAddr(), getLocalName(),
+       getRemteAddr(), getRemoteHost(), getLocalPort(),
+       getRemotePort(). 
+    </p>
+  </td>
+</tr>
+
+<tr id="kf_5.2.0">
+  <td class="newsdate">10 Jul 2015</td>
+  <td class="newstext">
+    <div class="newshd">
+      Knopflerfish 5.2 released, new minor release of KF5
+    </div>
+    <div class="newssubhd">
+      Knopflerfish 5.2.0
+    </div>
+    <p>
+      <a href="download.html">Knopflerfish 5.2</a> is released and includes several minor 
+      enhancements as well as all bug fixes made since KF 5.1 was released.
+    </p>
+    The new key features in Knopflerfish 5.2 are:
+    <ul>
+      <li>Bug fixes in the Knopflerfish OSGi framework: fixed NPR during package resolve,
+	correcting native code checking	when attaching a fragment,
+	and corrections related to start level handling. </li>
+      <li>Improved support for handling Android DEX files</li>
+      <li>ART (Android runtime), the Dalvik predecessor, is now fully supported</li>
+      <li>The Knopflerfish embedded HTTP server has been optimized to use less resources (threads &amp; memory)</li>
+      <li>The HTTP also has the following new features:</li>
+      <ul>
+	<li>Chunked transfer encoding responses</li>
+	<li>Automatic content compression for selected content types</li>
+	<li>Correct handling of certain HTTP/1.1 request and response headers</li>
+      </ul>
+      <li>Improvements to the build system to better support Android / OSGi DEX bundles. </li>
+    </ul>
+    <p>
+      The <a href="/releases/5.2.0/docs/release_notes.html">Release
+	Notes</a> include the complete list of features and fixes.  
+    </p>
+  </td>
+</tr>
+
+<tr id="framework_7.1.4">
+  <td class="newsdate">29 Mar 2015</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release Knopflerfish framework 7.1.4
+    </div>
+    <div class="newssubhd">
+      framework 7.1.4
+    </div>
+    <p class="newsbody">
+      Corrected issue with NPE during package resolving or package requiring.
+    </p>
+  </td>
+</tr>
+
+<tr id="http_5.0.0">
+  <td class="newsdate">26 Sep 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      HTTP server bundle 5.0 released
+    </div>
+    <div class="newssubhd">
+      http 5.0.0
+    </div>
+    <p>
+      <ul>
+	<li>
+	  Improved the configuration handling the first time a 
+	  CM configuration is received to avoid unnecessary
+	  reconfigurations of the built-in default settings.
+	  This could lead to a server socket close followed by new
+	  listen on the same port.
+	</li>
+	<li>
+	  CM meta-data is updated to include previously
+	  undocumented configuration parameters. 
+	</li>
+      </ul>
+    </p>
+  </td>
+</tr>
+
+<tr id="framework_7.1.3">
+  <td class="newsdate">30 Jun 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release Knopflerfish framework 7.1.3
+    </div>
+    <div class="newssubhd">
+      framework 7.1.3
+    </div>
+    <p>
+      <ul>
+	<li>
+	  Fixed native code checking before we attach fragment.
+	</li>
+	<li>
+	  Changed behaviour start-up of start-level service, so that it always
+	  goes to the beginning start-level instead of last active start-level
+	  from previous run. This to comply with the OSGi Core specification.
+	</li>
+	<li>
+	  Limit removed on number of queued start-level operations (was 100).
+	</li>
+      </ul>
+    </p>
+  </td>
+</tr>
+
+<tr id="kf_5.1.0">
+  <td class="newsdate">13 Jun 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Knopflerfish 5.1 released, new minor release of KF5
+    </div>
+    <div class="newssubhd">
+      Knopflerfish 5.1.0
+    </div>
+    <p>
+      <a href="download.html">Knopflerfish 5.1</a> is released and includes several minor 
+      enhancements as well as all bug fixes made since KF 5.0 was released. The 5.1 release also 
+      includes fixed related to Java 8 and Knopflerfish 5.1 passes all tests on Java 7 and 8 as well
+      as older Java versions, and embedded Java profiles.
+    </p>
+    The new key features in Knopflerfish 5.1 are:
+    <ul>
+      <li>Support for starting from a single jar that includes all jars, xargs and 
+	property files needed to start the entire system</li>
+      <li>Knopflerfish framework can now be executed in read only mode, i.e. no files are 
+	written by the framework. This assumes bundles are installed as reference file URLs.</li>
+      <li>UserAdmin is completely self-contained, i.e. no dependencies on KF specific bundles</li>
+      <li>CM's persistent storage has been made more robust and fault resilient</li>
+      <li>HTTP Server now handles chunked transfer encoding correctly</li>
+      <li>Minor fixes in SCR</li>
+      <li>Repository Commands supports -r flag which recursively finds and installs dependencies.</li>
+          </ul>
+    <p>
+      The <a href="/releases/5.1.0/docs/release_notes.html">Release
+	Notes</a> includes the complete list of features and fixes.  
+    </p>
+  </td>
+</tr>
+      
+      
+
+<tr id="cm_desktop_5.0.2">
+  <td class="newsdate">14 Apr 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release CM Desktop 5.0.2, KF-XML Metatype 5.0.2
+    </div>
+    <div class="newssubhd">
+      CM Desktop 5.0.2
+    </div>
+    <p class="newsbody">
+      Added requirement for Meta Type service
+    </p>
+    <div class="newssubhd">
+      KF-XML-Metatype 5.0.2
+    </div>
+    <p class="newsbody">
+      Changed to only build <em>all</em> version. This makes it possible to correctly install
+      CM-Desktop using the Repository Desktop with the Felix resolver.
+    </p>
+  </td>
+</tr>
+
+<tr id="useradmin_4.1.0">
+  <td class="newsdate">19 Mar 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Minor release UserAdmin
+    </div>
+    <div class="newssubhd">
+      UserAdmin 4.1.0
+    </div>
+    <p class="newsbody">
+      UserAdmin bundle now contains and imports/exports org.knopflerfish.service.log
+      in order to be self-contained.
+    </p>
+  </td>
+</tr>
+
+<tr id="scr_5.0.3">
+  <td class="newsdate">25 Feb 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release Metatype
+    </div>
+    <div class="newssubhd">
+      Metatype 5.0.1
+    </div>
+    <p class="newsbody">
+      Corrects issue in handling of designate-element that could cause
+      configurations to be created, deleted or overwritten unintentionally.
+    </p>
+  </td>
+</tr>
+
+<tr id="scr_5.0.3">
+  <td class="newsdate">20 Feb 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release SRC / Declarative Services
+    </div>
+    <div class="newssubhd">
+      SCR 5.0.3
+    </div>
+    <p class="newsbody">
+      Corrects issue with missing factory component check
+    </p>
+  </td>
+</tr>
+
+<tr id="cm_5.0.1">
+  <td class="newsdate">17 Feb 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release CM
+    </div>
+    <div class="newssubhd">
+      CM 5.0.1
+    </div>
+    <p class="newsbody">
+      The persistent storage of CM data has been improved to be 
+      more robust and fault resilient. 
+    </p>
+  </td>
+</tr>
+
+<tr id="http_4.0.5">
+  <td class="newsdate">5 Feb 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release HTTP server bundle
+    </div>
+    <div class="newssubhd">
+      HTTP 4.0.5
+    </div>
+    <p class="newsbody">
+      Corrected issues in the handling of chunked transfer encoding which could 
+      cause problems when transferring binary data.
+    </p>
+  </td>
+</tr>
+
+<tr id="repository_desktop_1.1.1">
+  <td class="newsdate">29 Jan 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Repository Desktop
+    </div>
+    <div class="newssubhd">
+      Repository Desktop 1.1.1
+    </div>
+    <p class="newsbody">
+      When installing from a Repository and using a Resolver the confirmation 
+      pop-up dialogue will now list the additional dependencies that will be 
+      installed in order to resolve.
+    </p>
+  </td>
+</tr>
+
+<tr id="framework_7.0.2">
+  <td class="newsdate">22 Jan 2014</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish OSGi framework
+    </div>
+    <div class="newssubhd">
+      framework 7.0.2
+    </div>
+    <p class="newsbody">
+      Corrected issue that caused IndexOutOfBoundsException when updating large
+      collections of ConditionalPermissionInfos using ConditionalPermissionUpdate.
+    </p>
+  </td>
+</tr>
+
+<tr id="scr_5.0.2">
+  <td class="newsdate">12 Dec 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of SCR bundle
+    </div>
+    <div class="newssubhd">
+      SCR 5.0.2
+    </div>
+    <p class="newsbody">
+      Corrected issue that caused factory components to be falsely created or 
+      missed being created when using target filters. 
+      A test-cases for this has also been added the KF test suite.
+    </p>
+  </td>
+</tr>
+
+<tr id="repository_desktop_1.1.0">
+  <td class="newsdate">10 Dec 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Minor release of Repository Desktop, Repository Manager, and Repository Commands bundles
+    </div>
+    <div class="newssubhd">
+      Repository Desktop 1.1.0
+    </div>
+    <div class="newssubhd">
+      Repository Manager 1.2.0
+    </div>
+    <div class="newssubhd">
+      Repository Commands 1.1.1
+    </div>
+    <p class="newsbody">
+      Improved support for Resolver in Repository Manager bundle.
+      Updated Repository console and desktop bundles to use the improved support. 
+      Resolver and Repository APIs are now embedded in Repository Manager bundle.
+    </p>
+  </td>
+</tr>
+
+
+<tr id="repository_manager_1.1.0">
+  <td class="newsdate">15 Nov 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Minor release of Repository Manager and Repository Commands
+      adds support for Resolver Specification
+    </div>
+    <div class="newssubhd">
+      Repository Manager 1.1.0
+    </div>
+    <div class="newssubhd">
+      Repository Commands 1.1.0
+    </div>
+    <p class="newsbody">
+      The repository console commands and repository manager bundles now have support for the Resolver Service 1.0 specification.
+      The install command now has an optional [-r] flag that will try to find and install (and start if that option is given) the recursive dependencies of the bundle you are trying to install.
+      Please see this 
+      <a href="http://knopflerfish.blogspot.se/2013/11/repository-commands-110-now-with.html">Knopflerfish blog entry</a> for more information.
+    </p>
+  </td>
+</tr>
+
+<tr id="kf_5.0.0">
+  <td class="newsdate">21 Oct 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Knopflerfish 5 released, KF moves to OSGi R5
+    </div>
+    <div class="newssubhd">
+      Knopflerfish 5.0.0
+    </div>
+    <p>
+      <a href="download.html">Knopflerfish 5.0.0</a> is now officially
+      released, the new major OSGi R5 compliant release of the leading open source based
+      OSGi run-time for embedded use. To further emphasize the embeededness, KF5
+      includes a new, compact version of the OSGi R5 framework, occupying no
+      more than 316K of disk space.
+    </p>
+    The new key features in Knopflerfish are:
+    <ul>
+      <li>Knopflerfish OSGi framework and OSGi Compendium Services are
+	all updated to OSGi R5</li>
+      <li>A compact version of framework, occupying no more than 316K
+	of disk-space</li>
+      <li>KF5 fully uses the OSGi specified repository format. Former
+	KF formats (OBR) have been deprecated. New Repository Manager
+	bundle, new console commands
+	for interacting with the repository manager, as well as new Repository
+	Desktop manager.</li>
+      <li>
+	All Knopflerfish bundles, e.g. desktop, console commands etc have
+	been update to use and reflect the new R5 APIs. 
+      </li>
+      <li>Simplified process for building Knopflerfish with Java 7</li>
+    </ul>
+    <p>
+      The <a href="/releases/5.0.0/docs/release_notes.html">Release
+	Notes</a> includes the complete list of features and fixes.  
+    </p>
+    <p>
+      The <a href="kf5_osgi_r5.html"> KF5 overview
+	page </a> presents an overview of OSGi R5 and what features are
+      supported in Knopflerfish 5.
+    </p>
+  </td>
+</tr>
+
+<tr id="kf_4.0.1">
+  <td class="newsdate">18 Oct 2013</td>
+  <td class="newstext">
+    <div class="newshd">Knopflerfish 4.0.1 is released, Knopflerfish 5
+      / OSGi R5 is just around the corner.</div>
+    <p>
+      <a href="download.html">Knopflerfish 4.0.1</a> 
+      is a bug fix release of Knopflerfish 4 / OSGi R4 v4.3, collecting all bug fixes made on
+      the Knopflerfish trunk since KF 4.0.0 was released. The
+      Knopflerfish 5 release is just around the corner and concurrent
+      with the KF5 release the Knopflerfish svn trunk will be switched
+      to KF5 / OSGi R5. The 4.0.1
+      release therefore also marks the end of KF4 as the main development branch.
+    </p>
+    <p>
+      Stay tuned for more exciting news on Knopflerfish 5 next week!
+    </p>
+    <p>
+      The <a href="/releases/4.0.1/docs/release_notes.html">Release
+	Notes</a> includes the complete list of features and fixes.  
+  </td>
+</tr>
+
+
+<tr id="classpatcher_1.0.1">
+  <td class="newsdate">20 Sep 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Class Patcher bundle
+    </div>
+    <div class="newssubhd">
+      Class Patcher 1.0.1
+    </div>
+    <p class="newsbody">
+      Incorrect import-package removed. 
+    </p>
+  </td>
+</tr>    
+
+
+<tr id="kf_5.0.0.beta-1">
+  <td class="newsdate">17 Sep 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Knopflerfish 5 beta-1 released, KF prepares to move to OSGi R5
+    </div>
+    <div class="newssubhd">
+      Knopflerfish 5.0.0.beta-1
+    </div>
+    <p>
+      <a href="download.html">Knopflerfish 5.0.0.beta-1</a>
+      is the first beta release of KF5, the next major release of
+      Knopflerfish, designed to be compliant with the OSGi R5 
+      specifications. The <a href="kf5_osgi_r5.html"> 
+	KF5 overview page </a> 
+      presents an overview of OSGi R5 and the current status
+      of KF5.
+    </p>
+    New features in OSGi R5 include the Resource API, OSGi namespace
+    definition, repository service, resolver service and sub-systems
+    to name a few. For KF users the most important changes in KF5 are:
+    <ul>
+      <li>Knopflerfish OSGi framework updated to R5</li>
+      <li>Repository services added. This is still
+	work i progress</li>
+      <li>CM has a new concept of targeted PIDs as well as API
+      changes. The KF OSGi CM bundle has been updated accordingly</li>
+      <li>
+	Other Knopflerfish bundles, e.g. desktop, console commands etc have
+	been update to use and reflect the new R5 APIs. </li>
+    </ul>
+    <p>
+      The <a href="/releases/5.0.0.beta-1/docs/release_notes.html">Release
+	Notes</a> includes the complete list of features and fixes.  
+    </p>
+  </td>
+</tr>
+
+
+<tr id="scr_4.0.3">
+  <td class="newsdate">22 Aug 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of SCR / Declarative Services
+    </div>
+    <div class="newssubhd">
+      SCR 4.0.3
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Fixed bug that caused the instance properties to be ignored
+	for certain factory components.
+      </li>
+      <li>
+	Fixed dead-lock during component activation.
+      </li>
+      <li>
+	Widen the search for circular component activations to include
+	components that might be activated depending on CM and/or instance
+	properties.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="framework_6.0.3">
+  <td class="newsdate">25 Jul 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish OSGi framework
+    </div>
+    <div class="newssubhd">
+      framework 6.0.3
+    </div>
+    <p class="newsbody">
+      Corrected missing export of the following packages:<br>
+      org.osgi.framework.hooks.bundle;version=1.0, <br>
+      org.osgi.framework.hooks.weaving;version=1.0 <br>
+      org.osgi.framework.hooks.resolver;version=1.0 <br>
+    </p>
+  </td>
+</tr>    
+
+
+<tr id="kf_4.0.0">
+  <td class="newsdate">12 Jul 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Knopflerfish moves to new major version, Knopflerfish 4 is released
+    </div>
+    <p>
+      <a href="download.html">Knopflerfish 4</a> 
+      is the next major release of Knopflerfish. KF4 is designed to be compliant with the OSGi R4 v4.3 
+      specifications. 
+    </P>
+    <p>
+      The new KF4 release support all core features as well as the the OSGi Services relevant 
+      for the embedded and desktop markets. The <a href="kf4_osgi_r4_v4.3.html"> 
+      KF4 overview page </a> 
+      presents a detailed overview of KF4 and OSGi R4 v4.3. A short
+      summary is presented below.
+    </p>
+    <ul>
+      <li> Generics - core API now uses generics</li>
+      <li> Capabilities - generic requirements and capabilities</li>
+      <li> Bundle Wiring API - provide information how requirements
+	and provided capabilities have been resolved by the
+	framework. Replaces PackageAdmin</li>
+      <li>Adapt pattern - new adapt method on the Bundle class </li>
+      <li> Framework hooks - mechanism to plug into the framework for
+	close interaction, Resolver Hooks, Bundle Hooks, Service
+	Hooks, Weaving Hooks.</li>
+      <li>Declarative Services updates</li>
+      <li> Knopflerfish bundles, e.g. desktop, console commands etc,
+	are all update to use and reflect the new 4.3 APIs.</li>
+    </ul>
+    <p>
+      In addition to the upgrade to OSGi R4 v4.3 KF4 includes several
+      new Knopflerfish features and fixes:
+    </p>
+    <ul>
+      <li>
+	The class weaving using ASM has been been moved into a separate 
+	classpatcher bundle that implements a Weaving Hook.
+      </li>
+      <li>
+	General change to to all timer / timer functions to
+	System.nanoTime() instead of System.currentTimeMillis() to avoid
+	timer problems when correcting system clock. 
+      <li>
+	The Android support has been extended with functions for building an
+	Android .apk containing Knopflerfish.
+      </li>
+      <li>
+	The KF Directory Deployer bundle has been given an overhaul 
+	and a new feature for deployment of XML-files with OSGi CM configurations 
+	has been added.
+      </li>
+      <li>
+	Several new features in the CM-Desktop plug-in, in particular functions
+	for handling the CM Meta data XML document used by the Directory Deployer.
+      </li>
+      <li>
+	The Desktop bundle fully support the new Wiring-API as well
+	as several minor usability improvements
+      </li>
+      <li>
+	The frameworkcommands bundle has been extended to support
+	the new Wiring API and has several new commands,
+	e.g. "wiring" and "capability".
+      </li>
+      <li>
+	Maven source and javadoc attachments for all bundle artifacts
+	are now generated.
+      </li>
+    </ul>
+    <p>
+      The <a href="/releases/4.0.0/docs/release_notes.html">Release
+	Notes</a> includes the complete list of features and fixes.  
+    </p>
+    <p>
+      
+    </p>
+  </td>
+</tr>
+
+
+<tr id="kf_3.6.0">
+  <td class="newsdate">11 Jul 2013</td>
+  <td class="newstext">
+    <div class="newshd">Knopflerfish 3.6 released, KF3 moves to maintenance branch. 
+      Knopflerfish 4.0 release is imminent</div>
+    <p>
+      <a href="download.html">Knopflerfish 3.6</a> 
+      is the next minor KF3 release and includes several fixes and improvement in the core
+      OSGi framework, the OSGi compendium services, and the Knopflerfish services.
+    </p>
+    <p>
+      The 3.6 release also marks the end of KF3 as the main development version in the KF trunk.
+      With the 3.6 release the Knopflerfish SVN trunk is switched to KF4 / OSGi R4 v4.3, 
+      preparing for the imminent release of Knopflerfish 4.0.
+    </p>
+    <p>
+      The KF3 maintenance branch is available in SVN at: <br>
+      <a href="https://www.knopflerfish.org/svn/knopflerfish.org/branches/kf_3_support/">
+	https://www.knopflerfish.org/svn/knopflerfish.org/branches/kf_3_support/      
+      </a>
+    </p>
+    The most important changes are:
+    <ul class="kf">
+      <li>Stability issues corrected in the Knopflerfish OSGi
+      framework  </li>
+      <li>Several stability issues corrected in Declarative Services
+	(SCR), e.g. bind/unbind issues, filter properties
+      </li>
+      <li>
+	Switched to use System.nanoTime() in the framework and all bundles to avoid timer
+	problems when correcting system clocks. 
+      </li>
+      <li>
+	Corrected resource leaks in HTTP server and corrected Data header formats
+      </li>
+      <li>
+	Corrected issue in Preference service when running with security
+      </li>
+    </ul>
+    The <a href="/releases/3.6.0/release_notes.html">Release
+      Notes</a> includes the complete list of features and fixes.  
+  </td>
+</tr>
+
+
+<tr id="scr_3.1.18">
+  <td class="newsdate">9 Jul 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of SCR / Declarative Services
+
+    </div>
+    <div class="newssubhd">
+      SCR 3.1.18
+    </div>
+    <p>
+    </p>
+    <ul class="kf">
+      <li>
+	Error message added when there is a mismatch 
+	on bind, modify and unbind calls. 
+      </li>
+      <li>
+	Factory components are not deactivated when last consumer ungets service. 
+	A test case has been added for that to the KF test suite.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="scr_3.1.17">
+  <td class="newsdate">28 Jun 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of SCR / Declarative Services
+
+    </div>
+    <div class="newssubhd">
+      SCR 3.1.17
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Corrected issue in SCR. Bind and unbind was not called for all 
+	references for all factory component instances.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="scr_3.1.16">
+  <td class="newsdate">24 Jun 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of SCR / Declarative Services
+    </div>
+    <div class="newssubhd">
+      SCR 3.1.16
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Corrected issue that caused delayed components to deadlock during deactivation. 
+	A test case for this has been added to the KF test suite.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="scrcommands_1.1.1">
+  <td class="newsdate">21 Jun 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of SCR Commands
+    </div>
+    <div class="newssubhd">
+      scrcommands 1.1.1
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Fixed typo that caused  ArrayIndexOutOfBoundsException in "scr list" command.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="framework_5.3.11">
+  <td class="newsdate">19 Jun 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish OSGi framework
+    </div>
+    <div class="newssubhd">
+      framework 5.3.11
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Fixed NPE in framework start-level controller.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="framework_5.3.10">
+  <td class="newsdate">19 Jun 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish OSGi framework
+    </div>
+    <div class="newssubhd">
+      framework 5.3.10
+    </div>
+    <p>
+    </p>
+    <ul class="kf">
+      <li>
+	<p>
+	  Corrected issues regarding signed bundles being incorrectly marked as not 
+	  completely signed. There also seems to be a problem in the JarInputStream class
+	  implementation in Oracle JRE (Java 6 & 7). If there are user/non standard 
+	  jar related files in the META-INF directory in the bundle's JAR, 
+	  and they directly follow the standard META-INF signature related files,
+	  the Oracle JRE fails to find the certificates for the additional files,
+	  and KF will mark the bundle as not completely signed. Setting the property 
+	  <tt>org.knopflerfish.framework.bundlestorage.file.jar_verifier_bug</tt> to true will
+	  instruct KF to assume they are properly signed. 
+	</p>
+	<p>
+	  The versions 5.3.8 and 5.3.9 of the framework shall be regarded as 
+	  intermediate releases and can be ignored as they didn't address all problems.
+	</p>
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="kf_4.0.0.beta-2">
+  <td class="newsdate">13 Jun 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Knopflerfish 4 beta-2 released - full OSGi R4 v4.3 implementation
+    </div>
+    <div class="newssubhd">
+      Knopflerfish 4.0.0.beta-2 
+    </div>
+    <p>
+      <a href="download.html">Knopflerfish 4.0.0.beta-2</a>
+      is the second beta release of KF4, the next major release of
+      Knopflerfish, designed to be compliant with the OSGi R4 v4.3 
+      specifications. 
+
+    </P>
+    <p>
+      Compared to the first beta-1 release of KF4 /  OSGi R4 v4.3, the second beta release
+      includes several new features and fixes:
+    </p>
+    <ul>
+      <li>
+	With the completion of Declarative Services KF4 beta-2 implement OSGi R4 v4.3 fully. 
+      </li>
+      <li>
+	Android support is restored and functions for building an
+	Android .apk containing Knopflerfish has been added.
+      </li>
+      <li>
+	The class weaving using ASM has been been moved into a separate 
+	classpatcher bundle that implements a Weaving Hook.
+      </li>
+      <li>
+	The KF Directory Deployer bundle has been given an overhaul 
+	and a new feature for deployment of XML-files with OSGi CM configurations 
+	has been added.
+      </li>
+      <li>
+	Several new features in the CM-Desktop plug-in, in particular functions
+	for handling the CM Meta data XML document used by the Directory Deployer.
+      </li>
+      <li>
+	Desktop bundle includes several minor improvements
+      </li>
+    </ul>
+    <p>
+      The <a href="/releases/4.0.0.beta-2/docs/release_notes.html">Release
+	Notes</a> includes the complete list of features and fixes.  
+    </p>
+    <p>
+      The <a href="kf4_osgi_r4_v4.3.html"> 
+      KF4 overview page </a> 
+      presents an overview of OSGi R4 v4.3 and the current status
+      of KF4.
+    </p>
+  </td>
+</tr>
+
+
+<tr id="scr_3.1.15">
+  <td class="newsdate">29 May 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Declarative Services
+    </div>
+    <div class="newssubhd">
+      Declarative Services (SCR) 3.1.15
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Corrected issue with target filter properties that are string arrays with one element.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+
+<tr id="event_3.0.10">
+  <td class="newsdate">8 May 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Event Admin bundle
+    </div>
+    <div class="newssubhd">
+      Event Admin 3.0.10
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Corrected NPE that could occur in log message creation during 
+	shutdown of bundles.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="framework_5.3.7">
+  <td class="newsdate">15 Apr 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of OSGi framework, device manager, event,
+      HTTP, and Util
+    </div>
+    <div class="newssubhd">
+      framework 5.3.7
+    </div>
+    <div class="newssubhd">
+      device 3.0.2
+    </div>
+    <div class="newssubhd">
+      event 3.0.9
+    </div>
+    <div class="newssubhd">
+      http 3.1.5
+    </div>
+    <div class="newssubhd">
+     util 2.1.0
+    </div>
+    <p class="newsbody">
+      The use of System.currentTimeMillis() has been replaced with
+      System.namoTime() in the Knopflerfish OSGi framework as well as
+      all KF bundles to avoid
+      problems with timers when resetting
+      the system clock. If System.nanoTime() is not available, e.g
+      java 1.4 and older, the timers will default back to to
+      System.currentTimeMillis().
+    </p>
+  </td>
+</tr>
+
+
+<tr id="kf_4.0.0.beta-1">
+  <td class="newsdate">8 Apr 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Knopflerfish 4 beta-1 released, KF moves to OSGi R4 v4.3
+    </div>
+    <div class="newssubhd">
+      Knopflerfish 4.0.0.beta-1 
+    </div>
+    <p>
+      <a href="download.html">Knopflerfish 4.0.0.beta-1</a>
+      is the first beta release of KF4, the next major release of
+      Knopflerfish, designed to be compliant with the OSGi R4 v4.3 
+      specifications. The <a href="kf4_osgi_r4_v4.3.html"> 
+	KF4 overview page </a> 
+      presents an overview of OSGi R4 v4.3 and the current status
+      of KF4.
+    </p>
+    The new KF4 release includes all the new features in R4 v4.3,
+    e.g.
+    <ul>
+      <li> Generics - core API now uses generics</li>
+      <li> Capabilities - generic requirements and capabilities</li>
+      <li> Bundle Wiring API - provide information how requirements
+	and provided capabilities have been resolved by the
+	framework. Replaces PackageAdmin</li>
+      <li>Adapt pattern - new adapt method on the Bundle class </li>
+      <li> Framework hooks - mechanism to plug into the framework for
+	close interaction, Resolver Hooks, Bundle Hooks, Service
+	Hooks, Weaving Hooks.</li>
+      <li> Knopflerfish bundles, e.g. desktop, console commands etc,
+	are all update to use and reflect the new 4.3 APIs.</li>
+    </ul>
+    <p>
+      The <a href="/releases/4.0.0.beta-1/docs/release_notes.html">Release
+	Notes</a> includes the complete list of features and fixes.  
+    </p>
+  </td>
+</tr>
+
+
+<tr id="framework_5.3.6">
+  <td class="newsdate">5 Apr 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish OSGi framework
+    </div>
+    <div class="newssubhd">
+      framework 5.3.6
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Fix for Require-Bundle on system bundle. See also
+	<a href="http://sourceforge.net/p/gatespace/bugs/173/">
+	  http://sourceforge.net/p/gatespace/bugs/173/</a>
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="http_3.1.5">
+  <td class="newsdate">3 Apr 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of HTTP server
+    </div>
+    <div class="newssubhd">
+      HTTP 3.1.5 / (3.1.4)
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	When all of the transaction threads can not be terminated on
+	shut-down of the http bundle, we can not destroy the transaction
+	manager thread group.
+      </li>
+      <li>
+	Fixed a resource leaks in the TransactionManager class. (Http 3.1.4)
+	See <a href="https://sourceforge.net/p/gatespace/bugs/175/">
+	  https://sourceforge.net/p/gatespace/bugs/175/ </a>
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="http_3.1.3">
+  <td class="newsdate">21 Mar 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of HTTP server
+    </div>
+    <div class="newssubhd">
+      HTTP 3.1.3
+    </div>
+    <p class="newsbody">
+    </p>
+    <ul class="kf">
+      <li>
+	Date headers could be messed up since the SimpleDateFormat
+	instances used for the formating was shared without any
+	synchronization.  All usages of the shared date formatters are
+	now properly synchronized.
+	See https://sourceforge.net/p/gatespace/bugs/174/ 
+      </li>
+      <li>
+	The expires date in cookie headers is now in GMT (UTC) which is a
+	requirement in RFC 2616 section 3.3.1 and also in RFC 6265. 
+	(HTTP 3.1.3)
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="framework_5.3.5">
+  <td class="newsdate">21 Mar 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish framework
+    </div>
+    <div class="newssubhd">
+      framework 5.3.5
+    </div>
+    <p class="newsbody">
+    Two new properties added to further control the thread executing
+    the bundle's start/stop methods. For a full description see the
+    framework documentation.
+    </p>
+    <ul class="kf">
+      <li>
+	org.knopflerfish.framework.bundlethread.timeout - 
+	Use this property to set a limit on how long the framework will
+	wait for a bundle's activator to complete and return from the
+	start and stop methods.
+      </li>
+      <li>
+	org.knopflerfish.framework.bundlethread.abort - 
+	If a bundle's start() or stop() method has not returned and the
+	bundle gets uninstalled this property defines how to manage the
+	bundle's start/stop thread. 
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="preferences_3.0.2">
+  <td class="newsdate">26 Feb 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of OSGi preference service
+    </div>
+    <div class="newssubhd">
+      preferences 3.0.2
+    </div>
+    <ul class="kf">
+      <li>
+	Code requiring permissions have been wrapped in do-privileged
+	constructions. Prefs should now work as expected with security
+	enabled.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="framework_5.3.4">
+  <td class="newsdate">7 Feb 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish framework
+    </div>
+    <div class="newssubhd">
+      framework 5.3.4
+    </div>
+    <ul class="kf">
+      <li>
+	Corrected issue with data directory for system bundle
+      </li>
+      <li>
+	Corrected initialization and synchronization issues in URLStreamHandlers
+      </li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr id="kf_3.5.0">
+  <td class="newsdate">25 Jan 2013</td>
+  <td class="newstext">
+    <div class="newshd">Knopflerfish 3.5 released </div>
+    <a href="download.html">Knopflerfish 3.5</a> 
+    is the next minor KF3 release and includes several fixes and improvement in the core
+    OSGi framework, the OSGi compendium services and the Knopflerfish services.
+    The most important changes are:
+    <ul class="kf">
+      <li>Stability issues corrected in the Knopflerfish OSGi
+      framework  </li>
+      <li>Several stability issues corrected in Declarative Services
+	(SCR), e.g. potential race conditions, re-bind and
+	re-registration issues.</li>
+      <li>Corrected resource / memory leak in User Admin</li>
+      <li>Framework commands supports printing thread stack traces and
+	filter which threads to show.</li>
+      <li>SCR commands now support showing "satisfied" or
+	"unsatisfied" applications.</li>
+      <li>Corrected issued preventing Eclipse Gemini Blueprint from
+	running correctly on Knopflerfish</li>
+    </ul>
+    The <a href="/releases/3.5.0/release_notes.html">Release
+      Notes</a> includes the complete list of features and fixes.  
+  </td>
+</tr>
+
+<tr id="framework_5.3.2">
+  <td class="newsdate">22 Jan 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of Knopflerfish framework
+    </div>
+    <div class="newssubhd">
+      framework 5.3.2
+    </div>
+    <ul class="kf">
+      <li>
+	Fixed NPE when uninstalling a bundle simultaneously from
+	multiple threads.
+      </li>
+    </ul>
+  </td>
+</tr>
+
+<tr id="useradmin_3.0.3">
+  <td class="newsdate">4 Jan 2013</td>
+  <td class="newstext">
+    <div class="newshd">
+      Maintenance release of User Admin
+    </div>
+    <div class="newssubhd">
+      UserAdmin 3.0.3
+    </div>
+    <ul class="kf">
+      <li>
+	Fix for leaking service listeners (LogRef:s)
+      </li>
+    </ul>
+  </td>
+</tr>
+
+</table>
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
