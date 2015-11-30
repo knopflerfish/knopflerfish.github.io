@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="Release Notes for Knopflerfish OSGi, version 2.1.1">
+  <meta name="title" content="Knopflerfish OSGi - Release Notes version 2.1.1">
+  <title>Knopflerfish OSGi - Release Notes version 2.1.1</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_closed" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_closed"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_closed"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_closed"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_closed"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_closed">Shortcuts</div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_closed"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_closed"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_closed"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h2>Release Notes Knopflerfish 2.1.1</h2>
+
+Minor release of Knopflerfish
+
+<h3>  General (non-optional bundles) </h3>
+
+<div id="release_notes">
+  <dl>
+    <dt> System Properties</dt>
+    <dd>
+      Direct usage of System.getProperty() have been replaced with calls
+      to BundleContext.getProperty() to allow for making the framework
+      configuration local.
+      See the documentation of the framework property named
+      "org.knopflerfish.framework.xargs.writesysprops"
+    </dd>
+  </dl>
+</div>
+<h3> Framework (Core)</h3>
+
+<div id="release_notes">
+  <dl>
+    <dt>Bugfix: Relative Bundle URLs</dt>
+    <dd>
+      Fix an issue with normalization of relative bundle URLs reported in
+      http://sourceforge.net/tracker/index.php?func=detail&aid=2000856&group_id=82798&atid=567241
+    </dd>
+    <dt>Bugfix: file separator issue </dt>
+    <dd>
+      Fix file separator issue for unpacked bundle-jar files. Reported in
+      https://sourceforge.net/forum/forum.php?thread_id=2071337&forum_id=328005
+    </dd>
+    <dt>Bugfix: system prop. initialization</dt>
+    <dd>
+      Fixed an issue with system property initialization causing extension
+      bundles to be marked as unsupported, reported in
+      http://sourceforge.net/tracker/index.php?func=detail&aid=2042769&group_id=82798&atid=567241
+    </dd>
+    <dt>New: Bundle.getBundleContext</dt>
+    <dd>
+      Added the R4.1 method Bundle.getBundleContext() + support for 
+      creating matching AdminPermission.
+    </dd>
+    <dt>System bundle events</dt>
+    <dd>
+      The state of the system bundle is now moved from STARTING to ACTIVE
+      right before sending out the framework event STARTED. I.e., after
+      that the target run-level have been reached.
+    </dd>
+    <dt>Fragment bugfix</dt>
+    <dd>
+      Fixed a problem with fragment handling when updating a bundle with
+      attached fragments. Also fixed a problem where require bundle could
+      lead to a loop in the bundle class loader.
+    </dd>
+  </dl>
+</div>
+
+<h3>Misc (KF specific, start scripts, build system etc </h3>
+
+<div id="release_notes">
+
+  <dl>
+    <dt> Updated Desktop Bundle, v2.2.1 - </dt>
+    <dd>
+      A view for events handled by the OSGi event service have been added
+      to the desktop. The presentation part of the view can filtered
+      events both on topic and event details. It is also possible to
+      create and post new events or re-send old ones with or without
+      modification. When re-sending an old event a time stamp (with key
+      "timestamp.generated") is added to the event dictionary to make the
+      event unique.
+    </dd>
+    <dd>
+      Also, a view for OSGi and java.util preferences has been added. This
+      view can be used to edit both JVM preferences and bundle preferences.  
+    </dd>
+    <dd>
+      Bundles opened via the desktop's "Open" menu is no longer auto started.
+    </dd>
+    <dd>
+      Bundles having using Declarative Services are now displayed using
+      a special icon
+    </dd>
+    <dd>
+      Menu shortcuts now uses the system menu shortcut (looks better on
+      OS X).  
+    </dd>
+
+    <dt>Bundle Repository Bundle desktop plug-in</dt>
+    <dd>
+      The Desktop plug in provided by this bundle now presents the version
+      of all bundles in the tree on the left hand side. URLs for the
+      default repositories as well as the Knopflerfish repositories are
+      now included by default.
+    </dd>
+    <dt>  X10 Bundle bugfix</dt>
+    <dd>
+      Updated to use tjx10 v1.3, the closing serial ports when stopping.
+      Reported in:<br>
+      http://sourceforge.net/tracker/index.php?func=detail&aid=2080527&group_id=82798&atid=567241<br>
+      http://sourceforge.net/tracker/index.php?func=detail&aid=2080521&group_id=82798&atid=567241
+      </dd>
+    <dt> Console Bundle, v2.0.1</dt>
+    <dd>
+      Removed the built in alias "cd" (Oscar compatibility) since it hides
+      "cd" commands in other command groups causing huge confusion.
+    </dd>
+
+    <dt>Build System</dt>
+    <dd>
+      The task that generates the OSCAR Bundle Repository description now
+      supports references to external repositories. No import is
+      generated for packages with optional resolution.
+    </dd>
+    <dd>
+      To reduces the burden of updating all build files when bumping the
+      version of a bundle the build system have been extended with
+      expansion of bundle versions for items on the "bundle.path". E.g.,
+      if a non-existing path elements with location like
+      "log_api-N.N.N.jar" are present in the the "bundle.path" then it
+      will be replace by the bundle with matching name and highest version
+      amongst the bundles available in the directories ${topdir}/jars and
+      ${osgi.dir}/jars. The build will fail if no match was found.  All
+      build-files have been updated to take advantage of this feature.
+      All xargs-files are now generated from templates with bundle names
+      on the form @log_all-N.N.N.jar@ using a similar expansion method.
+    </dd>
+    <dd>
+      It is now possible to use bundlebuild_include.xml to build fragment
+      bundles. The recommended build file setting for fragment bundles is:
+      &lt;property name = "bundle.build.lib"   value = "false"/&gt;<br>
+      &lt;property name = "bundle.build.api"   value = "false"/&gt;<br>
+      &lt;property name = "bundle.build.impl"  value = "false"/&gt;<br>
+      &lt;property name = "bundle.build.all"   value = "true"/&gt;<br>
+      <p>
+	I.e., build it as an "all"-bundle.
+    </dd>
+    <dd>
+      Bundle manifest files with an empty "Export-Package" or
+      "Import-Package" attribute should no longer be generated.
+    </dd>
+    <dd>
+      The requirement on having a both a "src" and a "resources" directory
+      in each bundle directory (if they where missing they where created
+      during the build) have been removed.
+    </dd>
+  </dl>
+  
+</div>
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="Release Notes for Knopflerfish OSGi, version 2.2">
+  <meta name="title" content="Knopflerfish OSGi - Release Notes version 2.2">
+  <title>Knopflerfish OSGi - Release Notes version 2.2</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_closed" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_closed"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_closed"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_closed"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_closed"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_closed">Shortcuts</div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_closed"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_closed"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_closed"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h2>Release Notes Knopflerfish 2.2</h2>
+
+Minor release of Knopflerfish. Released 2008-12-19
+
+
+<h3> Framework (Core), version 4.0.11</h3>
+
+<div id="release_notes">
+  <dl>
+    <dt>OS name alias handling</dt>
+    <dd>
+      The native code OS-name alias handling was wrong for "Mac OS X".
+      Added missing OS-name aliases for "Windows 2003", "symbianos", "hp-ux".
+      Added missing processor aliases for "em64t" and "x86_64".<br>
+      Reported in:<br>
+      https://sourceforge.net/tracker2/?func=detail&aid=1615910&group_id=82798&atid=567241<br>
+      https://sourceforge.net/tracker2/?func=detail&aid=1620734&group_id=82798&atid=567241<br>
+    </dd>
+    <dt>BundleClassPath</dt>
+    <dd>
+      Fix an issue with paths in the BundleClassPath manifest attribute
+      that starts with a '/' when using memory storage. Reported in<br>
+      https://sourceforge.net/tracker/?func=detail&atid=567241&aid=2198098&group_id=82798
+    </dd>
+    <dt>Fragment handling during uninstall</dt>
+    <dd>
+      Fixed a problem with fragment handling when uninstalling a bundle
+      with attached fragments. Using package admin refresh on a fragment
+      host bundle after update or uninstall of one of its attached
+      fragments now results in a re-resolve operation of the host bundle.
+    </dd>
+    <dt>Misc</dt>
+    <dd>
+      Rearranged synchronized code to avoid dead lock between registerService and
+      refreshPackages.
+    </dd>
+  </dl>
+</div>
+
+
+<h3>Compendium Services </h3>
+<div id="release_notes">
+
+  <dl>
+    <dt>  Http Service 2.1.1</dt>
+    <dd>
+      Allow configurations with port.http=0 / port.https=0, ensure that
+      the service properties port.http / port.https for the HttpService
+      instance shows the actual port obtained from the OS and not 0.
+    </dd>
+    <dt>  Event Admin 2.0.3 </dt>
+    <dd>
+      Add the missing mapping of Framework event of type INFO to events on
+      the topic "org/osgi/framework/FrameworkEvent/INFO".
+      <p>
+	Waits for the asynchronous event dispatcher to terminate when 
+	stopping the bundle.
+      </p>
+    </dd>
+  </dl>
+</div>
+
+<h3>Misc (KF specific, start scripts, build system etc </h3>
+
+<div id="release_notes">
+
+  <dl>
+    <dt> Updated Desktop Bundle, v2.3.0 </dt>
+    <dd>
+      The desktop bundle is now packaged as a self-contained bundle
+      containing all necessary packages (as log/cm/event/prefs apis, 
+      kf util etc). 
+      <p>
+	A new graph view showing bundle relationships has been added.
+	Select "Graph" from the view drop-down menu.
+      </p><p>
+	Missing imports are now displayed in the package view (and
+	in the graph view)
+      </p><p>
+	Major performance enhancements in package dependency 
+	calculations.
+      </p><p>
+      Detail views are now updated on bundle events.
+      </p><p>
+	Installing new bundles using the desktop UI now displays
+	the newly added bundles automatically.
+      </p><p>
+	Corrected a NPE in the event view during start up; a listener was
+	registered before one of the objects used in its call-back was
+	created.
+      </p><p>
+	The packages view now presents the relation between host bundles and
+	attached fragments.
+      </p>
+    </dd>
+    <dt>  Framework commands 2.0.5</dt>
+    <dd>
+      The command "bundles -l" now presents the relation between host
+      bundles and attached fragments.
+      <p>
+	The command "call" no longer requires the implementation class of
+	a service to be public.
+      </p><p>
+	Added filter option to the command "services" (aka "lss").
+      </p><p>
+	Added filter option to the command "call".
+      </p>
+    </dd>
+
+    <dt> Telnet-Console 2.0.2 </dt>
+    <dd>  Improved error messages in the log when receiving a broken configuration.</dd>
+    
+    <dt>comm-win32 2.0.1</dt>
+    <dd>  Added Windows Vista as supported osname.</dd>
+  </dl>  
+</div>
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

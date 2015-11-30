@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="The Knopflerfish Desktop displays a graphic view of a running OSGi framework where bundles can be installed/started/stopped etc.">
+  <meta name="title" content="The Knopflerfish OSGi Desktop">
+  <title>The Knopflerfish OSGi Desktop</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_open" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_open.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_open" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_open"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_open"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_open"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_open"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_open"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_open">Shortcuts</div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_open"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_open"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_open"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h2>The Knopflerfish Desktop</h2>
+<div style="align:float;"><a href="images/desktop_info_manifest.gif"><img align=right src="images/desktop_info_manifest_200.gif" alt="Knopflerfish OSGi Desktop" border=0></a>
+</div>
+
+<p>
+The Knopflerfish OSGi Desktop displays a graphical overview of the OSGi
+framework. Most common operations as install, start, stop and update can
+be performed on bundles using the desktop. Additionally, bundle and service
+detail information is shown, and an experimental "Save deploy archive" is
+included.
+</p>
+
+<p>
+The desktop is a standard OSGi bundle, using Swing. The desktop is primarily
+designed to manage a locally running framework, but can be used to control a
+remote framework, using the optional <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/soap/readme.html">SOAP bundles</a>.
+Consult the description of <a href="remote_howto.html">how to activate the "Remote framework..." menu item</a>.
+</p>
+<p>
+Additionally, the <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles/http/httpconsole/readme.html">HTTP console</a> or the <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles/console/consoletelnet/readme.txt">Telnet console</a> bundle can always be used for remote control. Both are available in the <a href="/repo/">KF bundle repository</a>.
+</p>
+
+<p>
+The desktop can be customized using plugin services, see <a href="releases/5.2.0/javadoc/org/knopflerfish/service/desktop/SwingBundleDisplayer.html">SwingBundleDisplayer</a> for details.
+</p>
+
+<p>
+The Desktop bundle can be found in
+<pre>
+  knopflerfish/osgi/bundles/desktop
+</pre>
+
+<p>
+When started, it creates a window with four main areas:
+<dl>
+  <dt>Toolbar
+  <dd>The top toolbar provides quick access to common operations
+    as start/stop/update bundles.
+  <dt>Bundle view
+  <dd>The center bundle view area display all installed bundles
+    and their states. By clicking on bundles in this are,
+    detail information is displayed in the <b>Bundle detail area</b>
+    Four different views a supported internally (new can be installed):
+    <ul>
+      <li><a href="#view_icons">Icons</a> - each bundle is displayed as an icon.
+      <li><a href="#view_details">Details</a> - each bundle is displayed as a table row.
+      <li><a href="#view_spin">Spin</a> - each bundle is displayed in a really cool graphics view.
+      <li><a href="#view_timeline">Time line</a> - each bundle event is displayed in a zoomable time line view.
+    </ul>
+  <dt>Bundle detail area
+  <dd>The rightmost bundle detail area shows detailed
+    information on selected bundles such as:
+   <ul>
+    <li>manifest
+    <li>bundle closure
+    <li>imported/exported services
+    <li>imported/exported packages
+    <li>bundle logs.<br>
+   </ul>
+   New detail pages can be installed run-time using plug-ins.
+
+  <dt>Framework console
+  <dd>The bottom console area allows interaction with the
+    text console. This console acts exactly as the <tt>consoltty</tt> bundle, but does not require a shell or DOS window to run.
+</dl>
+
+
+<a name="#view_icons"></a>
+<h4>Icon view</h4>
+To view the installed bundles as icons, select
+<pre>
+View -&gt; Large Icons
+</pre>
+<img src="images/desktop_icons.gif" alt="Knopflerfish OSGi Desktop Icons" border=1 align="left">
+
+<table>
+  <tr>
+    <td><img src="images/bundle_installed.gif" alt="OSGi Bundle Installed"></td>
+    <td>Bundle which has a BundleActivator</td>
+  </tr>
+  <tr>
+    <td><img src="images/bundle_active.gif" alt="OSGi Bundle Active"></td>
+    <td>Active bundle</td>
+  </tr>
+  <tr>
+    <td><img src="images/lib_installed.gif" alt="Lib Bundle"></td>
+    <td>"Library" bundle which has no BundleActivator</td>
+  </tr>
+</table>
+
+<br clear="all"/>
+
+<p>
+Bundles can be selected by clicking.
+</p>
+
+<a name="#view_details"></a>
+<h4>Detail list view</h4>
+To view the installed bundles as a detailed list, select
+<pre>
+View -&gt; Details
+</pre>
+<img src="images/desktop_details.gif" alt="Knopflerfish OSGi Desktop Details" border=1>
+<p>
+Bundles can be selected by clicking.
+</p>
+
+
+<a name="#view_spin"></a>
+<h4>Detail spin view</h4>
+To view the installed bundles as graphics, select
+<pre>
+View -&gt; Spin
+</pre>
+<img src="images/desktop_spin.gif" alt="Knopflerfish OSGi Desktop Spin" border=1>
+<p>
+Dependencies between bundles and services are shown as connecting
+lines. Not how the console bundle depends on three other bundles
+in the image above.
+<p>
+Bundles can be selected by clicking.
+</p>
+
+<a name="#view_timeline"></a>
+<h4>Detail spin view</h4>
+To view the installed bundles as a time line, select
+<pre>
+View -&gt; Time line
+</pre>
+<img src="images/desktop_timeline.gif" alt="Knopflerfish OSGi Desktop Timeline" border=1>
+<p>
+Each bundle has a horizontal line, with bundle events marked for each bundle
+<p>
+Bundles can be selected by clicking.
+</p>
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

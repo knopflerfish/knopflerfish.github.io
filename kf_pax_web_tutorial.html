@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="Tutorials - Using Pax Web in Knopflerfish for JSPs and WAR-files">
+  <meta name="title" content="Knopflerfish Pax Web Tutorial">
+  <title>Knopflerfish Pax Web Tutorial</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_open" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_open.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_open" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_open"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_open"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_open"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_open"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_open"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_open">Shortcuts</div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_open"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_open"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_open"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h1 class="kf">Using Pax Web in Knopflerfish for JSPs and WAR-files</h1>
+
+Short tutorial on how to use Pax Web in Knopflerfish for WARs and JSPs.
+
+
+<h2 class="kf">Replacing the KF HTTP server with Pax Web / Jetty</h2>
+<p>
+  The default HTTP server in KF is Knopflerfish's own small foot-print
+  HTTP server intended for embedded use. The KF HTTP server does not
+  support WARs nor JSP. To run WARs in KF
+  you therefore need to replace the KF HTTP server with something more
+  appropriate for enterprise use, e.g. Pax Web.
+<p>
+  As an embedded vs. enterprise comparison the KF HTTP server is 95K in size. Jetty, which
+  PaxWeb is based on, is 2.3M and the JSP support is 2.8M. 
+</p>
+ 
+<h3 class="kf">Uninstall the KF HTTP bundles</h3>
+The first step is to stop the HTTP root bundle and uninstall the JSDK and HTTP-server bundles
+as PaxWeb will take over this function. Normally you will most
+likely also want to uninstall the HTTP-root-bundle, but for this
+tutorial we will leave it installed. Make sure to do a refresh
+packages before going to the next step. <em>Command/Ctrl R</em> in the desktop.
+
+<h3 class="kf">Install PaxWeb</h3>
+The second step is install and start the following bundles from PaxWeb.
+<ul>
+  <li>pax-web-jsp-1.0.2.jar (install)</li>
+  <li>pax-web-jetty-bundle-1.0.2.jar (install &amp; start)</li>
+  <li>pax-web-extender-war-0.8.0.jar(install &amp; start)</li>
+</ul>
+
+They can also be installed from a maven repository. The URLs below
+can be used to install from directly, either from the KF desktop's
+"Open Bundle Location" command, or from the install command in the
+KF framework console.
+<ul>
+  <li><a href="http://repo1.maven.org/maven2/org/ops4j/pax/web/pax-web-jsp/1.0.2/pax-web-jsp-1.0.2.jar">
+      http://repo1.maven.org/maven2/org/ops4j/pax/web/pax-web-jsp/1.0.2/pax-web-jsp-1.0.2.jar
+  </a></li>
+  <li><a href="http://repo1.maven.org/maven2/org/ops4j/pax/web/pax-web-jetty-bundle/1.0.2/pax-web-jetty-bundle-1.0.2.jar">
+      http://repo1.maven.org/maven2/org/ops4j/pax/web/pax-web-jetty-bundle/1.0.2/pax-web-jetty-bundle-1.0.2.jar
+  </a></li>
+  <li><a href="http://repo1.maven.org/maven2/org/ops4j/pax/web/pax-web-extender-war/0.8.0/pax-web-extender-war-0.8.0.jar">
+      http://repo1.maven.org/maven2/org/ops4j/pax/web/pax-web-extender-war/0.8.0/pax-web-extender-war-0.8.0.jar
+  </a></li>
+</ul>
+<p>
+  If you now start the HTTP root bundle again it will be using Jetty
+  instead of the KF HTTP server. This can be verified by surfing
+  into:
+  <pre>http://localhost:8080/servlet/knopflerfish-info</pre>
+  This will list the web server properties and should look something
+  like this:
+</p>
+<p>
+  <img src="tutorials/kf_pax_web/http_server_props.png" border="0"
+       alt="HTTP Server Properties">
+</p>
+<p>
+  This means you are now running Jetty successfully in Knopflerfish.
+</p>
+
+<h2 class="kf">Preparing a WAR for OSGi</h2>
+To prepare the WAR for OSGi an OSGi manifest must be created. Below is
+an example of such a manifest taken from a simple 
+<a href="tutorials/kf_pax_web/HelloWeb.war">HelloWeb.war</a> example. 
+<pre>
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello Web
+Bundle-SymbolicName: org.knopflerfish.demo.hello_web
+Bundle-Version: 1.0
+Bundle-ClassPath: .,WEB-INF/classes
+Bundle-Vendor: Knopflerfish Project
+Bundle-ContactAddress: http://www.knopflerfish.org
+Bundle-Description: Simple demo WAR with a JSP and an HTML page
+Webapp-Context: helloweb
+</pre>
+
+<h2 class="kf">Deploy the WAR into Knopflerfish</h2>
+The final step is to deploy the WAR into Knopflerfish. Pax Web will
+take the bundle and deploy it into Jetty. You deploy the WAR just like
+any other bundle. Using the desktop you can install directly from this
+URL:
+<a href="tutorials/kf_pax_web/WelloWeb.war">
+  http://www.knopflerfish.org/tutorials/kf_pax_web/HelloWeb.war
+</a>
+<p>
+After successfully installing HelloWeb the WARs web content is available under the Webapp-Context
+path defined in the manifest as described above, i.e.:
+<pre>http://localhost:8080/helloweb/</pre>
+<p>
+  Opening this URL in a browser should result in the following page:
+</p>
+<p>
+  <img src="tutorials/kf_pax_web/helloweb.png" borde="0">
+</p>
+<p>
+  Exactly the same webapp that might be deployed in Tomcat (or other
+  web containers) can be used without change in OSGi. 
+  The only work needed is addition of an OSGi bundle manifest as
+  described above.
+</p>
+
+<h2 class="kf">Credits</h2>
+
+This tutorial is based on Ken Turner's post on the KF Forum on this
+subject. Also big thanks Achim Nierbecker who helped out a lot with
+the Pax Web parts.
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

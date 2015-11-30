@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="Release Notes for Knopflerfish OSGi, version 2.1.0">
+  <meta name="title" content="Release Notes Knopflerish 2.1.0">
+  <title>Release Notes Knopflerish 2.1.0</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_closed" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_closed"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_closed"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_closed"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_closed"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_closed">Shortcuts</div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_closed"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_closed"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_closed"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_closed"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h2>Release Notes Knopflerfish 2.1.0</h2>
+
+Minor release of Knopflerfish
+
+<h3> Framework</h3>
+
+<div id="release_notes">
+<dl>
+<dt> xargs files</dt>
+
+<dd>
+  Search for xargs files given with relative file names now first
+  tries to find the file in parent directory of the current framework
+  directory, then in the current working directory. Also ensured that
+  File.exists() are only used for file-objects based on an absolute path.
+  Reported in issue 1966119 (Support custom working directory
+  (FWDIR_PROP is not enough))
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1966119&group_id=82798&atid=567241
+</dd>
+<dd>
+  Added a new system property,
+  org.knopflerfish.framework.xargs.writesysprops, that controls
+  whether properties defined using -Dname=value in xargs files are to
+  be exported as system properties or not. Such properties will
+  always be available to bundles via BundleContext.getProperty(name).
+  See osgi/framework/readme.txt for details.
+
+  Fixed a bug when updating a required bundle. The require relation
+  was not refreshed when a package refresh was done after the update,
+  i.e., the requiring bundle continued to use the old, removed
+  packages.
+  Reported in issue 1960999 (Update of required bundle broken)
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1960999&group_id=82798&atid=567241
+</dd>
+<dt>Require bundle</dt>
+<dd>
+  Fixed a bug in the handling of the re-export directive in the
+  Require-Bundle manifest-header. 
+  Reported in issues 1957937 (Require-Bundle: visibility:=reexport broken)
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1957937&group_id=82798&atid=567241
+
+</dd>
+
+<dt>Bundle API fixes</dt>
+<dd>
+  Bundle.getResource(), Bundle.getResources() and the corresponding
+  methods in the bundle class loader now honors the OSGi specified
+  system property named "org.osgi.framework.bootdelegation". Note that
+  this change breaks the backwards compatibility with OSGi R3, since
+  Bundle.getResource() and Bundle.getResources() now returns resources
+  from the class space and not only the bundle-space as in R3.
+  Reported in issues 1955529 (Bundle.getResource does not delegate)
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1955529&group_id=82798&atid=567241
+</dd>
+<dd>
+  Bundle.getEntry() now looks in the correct place independent of the
+  specified bundle class path. 
+  Reported in issues 1829522 (Violation of Spec: Bundle.getEntry uses
+  Bundle-Classpath)
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1829522&group_id=82798&atid=567241
+</dd>
+
+<dt>URLConnection</dt>
+<dd>
+  Added a missing do privileged when opening an URL connection to a
+  bundle resource. Problem originally found in Knopflerfish 1.3.5 and
+  fixed on the kf_1_support branch.
+</dd>
+<dd>
+  The URLConnection.getLastModified() for bundle URLs now returns the
+  last modified of the bundle that the contents is fetched from.
+</dd>
+<dd>
+</dl>
+
+
+<h3>Services (Compendium)</h3>
+      
+<dl>
+<dt>Declarative Services</dt>
+<dd>
+  ComponentContext.locateServices(String) now returns the actual
+  service object. 
+  Reported in issues 1699277 ([SCR] locateServices(String) returns
+  ServiceReference[])
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1699277&group_id=82798&atid=567241
+</dd>
+</dl>
+
+<h3>Misc (KF specific, start scripts, build system etc </h3>
+
+<dl>
+<dt>  Axis2-OSGi</dt>
+<dd>
+  Now also works with security enabled.
+  If using this bundle you must also install and start the Xerces and
+  Xalan bundles mentioned below.
+</dd>
+
+<dt>  Desktop</dt>
+<dd>
+  The packages-tab now presents data about packages made available via
+  Require-Bundle manifest header (was listed amongst the imported
+  packages before). Packages pending removal are marked. All three
+  lists of packages are sorted on package name and version.
+</dd>
+<dd>
+  Manifest entries in the Manifest-tab are now sorted.
+</dd>
+<dd>
+
+  The desktop bundle now checks for new Knopflerfish releases when
+  started. If one is found a message dialog with the release note of
+  the new release will be displayed (once for each new release).
+</dd>
+
+<dt  Xerces and Xalan</dt>
+<dd>
+  New bundles wrapping Apache Xerces-J 2.91 and Xalan-J 2.7.1
+  providing XML functionality required by the Axis2-OSGi bundle.
+  The old low memory foot-print Crimson-bundle is not needed when
+  Xerces is present, but they can both be installed and started
+  without causing any conflicts.
+</dd>
+
+<dt>  Build System</dt>
+<dd>
+  The derivation of imported packages done by the bundle-info-task now
+  detects packages that are only referenced from invoke instructions in
+  the byte code. E.g., the package of a parameter in an invocation of a
+  super-class method.
+</dd>
+<dd>
+  Fixed issues 1949895 (missing template.xargs, won't build)
+  and 1953611 ("ant all" fails):
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1949895&group_id=82798&atid=567241
+  http://sourceforge.net/tracker/index.php?func=detail&aid=1953611&group_id=82798&atid=56724
+</dd>
+</dl>
+
+</div>
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

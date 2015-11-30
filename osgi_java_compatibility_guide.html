@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="A compatibility guide for the different versions of KF, Java and OSGi">
+  <meta name="title" content="Knopflerfish OSGi & Java Compatibility Guide">
+  <title>Knopflerfish OSGi & Java Compatibility Guide</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_open" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_open.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_open" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_open"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_open"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_open"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_open"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_open"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_open">Shortcuts</div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_open"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_open"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_open"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h1 class="kf">Knopflerfish OSGi &amp; Java Compatibility Guide</h1>
+<p>
+  Knopflerfish as well as Java has evolved over the years and it is
+  becoming more and more difficult to get an overview of what
+  different version of Knopflerfish, OSGi specifications and Java
+  actually work together. This page attempts to make this a bit more clear.
+</p>
+<h2 class="kf">Knopflerfish Distribution Builds</h2>
+<p>
+  The table below describes the different Knopflerfish distribution
+  builds, what java run-time environments,
+  they support, the Java / JDK version the Knopflerfish source code is
+  compatible with, and which byte code version the source code is
+  compiled into.
+</p>
+<p>
+  In general, the Knopflerfish distributions are always compiled into
+  the least Java/JDK version the source code supports. This is to
+  support the embedded market where many JVM:s are still on JDK1.4
+  level.
+</p>
+<p>
+  Since all code is upwards compatible Knopflerfish can easily be
+  compiled into a more recent version of Java, including Java7. Please
+  see the table later on this page presenting javac compatibility issues.
+</p>
+<p>
+<table class="kf">
+  <tr>
+    <th colspan="6">Knopflerfish Major Distribution Builds, OSGi and Java Version Guide</th>
+  </tr>
+  <tr>
+    <td class="subhead">KF Version</td>
+    <td class="subhead">OSGi</td>
+    <td class="subhead">JDK</td>
+    <td class="subhead">Byte code</td>
+    <td class="subhead">Supported Java Run-times</td>
+    <td class="subhead">EE</td>
+  </tr>
+
+  <tr>
+    <td>5.*</td>
+    <td>OSGi R5</td>
+    <td>1.4</td>
+    <td>48</td>
+    <td>
+      1.4+ (headless or AWT)<br>
+      1.5+ (when using swing based bundles, e.g. desktop)</td>
+    <td>OSGi min 1.2</td>
+  </tr>
+
+  <tr>
+    <td>4.*</td>
+    <td>OSGi R4 v4.3</td>
+    <td>1.4</td>
+    <td>48</td>
+    <td>
+      1.4+ (headless or AWT)<br>
+      1.5+ (when using swing based bundles, e.g. desktop)</td>
+    <td>OSGi min 1.2</td>
+  </tr>
+
+  <tr>
+    <td>3.*</td>
+    <td>OSGi R4 v4.2</td>
+    <td>1.2</td>
+    <td>45</td>
+    <td>
+      1.2+, PJava 1.2 (headless or AWT)<br>
+      1.5+ (when using swing based bundles, e.g. desktop)</td>
+    <td>OSGi min 1.2</td>
+  </tr>
+</table>
+</p>
+<p> 
+A plus-sign after a Java version indicates it supports that version and
+higher.
+</p>
+<p>
+  Please also note that some of Knopflerfish utility bundles that are
+  uses Swing, e.g. the desktop bundle, do require Java 1.5 or higher. 
+</p>
+
+<h2 class="kf">Building Knopflerfish</h2>
+<p>
+  The table below describes the different Knopflerfish versions and
+  which JDK versions can be used to build them.
+</p>
+<p>
+  KF5 and KF4 are both designed to run on Java 1.4 and
+  upwards. With OSGi R4 v4.3 Java 5 generics were introduced in the OSGi
+  APIs. To be able to build a KF distribution that is compatible JDK
+  1.4 the the javac flag -target jsr14 is used to remove generics. This has the drawback that such
+  compiled .class files can not be used when building on JDK 1.7 since
+  support for jsr14 has been removed in Java 7. To
+  use Knopflerfish artifacts in a JDK 1.7 based tool chain KF5 must
+  therefore be
+  built using JDK 1.7. When building KF5 using JDK 1.7 the default is
+  to generate Java byte code for JDK 1.5 and upwards which is
+  compatible with a JDK 1.7 tool chain.
+</p>
+
+<p>
+<table class="kf">
+  <tr>
+    <th colspan="7">Knopflerfish Major Distribution Builds, javac and JDK Version Guide</th>
+  </tr>
+  <tr>
+    <td class="subhead">KF Version</td>
+    <td class="subhead">OSGi</td>
+    <td class="subhead">KF Source Code</td>
+    <td class="subhead">Build Environment</td>
+    <td class="subhead">Generates byte code for</td>
+    <td class="subhead">Tool Chains<sup>1</sup></td>
+    <td class="subhead">Comment</td>
+  </tr>
+
+  <tr>
+    <td rowspan="4">5.*</td>
+    <td rowspan="4">R5</td>
+    <td rowspan="4">1.5 (1.6)<sup>2</sup></td>
+    <td>1.5 - 1.6</td>
+    <td>JDK 1.4 (48)</td>
+    <td>1.4-1.6</td>
+    <td>KF build system default when using JDK 1.5 - 1.6. 
+      Generics removed during compilation by using -jsr14 flag</td>
+  </tr>
+  <tr>
+    <td>1.7+</td>
+    <td>JDK 1.5 (49)</td>
+    <td>1.5+</td>
+    <td>KF build system default when using JDK 1.7. Generics are not
+      removed and therefore require Java 1.5 or higher</td>
+  </tr>
+
+  <tr>
+    <td class="optional">1.5 - 1.6</td>
+    <td class="optional">JDK 1.5 (49)</td>
+    <td class="optional">1.5+</td>
+    <td class="optional">
+      Supported, but not out of the box. Requires setup changes in the
+      KF build system for this build, e.g. modifying the -target
+      flag</td>
+  </tr>
+
+  <tr>
+    <td class="optional">1.7+</td>
+    <td class="optional">JDK 1.7 (51)</td>
+    <td class="optional">1.7+</td>
+    <td class="optional">
+      Supported, but not out of the box. Requires setup changes in the
+      KF build system for this build, e.g. modifying the -target flag
+    </td>
+  </tr>
+
+  <tr>
+    <td>4.*</td>
+    <td>R4 v4.3</td>
+    <td>1.5</td>
+    <td>1.5 - 1.6</td>
+    <td>JDK 1.4 (48)</td>
+    <td>1.4 - 1.6</td>
+    <td>
+      OSGi R4 v4.3 introduced generics in API classes. Generics are
+      removed during compilation by using -jsr14 flag
+    </td>
+  </tr>
+
+  <tr>
+    <td>3.*</td>
+    <td>R4 v4.2</td>
+    <td>1.2</td>
+    <td>1.3+</td>
+    <td>JDK 1.2 (46)</td>
+    <td>1.2+</td>
+    <td></td>
+  </tr>
+
+</table>
+
+<p>
+  <sup>1</sup> Indicates which version of the Java tool chain is
+  needed to build third party code and using
+  Knopflerfish bundle jars on the build path. 
+</p>
+
+<p>
+  <sup>2</sup> In KF5 JDK 1.6 annotations recognized by IDEs have been
+  introduced. The source code still remain java 1.5 compatible.
+</p>
+
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

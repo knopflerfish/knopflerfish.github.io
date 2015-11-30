@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="Knopflerfish 2 - OSGi R4 v4.2 - old major release of Knopflerfish">
+  <meta name="title" content="Knopflerfish 2 - OSGi R4 v4.01">
+  <title>Knopflerfish 2 - OSGi R4 v4.01</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_open" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_open.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_open" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_open"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_open"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_open"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_open"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_open"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_open">Shortcuts</div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_open"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_open"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_open"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h1 class="kf">About Knopflerfish 2 - an OSGi R4 v4.01 distribution</h1>
+
+Knopflerfish 2 is an implementation of the 
+<a href="http://www.osgi.org/osgi_technology/download_specs.asp?section=2">
+OSGi R4 specifications</a>
+This includes the:
+<ul>
+<li>Core Specification
+<li>Service Compendium
+</ul>
+<p>
+Additionally, all Knopflerfish bundles from the 1.x version is included in the 2.x release.
+</p>
+
+<p>
+The Knopflerfish 2 version, implementing OSGi R4 version has been released and is available for 
+<a href="download.html">download</a>.
+</p>
+
+<p>
+With this release, the KF framework is feature complete
+in all OSGi R4 mandatory parts. Of the optional parts only some security items remain. 
+All other parts are implemented and fully functional. 
+</p>
+
+<p>
+The desktop and framework commands have been updated in a number of 
+ways to reflect new features in R4. The 
+</p>
+<p>
+The table below lists the features in KF3.
+
+<p>
+<table class="fancy" cellpadding="4" cellspacing="2">
+ <tr> <td class="fancy_row" colspan="4"><b>Core Specification - OSGi framework</b></td></tr>
+ <tr>
+  <td><b>Module</b></td>
+  <td><b>Status</b></td>  
+  <td><b>R4 Support</b></td>  
+  <td><b>Description</b></td>
+ </tr>
+
+ <tr>
+  <td class="nowrap">Security Layer  </td>
+  <td class="nowrap">In Progress  </td>
+  <td class="nowrap">Full  </td>
+  <td>Note! no keystore integration yet  </td>
+ </tr>
+
+ <tr>
+  <td class="nowrap">Module Layer  </td>
+  <td> Done </td>
+  <td> Full </td>
+
+  <td>
+      To use the extension bundle support you need to use a wrapper script
+      that will restart framework when needed. An example shell-script is
+      included (OSGi/KF2).
+  </td>
+ </tr>
+
+ <tr>
+  <td> Life Cycle Layer </td>
+  <td> Done </td>
+  <td> Full </td>
+  <td> &nbsp;</td>
+ </tr>
+
+ <tr>
+  <td> Service Layer </td>
+  <td> Done </td>
+  <td> Full </td>
+  <td> &nbsp;</td>
+ </tr>
+
+ <tr>
+  <td class="nowrap"> Framework Services </td>
+  <td class="nowrap"> Done </td>
+  <td> Full </td>
+  <td> Start Level, Permission Admin and URL Handler services have been updated
+    to conform to R4 added new Conditional Permission Admin service.
+ </tr>
+
+ <tr>
+  <td colspan="4" class="fancy_row"> <b>Service Compendium</b> </td>
+ </tr>
+
+ <tr>
+  <td><b>Module</b></td>
+  <td><b>Status</b></td>  
+  <td class="nowrap"><b>R4 Support</b></td>  
+  <td><b>Description</b></td>
+ </tr>
+
+ <tr>
+  <td> Log </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> </td>
+ </tr>
+
+ <tr>
+  <td> HTTP </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> </td>
+ </tr>
+
+ <tr>
+  <td class="nowrap"> Configuration Admin </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> </td>
+ </tr>
+
+ <tr>
+  <td> Preferences </td>
+  <td> Done</td>
+  <td> Full</td>
+  <td> &nbsp; </td>
+ </tr>
+
+ <tr>
+  <td> User Admin </td>
+  <td> Done</td>
+  <td> Full</td>
+  <td> &nbsp; </td>
+ </tr>
+
+ <tr>
+  <td> IO Connector </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> &nbsp; </td>
+ </tr>
+
+ <tr>
+  <td> Metatype </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> &nbsp; </td>
+ </tr>
+
+ <tr>
+  <td> Declarative Services </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> New in R4</td>
+ </tr>
+
+ <tr>
+  <td> Event Admin </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> New in R4</td>
+ </tr>
+
+ <tr>
+  <td> Service Tracker </td>
+  <td> Done </td>
+  <td> Full</td>
+  <td> &nbsp;</td>
+ </tr>
+
+
+ <tr>
+  <td colspan="4" class="fancy_row"> <b>Knopflerfish Extras</b> </td>
+ </tr>
+
+ <tr>
+  <td> Console, Framework Commands </td>
+  <td> Done </td>
+  <td> NA</td>
+  <td> New commands: closure, resolve, findbundles.
+    The output of the bundles command has been changed (fragments and 
+    hosts are indicated, last modified is listed in verbose output, it 
+    is possible to sort on last modified)
+  </td>
+ </tr>
+
+ <tr>
+  <td> KF Desktop </td>
+  <td> Done </td>
+  <td> NA</td>
+  <td> Fragments, hosts and required bundles are listed on the Closure tab.
+    Symbolic name and last modified information is displayed on the 
+    Manifest tab.
+  </td>
+ </tr>
+
+</table>
+
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="Knopflerfish 1 - OSGi R1 - old major release of Knopflerfish">
+  <meta name="title" content="Knopflerfish 1 - OSGi R3">
+  <title>Knopflerfish 1 - OSGi R3</title>
+  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link rel="shortcut icon"                          href="images/favicon.png">
+  <script type="text/javascript" src="scripts/menu.js"></script>
+</head>
+<body>
+  <div id="main">
+    <a name="top"></a>
+    <div id="header">
+      <div id="header_logo">
+	<a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"></a>
+      </div>
+      <div id="header_ad">
+	<div class="header_stylish">
+	  Open Source OSGi Service Platform Maintained by<br>
+	  <a href="http://www.makewave.com">
+	    <img style="margin-top: 4px;" src="images/makewave_logo.png" alt="Makewave" border="0">
+	  </a>
+	</div>
+      </div>
+      <div class="break"></div>
+      <div id="header_menu">
+	<a class="button_closed" href="index.html">Home</a>
+	<a class="button_closed" href="news.html">News</a>
+	<a class="button_closed" href="download.html">Download</a>
+	<a class="button_open" href="documentation.html">Documentation</a>
+	<a class="button_closed" href="about.html">About</a>
+      </div>
+    </div>
+    <div id="leftmenu">
+      <form style="padding-left: 0px;" class="searchform" method="GET" action="http://www.google.com/search">
+	<input type="hidden" name="ie"         value="UTF-8">
+	<input type="hidden" name="oe"         value="UTF-8">
+	<input type="hidden" name="domains"    value="www.knopflerfish.org">
+	<input type="hidden" name="sitesearch" value="www.knopflerfish.org">
+	<input TYPE="text"   value="Search site" name="q" size="20" maxlength="255"
+	       onFocus="clearText(this)" onBlur="clearText(this)"
+	       class="searchfield">
+      </form>
+      <div id="menu_news"><div class="nrow">
+	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
+	  <a class="nrow_closed" href="news.html">News</a></div>
+	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
+	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+      </div>
+      
+      <div id="menu_download"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="download.html">Download</a></div>
+	<div class="nrow1_closed"><a href="license.html">License</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/">Nightly builds</a></div>
+	<div class="nrow1_closed"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
+	<div class="nrow1_closed"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	<div class="nrow1_closed"><a href="svn_info.html">Source code (svn)</a></div>
+	<div class="nrow1_closed"><a href="archive.html">Archived releases</a></div>
+	<div class="nrow1_closed"><a href="maven.html">Maven repository</a></div>
+      </div>
+      <div id="menu_docs"><div class="nrow"><img src="images/arrow_open.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_open" href="documentation.html">Documentation</a></div>
+	<div class="nrow1_open"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
+	<div class="nrow1_open"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
+	<div class="nrow1_open"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
+	<div class="nrow1_open"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_open"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<div class="nrow1_label_open">Shortcuts</div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/installing.html">Installing</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/running.html">Running</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/building.html">Building</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/programming.html">Programming</a></div>
+	<div class="nrow1_indent_open"><a href="/releases/current/docs/testing.html">Testing</a></div>
+	<div class="nrow1_open"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	<div class="nrow1_open"><a href="tutorials.html">Tutorials</a></div>
+	<div class="nrow1_open"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
+      </div>
+      <div id="menu_about"><div class="nrow"><img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_closed" href="about.html">About</a></div>
+	<div class="nrow1_closed"><a href="history.html">History</a></div>
+	<div class="nrow1_closed"><a href="contacts.html">Contacts</a></div>
+	<div class="nrow1_closed"><a href="osgi-links.html">OSGi related links</a></div>
+	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
+      </div>
+      <div class="nrow">&nbsp;</div>
+      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
+	  Forum <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
+	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
+      </a></div>
+      <div class="makewave">
+	Maintained by<br>
+	<a href="http://www.makewave.com"><img src="images/makewave_logo_126x16.gif" alt="Makewave" border="0"></a><br>
+	<div class="makewave_2">
+	  <a href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">
+	    Knopflerfish Pro<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_training.shtml">
+	    OSGi Training<img border="0" alt="" src="images/extlink.gif"></a><br>
+	  <a href="http://www.makewave.com/site.en/products/osgi_expert.shtml">
+	    Professional Services<img border="0" alt="" src="images/extlink.gif"></a><br>
+	</div>
+      </div>
+      <div class="makewave">
+	<a href="http://www.twitter.com/knopflerfish"><img src="http://twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow knopflerfish on Twitter" border="0"/></a>
+	
+      </div>
+    </div>
+    <div id="mainblock">
+      <h1 class="kf">About the Knopflerfish OSGi R3 distribution </h1>
+The Knopflerfish release contains:
+<ul>
+ <li><a href="#osgi">Components defined by OSGi R3</a>
+ <li><a href="#knopflerfish">Knopflerfish components</a>
+ <li><a href="#knopflerfish_opt">Knopflerfish optional components</a>	
+</ul>
+
+<p>
+See <a href="releases/1.3.7/jars/index.html">bundle docs</a> for detail 
+information on all bundles.
+</p>
+
+<p>
+Also, the source code kit includes an easy-to use Ant
+<a href="programming.html">build system</a> for creating
+bundles.
+</p>
+
+<a name="osgi"></a>
+<h2>Components defined by OSGi R3</h2>
+<p>      
+The OSGi R3 specification defines several components, which could be 
+expected to exist in OSGi implementations. However, it should be noted that no
+service is required to be present.
+</p>
+<p>
+The OSGi specification currently supported by Knopflerfish is R3 and includes
+the the R3 components listed below.
+</p>
+
+<ul>
+  <li><b>Base framework</b> The framework allows installing, start, stop,
+  update and uninstalling of program or data components called
+  <i>bundles</i>. Bundles are standard jar files
+
+
+  <br/>
+
+  The framework contains the following internal components:
+   <ul>
+    <li><b>PackageAdmin service</b>. The PackageAdmin service allows
+    bundles to inspect other bundles packages.
+
+    <li><b>PermissionAdmin service</b>. The PermissionAdmin service allows
+    bundles to manage the permissions of other bundles.
+
+    <li><b>StartLevel service</b>. (new in R3) 
+    The StartLevel service allows grouping of bundles into startlevels.
+
+    <li><b>URL service</b>. (new in R3) 
+    The URL service allows bundles to safely add URL schemas to
+    the framework.
+
+   </ul>
+
+  <li><b>ServiceTracker utility</b> The ServiceTracker provides utilities
+  for handling dynamic services.
+
+  <li><b>Log service</b> The log service provides logging functions for
+  other bundles.
+
+  <li><b>HTTP service</b> The HTTP service provides a web server where
+  applications can publish servlets or data.
+
+  <li><b>Configuration Manager</b> The Configuration Manager
+  manages persistent storage of application data.
+
+  <li><b>Device Manager</b> The Device Manager manages software
+  components related to physical device drivers.
+
+  <li><b>UserAdmin service</b> The UserAdmin service provides functionality
+  for users, groups and access control.
+
+  <li><b>Preferences service</b> (new in R3) 
+  The Preferences service provides API and
+  functionality for storing bundle preferences.
+
+  <li><b>Position API</b> (new in R3) 
+  The Position API allows applications to
+  handle position-related data in a uniform way.
+
+  <li><b>Measurement API</b> (new in R3) 
+  The Measurement API allows applications to
+  handle measurements in well-defined units.
+
+  <li><b>Metatype API</b> 
+  The Metatype API allows applications to publish typing information
+  for configuration data.
+
+  <li><b>XML utility</b> 
+  The XML utility class provides a template class for publishing
+  XML parsers.
+</ul>
+
+<p>
+<b>Note</b>: All components following the OSGi R3 specification has been 
+known to pass the OSGi R3 tests (in external tests performed by Makewave (formerly Gatespace Telematics)).
+The Knopflerfish distributions cannot formally call itself "OSGi R3 certified", since only OSGi members are allowed to use this term. Instead, we use the term "designed to be compliant with OSGi R3", which is an allowed term.
+</p>
+
+<a name="knopflerfish"></a>
+<h2>Knopflerfish components</h2>
+
+The Knopflerfish distributions contains a set of other useful components:
+
+<ul>
+ <li><b>Desktop</b>
+  The desktop is a graphical tool for managing a running framework. The
+  desktop can be extended using plug-ins.
+
+  <li><b>Log utilities</b>
+  Utility classes for easier logging.
+
+  <li><b>Misc utilities</b>
+  Misc utility classes for text, job and IO handling.
+
+  <li><b>Console</b>
+  The Console service provides means for command-based tools to 
+  publish their commands. Any bundle can provide commands.
+
+  <br/>
+  Included in the console component is:
+  <ul>
+   <li><b>TTY Console</b>
+   Console using stdin/stdout
+
+   <li><b>TCP Console</b>
+   Console listening to a TCP port
+
+   <li><b>Log commands</b>
+   Command for handling the OSGi log
+
+   <li><b>Framework commands</b>
+   Command for handling basic OSGi life-cycles
+
+   <li><b>CM commands</b>
+   Command for handling the Configuration Management data
+  </ul>
+
+ <li><b>OSGi Metatype XML</b>
+        The OSGi Metatype XML implementations defines
+        a platform-neutral format for metatype information, which can be used
+        by CM and other services needing such information.
+<p>
+See <a href="/XMLMetatype">http://www.knopflerfish.org/XMLMetatype</a> for OSGi Metatype XML specification.
+</p>
+<p>
+Also see <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles/metatype">https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles/metatype</a> for implementation details.
+</p>
+
+
+ </ul>
+
+<a name="knopflerfish_opt"></a>
+<h2>Knopflerfish optional components</h2>
+
+The Knopflerfish optional distributions contains a set of optional 
+bundles:
+
+<ul>
+ <li><b>Commons logging</b> The Commons logging bundle wraps the Apache
+     Commons Logging API over the OSGi log. <br>
+     See <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/commons-logging/readme.txt">https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/commons-logging/readme.txt</a>
+ <li><b>SOAP</b> The SOAP connectivity kit allows for easy export of
+     OSGi services as SOAP services, using the Apache Axis SOAP lib.
+<br>
+See <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/soap/readme.txt">https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/soap/readme.txt</a>
+
+
+
+     
+
+ <li><b>Serial port support</b>
+     Serial ports are supported via the OSGi device model and the 
+     <code>javax.comm</code> API. Implementations from Sun (win32) and
+     RXTX (linux) are used for the included bundles.
+
+ <li><b>JUnit</b>. Developers can install JUnit test cases in a running
+     framework, and test them remotely. 
+<br>
+     See the JUnit <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/junit/">readme</a> for more info.
+
+</ul>
+
+<a name="knopflerfish_svn"></a>
+<h2>Knopflerfish components available from SVN</h2>
+
+<p>
+Some components in Knopflerfish are currently only available as source code
+in the Subversion repository. These components can be checked out by anyone
+and installed into a previously installed KF distribution.
+</p>
+
+<ul>
+ <li><b>OSGi Jini support</b>
+     The Jini support follows the R3 Jini API. It uses Sun's reference
+     implementation for the Jini core and Nico Goeminne's driver
+     code.
+<p>
+     See <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/jini/">Jini</a>
+</p>
+ <li><b>X10 support</b>
+     The X10 support uses code from the Java X10 Project, <a href="http://x10.homelinux.org">http://x10.homelinux.org</a>.
+<p>
+see <a href="https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_opt/x10/tjx10/index.html">x10</a>
+</p>
+
+</ul>
+
+    </div>
+    <div class="break"></div>
+    <div id="footer">
+      <div id="copyright">
+	Copyright &copy; 2008-2015. The Knopflerfish Project. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
