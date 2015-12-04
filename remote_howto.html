@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- This is a generated file. Do not edit. Built by jan on Mon November 30 2015, 11:30:02 -->
+<!-- This is a generated file. Do not edit. -->
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="How to Activate the 'Remote framework...' Menu Item in the Knopflerfish Desktop.">
   <meta name="title" content="The Remote Knopflerfish OSGi Desktop">
   <title>The Remote Knopflerfish OSGi Desktop</title>
@@ -117,7 +117,7 @@
   The Knopflerfish Desktop has the ability to remote control frameworks running on other computers or devices (including headless devices that cannot run the desktop them selves). This document describes how to activate this feature.
   <p/>
 
-  Typically, the "Remote framework…" menu item (in the File menu) is greyed out. The reason for this is that, typically, the remote framework service that the desktop is looking for is not present. To connect to a remote framework, the desktop needs an implementation of the <b>org.knopflerfish.service.remotefw.RemoteFramework</b> interface. This implementation decides which protocol to use and handles the communication.
+  Typically, the "Remote framework..." menu item (in the File menu) is greyed out. The reason for this is that, typically, the remote framework service that the desktop is looking for is not present. To connect to a remote framework, the desktop needs an implementation of the <b>org.knopflerfish.service.remotefw.RemoteFramework</b> interface. This implementation decides which protocol to use and handles the communication.
   <p/>
 
   The implementation described here uses kSOAP 2, which is a small-footprint SOAP implementation on top of kXML. It provides remote access to all functionality in the desktop (including the log tab and the console).
@@ -175,7 +175,7 @@
 
   <img src="images/remote_framework.png" align="right"/>
 
-  When all the above is done and you start your frameworks, you'll find that the "Remote framework…" menu item is available. Click on it.
+  When all the above is done and you start your frameworks, you'll find that the "Remote framework..." menu item is available. Click on it.
   <p/>
 
   Enter the address to the remote framework. You should only enter the server name and the port, e.g. "http://localhost:8080". The rest is added automatically.
