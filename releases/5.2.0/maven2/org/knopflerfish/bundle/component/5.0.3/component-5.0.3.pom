@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>component</artifactId>
+  <version>5.0.3</version>
+  <name>SCR</name>
+  <description>Declarative Services SCR</description>
+  <organization>
+    <name>Knopflerfish</name>
+    <url>http://www.knopflerfish.org/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>http://opensource.org/licenses/BSD-3-Clause</name>
+      <url>http://www.knopflerfish.org/licenses/knopflerfish-1.txt</url>
+      <comments>BSD 3-clause</comments>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm-API</artifactId>
+      <version>5.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>kxml-LIB</artifactId>
+      <version>2.3.0.kf4-001</version>
+    </dependency>
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>framework</artifactId>
+      <version>7.2.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>log-API</artifactId>
+      <version>5.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

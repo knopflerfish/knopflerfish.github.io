@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Export-Package: org.knopflerfish.service.junit;version=1.0.0;uses:=jun
+ it.framework,junit.framework;version=3.8.1
+Bundle-Classpath: .,junit.jar
+Bundle-Category: testing
+Bundle-Name: JUnit
+Created-By: 1.6.0_65-b14-466.1-11M4716 (Apple Inc.)
+Build-Date: Fri July 10 2015, 11:18:33
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=OSGi/Minimum)(version>
+ =1.2))"
+Ant-Version: Apache Ant 1.9.4
+Bundle-Vendor: JUnit/Knopflerfish
+Bundle-SubversionURL: https://www.knopflerfish.org/svn/knopflerfish.or
+ g/tags/5.2.0/osgi/bundles_opt/junit/junit/
+Knopflerfish-Version: 5.2.0
+Bundle-ContactAddress: http://www.knopflerfish.org
+Bundle-Version: 3.8.1.kf4-001
+Built-From: /Users/cl/wr/5.2.0/knopflerfish.org/osgi/bundles_opt/junit
+ /junit
+Bundle-Activator: org.knopflerfish.bundle.junit.Activator
+Bundle-ManifestVersion: 2
+Bundle-APIVendor: JUnit
+Bundle-Description: JUnit support
+Import-Package: org.osgi.framework; version="[1.6,2)",org.osgi.util.tr
+ acker; version="[1.5,2)",javax.servlet; resolution:=optional,javax.se
+ rvlet.http; resolution:=optional,javax.swing; resolution:=optional,ja
+ vax.swing.border; resolution:=optional,javax.swing.event; resolution:
+ =optional,javax.swing.text; resolution:=optional,javax.swing.tree; re
+ solution:=optional,javax.xml.parsers; resolution:=optional,junit.fram
+ ework; version=3.8.1,org.knopflerfish.service.console; resolution:=op
+ tional,org.knopflerfish.service.junit; version=1.0.0,org.osgi.service
+ .http; resolution:=optional; version="[1.2,2)",org.w3c.dom; resolutio
+ n:=optional
+Bundle-SymbolicName: org.knopflerfish.bundle.junit
+Bundle-DocURL: http://www.knopflerfish.org/releases/5.2.0/docs/bundled
+ oc/index.html?docpage=junit
+Bundle-UUID: org.knopflerfish:junit:3.8.1.kf4-001
+

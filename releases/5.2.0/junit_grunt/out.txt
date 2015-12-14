@@ -1,0 +1,2157 @@
+Jul 10 11:19:50 hagaby.mkwv.se java[94535] <Error>: The function `CGContextErase' is obsolete and will be removed in an upcoming update. Unfortunately, this application, or a library it uses, is using this obsolete function, and is thereby contributing to an overall degradation of system performance.
+Knopflerfish OSGi framework launcher, version <unknown>
+Copyright 2003-2015 Knopflerfish. All Rights Reserved.
+See http://www.knopflerfish.org for more information.
+
+Created Framework: org.knopflerfish.framework, version=7.2.0.
+[stdout] starting up
+[stdout] INFO: registered junit servlet at /junit, port=null
+[stdout] Framework launched
+[stdout] junit_runner: tests=FrameworkTestSuite ServiceListenerTestSuite PackageAdminTestSuite NativeCodeTestSuite PackageTestSuite RequireBundleTestSuite FragmentTestSuite CapabiltyTestSuite BundleWiringTestSuite FilterTestSuite ServiceTrackerTestSuite ConstantsTestSuite PerformanceRegistryTestSuite HttpTestSuite ConnectorServiceTestSuite PreferencesTestSuite StartLevelTestSuite ConditionalPermissionAdminTestSuite ComponentTestSuite, outdir=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt, quit=true
+[stdout] junit_runner: run test 'FrameworkTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/FrameworkTestSuite.xml
+[stdout] run test on FrameworkTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Setup)
+[stdout] ### framework test bundle :Setup start
+[stdout] ### framework test bundle :SETUP:PASS
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame005a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame005a)
+[stdout] ### framework test bundle :FRAME005A start
+[stdout] framework test bundle, Java version 1.6.0_65
+[stdout] framework test bundle, Java vendor Apple Inc.
+[stdout] ### framework test bundle :FRAME005A:PASS
+[stdout] junit_runner: End test Frame005a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame005a)
+[stdout] junit_runner: Starting test Frame007a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame007a)
+[stdout] ### framework test bundle :FRAME007A start
+[stdout] junit_runner: End test Frame007a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame007a)
+[stdout] junit_runner: Starting test Frame010a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame010a)
+[stdout] ### framework test bundle :FRAME010A start
+[stdout] CONTEXT ID: 12
+[stdout] LOCATION: file:test_jars/framework_test/framework_test-1.0.3.jar
+[stdout] BCACTIVE: 32
+[stdout] junit_runner: End test Frame010a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame010a)
+[stdout] junit_runner: Starting test Frame018a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame018a)
+[stdout] ### framework test bundle :FRAME018A start
+[stdout] ### FRAME018A:PASS: got NPE=java.lang.NullPointerException: null ServiceReference is not valid input to getService()
+[stdout] junit_runner: End test Frame018a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame018a)
+[stdout] junit_runner: Starting test Frame019a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame019a)
+[stdout] ### framework test bundle :FRAME019A start
+[stdout] BundleEvent: INSTALLED #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 41 objectClass=[org.knopflerfish.service.bundleA_test.BundleA]
+[stdout] ### FRAME019A: PASSED, bundle URL bundle://12/bundleA_test-1.0.0.jar
+[stdout] BundleEvent: STARTED #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 41 objectClass=[org.knopflerfish.service.bundleA_test.BundleA]
+[stdout] BundleEvent: STOPPED #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #25 (bundle://12/bundleA_test-1.0.0.jar)
+[stdout] junit_runner: End test Frame019a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame019a)
+[stdout] junit_runner: Starting test Frame020a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame020a)
+[stdout] ### framework test bundle :FRAME020A start
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME020A:PASS
+[stdout] junit_runner: End test Frame020a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame020a)
+[stdout] junit_runner: Starting test Frame025b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame025b)
+[stdout] ### framework test bundle :FRAME025B start
+[stdout] BundleEvent: RESOLVED #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 42 objectClass=[org.knopflerfish.service.bundleA_test.BundleA]
+[stdout] BundleEvent: STARTED #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME025B:PASS
+[stdout] junit_runner: End test Frame025b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame025b)
+[stdout] junit_runner: Starting test Frame030b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame030b)
+[stdout] ### framework test bundle :FRAME030B start
+[stdout] SynchronousBundleEvent: STOPPING #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 42 objectClass=[org.knopflerfish.service.bundleA_test.BundleA]
+[stdout] BundleEvent: STOPPED #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME030B:PASS
+[stdout] junit_runner: End test Frame030b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame030b)
+[stdout] junit_runner: Starting test Frame035b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame035b)
+[stdout] ### framework test bundle :FRAME035B start
+[stdout] BundleEvent: UNRESOLVED #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #26 (internal:bundleA_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME035B:PASS
+[stdout] junit_runner: End test Frame035b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame035b)
+[stdout] junit_runner: Starting test Frame038b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame038b)
+[stdout] ### framework test bundle :FRAME038B start
+[stdout] installBundle(nonexisting_bundle_file.jar)
+[stdout] ### framework test bundle :FRAME038B:PASS
+[stdout] junit_runner: End test Frame038b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame038b)
+[stdout] junit_runner: Starting test Frame041a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame041a)
+[stdout] ### framework test bundle :FRAME041A start
+[stdout] installBundle(bundleD1_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME041A:PASS
+[stdout] junit_runner: End test Frame041a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame041a)
+[stdout] junit_runner: Starting test Frame045a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame045a)
+[stdout] ### framework test bundle :FRAME045A start
+[stdout] ### framework test bundle :FRAME045A:PASS
+[stdout] junit_runner: End test Frame045a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame045a)
+[stdout] junit_runner: Starting test Frame050a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame050a)
+[stdout] ### framework test bundle :FRAME050A start
+[stdout] installBundle(bundleB_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 43 objectClass=[org.knopflerfish.service.bundleB_test.BundleB]
+[stdout] BundleEvent: STARTED #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME050A:PASS
+[stdout] junit_runner: End test Frame050a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame050a)
+[stdout] junit_runner: Starting test Frame055a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame055a)
+[stdout] ### framework test bundle :FRAME055A start
+[stdout] installBundle(bundleC_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #29 (internal:bundleC_test-1.0.0.jar)
+[stdout] [stdout] BundleEvent: RESOLVED #29 (internal:bundleC_test-1.0.0.jar)
+SynchronousBundleEvent: STARTING #29 (internal:bundleC_test-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 44 objectClass=[org.knopflerfish.service.bundleC_test.BundleC, java.lang.Object]
+[stdout] BundleEvent: STARTED #29 (internal:bundleC_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #29 (internal:bundleC_test-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 44 objectClass=[org.knopflerfish.service.bundleC_test.BundleC, java.lang.Object]
+[stdout] framework test bundle, buC.getState() = 4
+[stdout] BundleEvent: STOPPED #29 (internal:bundleC_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME055A:PASS
+[stdout] junit_runner: End test Frame055a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame055a)
+[stdout] junit_runner: Starting test Frame060a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame060a)
+[stdout] ### framework test bundle :FRAME060A start
+[stderr] Set called
+[stdout] ServiceEvent: MODIFIED 43 objectClass=[org.knopflerfish.service.bundleB_test.BundleB]
+[stdout] ServiceEvent: UNREGISTERING 43 objectClass=[org.knopflerfish.service.bundleB_test.BundleB]
+[stdout] servRegB= org.knopflerfish.framework.ServiceRegistrationImpl@3cc70b0d
+[stdout] ### framework test bundle :FRAME060A:PASS
+[stdout] junit_runner: End test Frame060a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame060a)
+[stdout] junit_runner: Starting test Frame065b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame065b)
+[stdout] ### framework test bundle :FRAME065B start
+[stdout] installBundle(bundleE_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #30 (internal:bundleE_test-1.0.0.jar)
+[stdout] [stdout] BundleEvent: RESOLVED #30 (internal:bundleE_test-1.0.0.jar)
+SynchronousBundleEvent: STARTING #30 (internal:bundleE_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #30 (internal:bundleE_test-1.0.0.jar)
+[stdout] BundleEvent: STOPPED #30 (internal:bundleE_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME065B:PASS
+[stdout] junit_runner: End test Frame065b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame065b)
+[stdout] junit_runner: Starting test Frame068a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame068a)
+[stdout] ### framework test bundle :FRAME068A start
+[stdout] bc.getBundle().getResources("/fw_test_multi.txt") -> 
+[stdout] 	bundle://12/fw_test_multi.txt
+[stdout] 	bundle://12:1/fw_test_multi.txt
+[stdout] 	bundle://12:2/fw_test_multi.txt
+[stdout] 	bundle://12:3/fw_test_multi.txt
+[stdout] bc.getBundle().getEntryPaths("/")
+[stdout] 1	/bundleA1_test-1.0.1.jar
+[stdout] 2	/bundleA2_test-1.0.0.jar
+[stdout] 3	/bundleA_lazy-1.0.0.jar
+[stdout] 4	/bundleA_lazy2-1.0.0.jar
+[stdout] 5	/bundleA_lazy3-1.0.0.jar
+[stdout] 6	/bundleA_lazy4-1.0.0.jar
+[stdout] 7	/bundleA_test-1.0.0.jar
+[stdout] 8	/bundleB_test-1.0.0.jar
+[stdout] 9	/bundleC_test-1.0.0.jar
+[stdout] 10	/bundleCU1_test-1.0.0.jar
+[stdout] 11	/bundleCU_test-1.0.0.jar
+[stdout] 12	/bundleCUC1_test-1.0.0.jar
+[stdout] 13	/bundleCUC2_test-2.0.0.jar
+[stdout] 14	/bundleCUP1_test-1.0.0.jar
+[stdout] 15	/bundleCUP2_test-2.0.0.jar
+[stdout] 16	/bundleD1_test-1.0.0.jar
+[stdout] 17	/bundleD_test-1.0.0.jar
+[stdout] 18	/bundleE_test-1.0.0.jar
+[stdout] 19	/bundleF_test-1.0.0.jar
+[stdout] 20	/bundleG_test-1.0.0.jar
+[stdout] 21	/bundleH_test-1.0.0.jar
+[stdout] 22	/bundleI_test-1.0.0.jar
+[stdout] 23	/bundleJ_test-1.0.0.jar
+[stdout] 24	/bundleN1_test-1.0.0.jar
+[stdout] 25	/bundleN2_test-1.0.0.jar
+[stdout] 26	/bundleN3_test-1.0.0.jar
+[stdout] 27	/bundleN4_test-1.0.0.jar
+[stdout] 28	/bundleN5_test-1.0.0.jar
+[stdout] 29	/bundleP1_test-1.0.0.jar
+[stdout] 30	/bundleP2_test-1.0.0.jar
+[stdout] 31	/bundleP3_test-1.0.0.jar
+[stdout] 32	/bundlePT1_test-1.0.0.jar
+[stdout] 33	/bundlePT2_test-1.0.0.jar
+[stdout] 34	/bundlePT3_test-1.0.0.jar
+[stdout] 35	/bundleQ_test-1.0.0.jar
+[stdout] 36	/bundleR1_test-1.0.0.jar
+[stdout] 37	/bundleR2_test-1.0.0.jar
+[stdout] 38	/bundleR3_test-1.0.0.jar
+[stdout] 39	/bundleR4_test-1.0.0.jar
+[stdout] 40	/bundleR5_test-1.0.0.jar
+[stdout] 41	/bundleR6_test-1.0.0.jar
+[stdout] 42	/bundleR_test-1.0.0.jar
+[stdout] 43	/bundleSL1-1.0.0.jar
+[stdout] 44	/bundleSL2-1.0.0.jar
+[stdout] 45	/bundleSL3-1.0.0.jar
+[stdout] 46	/bundleSL4-1.0.0.jar
+[stdout] 47	/bundleT_test-1.0.0.jar
+[stdout] 48	/bundleU_test-1.0.0.jar
+[stdout] 49	/bundleV_test-1.0.0.jar
+[stdout] 50	/bundleW1_test-1.0.0.jar
+[stdout] 51	/bundleW_test-1.0.0.jar
+[stdout] 52	/fb_A-1.0.0.jar
+[stdout] 53	/fb_B-1.0.0.jar
+[stdout] 54	/fb_C_api-1.0.0.jar
+[stdout] 55	/fb_D_api-2.0.0.jar
+[stdout] 56	/fb_E-2.0.0.jar
+[stdout] 57	/fb_F-2.0.0.jar
+[stdout] 58	/fb_G-1.0.0.jar
+[stdout] 59	/fw_test_multi.txt
+[stdout] 60	/META-INF/
+[stdout] 61	/org/
+[stdout] 62	/rb_A-0.1.0.jar
+[stdout] 63	/rb_B_api-0.1.0.jar
+[stdout] 64	/rb_C-0.1.0.jar
+[stdout] 65	/rb_C_api-0.1.0.jar
+[stdout] 66	/rb_D_api-0.1.0.jar
+[stdout] 67	/res1.jar
+[stdout] 68	/res2.jar
+[stdout] 69	/resexp_test-1.0.0.jar
+[stdout] 70	/resimp_test-1.0.0.jar
+[stdout] 71	/subdir/
+[stdout] getEntryPaths("/org/knopflerfish/bundle/framework_test")
+[stdout] 1	org/knopflerfish/bundle/framework_test/Activator.class
+[stdout] 2	org/knopflerfish/bundle/framework_test/BadBundleListener.class
+[stdout] 3	org/knopflerfish/bundle/framework_test/BundleWiringTestSuite$Cleanup.class
+[stdout] 4	org/knopflerfish/bundle/framework_test/BundleWiringTestSuite$Frame700a.class
+[stdout] 5	org/knopflerfish/bundle/framework_test/BundleWiringTestSuite$Setup.class
+[stdout] 6	org/knopflerfish/bundle/framework_test/BundleWiringTestSuite.class
+[stdout] 7	org/knopflerfish/bundle/framework_test/CapabilityTestSuite$Cleanup.class
+[stdout] 8	org/knopflerfish/bundle/framework_test/CapabilityTestSuite$Frame600a.class
+[stdout] 9	org/knopflerfish/bundle/framework_test/CapabilityTestSuite$Frame610a.class
+[stdout] 10	org/knopflerfish/bundle/framework_test/CapabilityTestSuite$FWTestCase.class
+[stdout] 11	org/knopflerfish/bundle/framework_test/CapabilityTestSuite$Setup$1.class
+[stdout] 12	org/knopflerfish/bundle/framework_test/CapabilityTestSuite$Setup.class
+[stdout] 13	org/knopflerfish/bundle/framework_test/CapabilityTestSuite.class
+[stdout] 14	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Cleanup.class
+[stdout] 15	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Frame500a.class
+[stdout] 16	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Frame510a.class
+[stdout] 17	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Frame520a.class
+[stdout] 18	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Frame530a.class
+[stdout] 19	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Frame540a.class
+[stdout] 20	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Frame550b.class
+[stdout] 21	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Frame560a.class
+[stdout] 22	org/knopflerfish/bundle/framework_test/FragmentTestSuite$FWTestCase.class
+[stdout] 23	org/knopflerfish/bundle/framework_test/FragmentTestSuite$Setup.class
+[stdout] 24	org/knopflerfish/bundle/framework_test/FragmentTestSuite.class
+[stdout] 25	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$BundleListener.class
+[stdout] 26	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$BundleTStartThread.class
+[stdout] 27	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Cleanup.class
+[stdout] 28	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$devEvent.class
+[stdout] 29	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame005a.class
+[stdout] 30	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame007a.class
+[stdout] 31	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame010a.class
+[stdout] 32	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame018a.class
+[stdout] 33	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame019a.class
+[stdout] 34	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame020a.class
+[stdout] 35	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame025b.class
+[stdout] 36	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame030b.class
+[stdout] 37	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame035b.class
+[stdout] 38	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame038b.class
+[stdout] 39	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame040a.class
+[stdout] 40	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame041a.class
+[stdout] 41	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame045a.class
+[stdout] 42	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame050a.class
+[stdout] 43	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame055a.class
+[stdout] 44	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame060a.class
+[stdout] 45	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame065b.class
+[stdout] 46	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame068a.class
+[stdout] 47	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame069a.class
+[stdout] 48	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame070a.class
+[stdout] 49	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame075a.class
+[stdout] 50	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame080a.class
+[stdout] 51	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame085b.class
+[stdout] 52	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame110b.class
+[stdout] 53	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame115a.class
+[stdout] 54	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame120a.class
+[stdout] 55	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame125a.class
+[stdout] 56	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame130a.class
+[stdout] 57	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame160a.class
+[stdout] 58	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame161a.class
+[stdout] 59	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame162a.class
+[stdout] 60	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame163a.class
+[stdout] 61	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame164a.class
+[stdout] 62	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame165a.class
+[stdout] 63	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame170a$1.class
+[stdout] 64	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame170a$2.class
+[stdout] 65	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame170a$3.class
+[stdout] 66	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame170a.class
+[stdout] 67	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame175a.class
+[stdout] 68	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame180a.class
+[stdout] 69	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame181a.class
+[stdout] 70	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame185a.class
+[stdout] 71	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame186a.class
+[stdout] 72	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame190a.class
+[stdout] 73	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame210a.class
+[stdout] 74	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame211a.class
+[stdout] 75	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame260a.class
+[stdout] 76	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame265a.class
+[stdout] 77	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame270a.class
+[stdout] 78	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame275a.class
+[stdout] 79	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame280a.class
+[stdout] 80	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame285a.class
+[stdout] 81	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Frame290a.class
+[stdout] 82	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$FrameworkListener.class
+[stdout] 83	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$ServiceListener.class
+[stdout] 84	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$Setup.class
+[stdout] 85	org/knopflerfish/bundle/framework_test/FrameworkTestSuite$SyncBundleListener.class
+[stdout] 86	org/knopflerfish/bundle/framework_test/FrameworkTestSuite.class
+[stdout] 87	org/knopflerfish/bundle/framework_test/FWTestCase.class
+[stdout] 88	org/knopflerfish/bundle/framework_test/NativeCodeTestSuite$Cleanup.class
+[stdout] 89	org/knopflerfish/bundle/framework_test/NativeCodeTestSuite$Frame0135a.class
+[stdout] 90	org/knopflerfish/bundle/framework_test/NativeCodeTestSuite$Frame0137a.class
+[stdout] 91	org/knopflerfish/bundle/framework_test/NativeCodeTestSuite$Frame0138a.class
+[stdout] 92	org/knopflerfish/bundle/framework_test/NativeCodeTestSuite$Frame0139a.class
+[stdout] 93	org/knopflerfish/bundle/framework_test/NativeCodeTestSuite$Setup.class
+[stdout] 94	org/knopflerfish/bundle/framework_test/NativeCodeTestSuite.class
+[stdout] 95	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$BundleListener.class
+[stdout] 96	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$Cleanup.class
+[stdout] 97	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$devEvent.class
+[stdout] 98	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$Frame0187a.class
+[stdout] 99	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$Frame0200a.class
+[stdout] 100	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$Frame215a.class
+[stdout] 101	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$Frame220b.class
+[stdout] 102	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$FrameworkListener.class
+[stdout] 103	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$FWTestCase.class
+[stdout] 104	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$ServiceListener.class
+[stdout] 105	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite$Setup.class
+[stdout] 106	org/knopflerfish/bundle/framework_test/PackageAdminTestSuite.class
+[stdout] 107	org/knopflerfish/bundle/framework_test/PackageTestSuite$Cleanup.class
+[stdout] 108	org/knopflerfish/bundle/framework_test/PackageTestSuite$Frame300a.class
+[stdout] 109	org/knopflerfish/bundle/framework_test/PackageTestSuite$Frame305a.class
+[stdout] 110	org/knopflerfish/bundle/framework_test/PackageTestSuite$Frame310a.class
+[stdout] 111	org/knopflerfish/bundle/framework_test/PackageTestSuite$Frame320a.class
+[stdout] 112	org/knopflerfish/bundle/framework_test/PackageTestSuite$Frame325a.class
+[stdout] 113	org/knopflerfish/bundle/framework_test/PackageTestSuite$FWTestCase.class
+[stdout] 114	org/knopflerfish/bundle/framework_test/PackageTestSuite$Setup.class
+[stdout] 115	org/knopflerfish/bundle/framework_test/PackageTestSuite.class
+[stdout] 116	org/knopflerfish/bundle/framework_test/PermissionTest.class
+[stdout] 117	org/knopflerfish/bundle/framework_test/PermissionTestSuite$BundleListener.class
+[stdout] 118	org/knopflerfish/bundle/framework_test/PermissionTestSuite$Cleanup.class
+[stdout] 119	org/knopflerfish/bundle/framework_test/PermissionTestSuite$devEvent.class
+[stdout] 120	org/knopflerfish/bundle/framework_test/PermissionTestSuite$Frame0100a.class
+[stdout] 121	org/knopflerfish/bundle/framework_test/PermissionTestSuite$Frame0105a.class
+[stdout] 122	org/knopflerfish/bundle/framework_test/PermissionTestSuite$Frame090a.class
+[stdout] 123	org/knopflerfish/bundle/framework_test/PermissionTestSuite$Frame095a.class
+[stdout] 124	org/knopflerfish/bundle/framework_test/PermissionTestSuite$FrameworkListener.class
+[stdout] 125	org/knopflerfish/bundle/framework_test/PermissionTestSuite$ServiceListener.class
+[stdout] 126	org/knopflerfish/bundle/framework_test/PermissionTestSuite$Setup.class
+[stdout] 127	org/knopflerfish/bundle/framework_test/PermissionTestSuite.class
+[stdout] 128	org/knopflerfish/bundle/framework_test/RegListenThread.class
+[stdout] 129	org/knopflerfish/bundle/framework_test/RegServThread.class
+[stdout] 130	org/knopflerfish/bundle/framework_test/RequireBundleTestSuite$Cleanup.class
+[stdout] 131	org/knopflerfish/bundle/framework_test/RequireBundleTestSuite$Frame400a.class
+[stdout] 132	org/knopflerfish/bundle/framework_test/RequireBundleTestSuite$Frame410a.class
+[stdout] 133	org/knopflerfish/bundle/framework_test/RequireBundleTestSuite$Frame420a.class
+[stdout] 134	org/knopflerfish/bundle/framework_test/RequireBundleTestSuite$FWTestCase.class
+[stdout] 135	org/knopflerfish/bundle/framework_test/RequireBundleTestSuite$Setup.class
+[stdout] 136	org/knopflerfish/bundle/framework_test/RequireBundleTestSuite.class
+[stdout] 137	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$AllServiceListener.class
+[stdout] 138	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$Cleanup.class
+[stdout] 139	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$FrameSL05a.class
+[stdout] 140	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$FrameSL10a.class
+[stdout] 141	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$FrameSL15a.class
+[stdout] 142	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$FrameSL20a.class
+[stdout] 143	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$FrameSL25a.class
+[stdout] 144	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$FWTestCase.class
+[stdout] 145	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$ServiceListener.class
+[stdout] 146	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite$Setup.class
+[stdout] 147	org/knopflerfish/bundle/framework_test/ServiceListenerTestSuite.class
+[stdout] 148	org/knopflerfish/bundle/framework_test/Util$1.class
+[stdout] 149	org/knopflerfish/bundle/framework_test/Util.class
+[stdout] bc.getBundle().getResources("/fw_test_single.txt") -> 
+[stdout] 	bundle://12:2/fw_test_single.txt
+[stdout] bc.getBundle().getResources("/fw_test_nonexistent.txt") -> 
+[stdout] bc.getBundle().getResource("/") -> bundle://12/
+[stdout] bc.getBundle().getResources("/") -> 
+[stdout] 	bundle://12/
+[stdout] 	bundle://12:1/
+[stdout] 	bundle://12:2/
+[stdout] 	bundle://12:3/
+[stdout] 	bundle://12:4/
+[stdout] ### framework test bundle :FRAME068A:PASS
+[stdout] junit_runner: End test Frame068a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame068a)
+[stdout] junit_runner: Starting test Frame069a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame069a)
+[stdout] ### framework test bundle :FRAME069A start
+[stdout] Loading text from bundle://12/fw_test_multi.txt
+[stdout] Loading text from bundle://12:1/fw_test_multi.txt
+[stdout] Loading text from bundle://12:2/fw_test_multi.txt
+[stdout] Loading text from bundle://12:3/fw_test_multi.txt
+[stdout] Loading text from bundle://12:2/fw_test_single.txt
+[stdout] ### framework test bundle :FRAME069A:PASS
+[stdout] junit_runner: End test Frame069a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame069a)
+[stdout] junit_runner: Starting test Frame070a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame070a)
+[stdout] ### framework test bundle :FRAME070A start
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #31 (internal:bundleA_test-1.0.0.jar)
+[stdout] Before version = 1.0.0
+[stdout] update from bundle://12/bundleA1_test-1.0.1.jar
+[stdout] BundleEvent: UPDATE #31 (internal:bundleA_test-1.0.0.jar)
+[stdout] After  version = 1.0.1
+[stdout] ### framework test bundle :FRAME070A:PASS
+[stdout] junit_runner: End test Frame070a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame070a)
+[stdout] junit_runner: Starting test Frame075a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame075a)
+[stdout] ### framework test bundle :FRAME075A start
+[stdout] SynchronousBundleEvent: STOPPING #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] BundleEvent: STOPPED #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME075A:PASS
+[stdout] BundleEvent: UNINSTALLED #28 (internal:bundleB_test-1.0.0.jar)
+[stdout] junit_runner: End test Frame075a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame075a)
+[stdout] junit_runner: Starting test Frame080a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame080a)
+[stdout] ### framework test bundle :FRAME080A start
+[stdout] installBundle(bundleF_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #32 (internal:bundleF_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #32 (internal:bundleF_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #32 (internal:bundleF_test-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 45 objectClass=[org.knopflerfish.service.bundleF_test.BundleF]
+[stdout] BundleEvent: STARTED #32 (internal:bundleF_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #32 (internal:bundleF_test-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 45 objectClass=[org.knopflerfish.service.bundleF_test.BundleF]
+[stdout] BundleEvent: STOPPED #32 (internal:bundleF_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME080A:PASS
+[stdout] junit_runner: End test Frame080a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame080a)
+[stdout] junit_runner: Starting test Frame085b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame085b)
+[stdout] ### framework test bundle :FRAME085B start
+[stdout] installBundle(bundleH_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] start in H
+[stdout] ServiceEvent: REGISTERED 46 objectClass=[org.knopflerfish.service.bundleH_test.BundleH]
+[stdout] BundleEvent: STARTED #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] getService in H
+[stdout] SynchronousBundleEvent: STOPPING #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 46 objectClass=[org.knopflerfish.service.bundleH_test.BundleH]
+[stdout] BundleEvent: STOPPED #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME085B:PASS
+[stdout] junit_runner: End test Frame085b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame085b)
+[stdout] junit_runner: Starting test Frame110b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame110b)
+[stdout] ### framework test bundle :FRAME110B start
+[stdout] installBundle(bundleJ_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #34 (internal:bundleJ_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #34 (internal:bundleJ_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #34 (internal:bundleJ_test-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 47 objectClass=[org.knopflerfish.service.bundleJ_test.BundleJ]
+[stdout] SynchronousBundleEvent: STOPPING #34 (internal:bundleJ_test-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 47 objectClass=[org.knopflerfish.service.bundleJ_test.BundleJ]
+[stdout] BundleEvent: STOPPED #34 (internal:bundleJ_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME110A:PASS
+[stdout] junit_runner: End test Frame110b(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame110b)
+[stdout] junit_runner: Starting test Frame115a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame115a)
+[stdout] ### framework test bundle :FRAME115A start
+[stdout] ### framework test bundle :FRAME115A:PASS
+[stdout] junit_runner: End test Frame115a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame115a)
+[stdout] junit_runner: Starting test Frame125a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame125a)
+[stdout] ### framework test bundle :FRAME125A start
+[stdout] ### framework test bundle :FRAME125A:PASS
+[stdout] junit_runner: End test Frame125a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame125a)
+[stdout] junit_runner: Starting test Frame130a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame130a)
+[stdout] ### framework test bundle :FRAME130A start
+[stdout] ### framework test bundle :FRAME130A:PASS
+[stdout] junit_runner: End test Frame130a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame130a)
+[stdout] junit_runner: Starting test Frame160a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame160a)
+[stdout] ### framework test bundle :FRAME160A start
+[stdout] installBundle(bundleR_test-1.0.0.jar)
+[stdout] installBundle(bundleR1_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #36 (internal:bundleR1_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #36 (internal:bundleR1_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME160A:PASS
+[stdout] BundleEvent: STARTED #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] BundleEvent: STOPPED #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #35 (internal:bundleR_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #36 (internal:bundleR1_test-1.0.0.jar)
+[stdout] junit_runner: End test Frame160a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame160a)
+[stdout] BundleEvent: UNINSTALLED #36 (internal:bundleR1_test-1.0.0.jar)
+[stdout] junit_runner: Starting test Frame161a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame161a)
+[stdout] URL from bundle.getResource() = jar:file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Thread.class
+[stdout] URL from classLoader.getResource() = jar:file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Thread.class
+[stdout] URL from bClsL.getResource() = jar:file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/Thread.class
+[stdout] junit_runner: End test Frame161a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame161a)
+[stdout] junit_runner: Starting test Frame162a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame162a)
+[stdout] URL from bundle.getResource() = null
+[stdout] URL from classLoader.getResource() = null
+[stdout] junit_runner: End test Frame162a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame162a)
+[stdout] junit_runner: Starting test Frame163a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame163a)
+[stdout] URL from bundle.getResource() = jar:file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/naming/Context.class
+[stdout] URL from classLoader.getResource() = jar:file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/naming/Context.class
+[stdout] URL from bClsL.getResource() = jar:file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/javax/naming/Context.class
+[stdout] junit_runner: End test Frame163a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame163a)
+[stdout] junit_runner: Starting test Frame164a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame164a)
+[stdout] baseURL = bundle://12/org/knopflerfish/bundle/framework_test/Util.class
+[stdout] URL from new URL("../") = bundle://12/org/knopflerfish/bundle/
+[stdout] URL from new URL("..") = bundle://12/org/knopflerfish/bundle/
+[stdout] baseURL = bundle://12/org/knopflerfish/bundle/framework_test/Util.class
+[stdout] URL from new URL("../../") = bundle://12/org/knopflerfish/
+[stdout] URL from new URL("../..") = bundle://12/org/knopflerfish/
+[stdout] baseURL = bundle://12/org/knopflerfish/bundle/framework_test/Util.class
+[stdout] URL from new URL("../../../") = bundle://12/org/
+[stdout] URL from new URL("../../..") = bundle://12/org/
+[stdout] baseURL = bundle://12/org/knopflerfish/bundle/framework_test/Util.class
+[stdout] URL from new URL("../../../../") = bundle://12/
+[stdout] URL from new URL("../../../..") = bundle://12/
+[stdout] baseURL = bundle://12/org/knopflerfish/bundle/framework_test/Util.class
+[stdout] URL from new URL("../../../../../") = bundle://12/../
+[stdout] URL from new URL("../../../../..") = bundle://12/../
+[stdout] junit_runner: End test Frame164a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame164a)
+[stdout] junit_runner: Starting test Frame165a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame165a)
+[stdout] URL from bundle.getResource("/META-INF") = bundle://12/META-INF
+[stdout] URL from bundle.getResource("/META-INF/") = bundle://12/META-INF/
+[stdout] junit_runner: End test Frame165a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame165a)
+[stdout] junit_runner: Starting test Frame170a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame170a)
+[stdout] ### framework test bundle :FRAME170A start
+[stdout] installBundle(bundleQ_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 48 objectClass=[java.lang.Object]
+[stdout] BundleEvent: INSTALLED #38 (Q1)
+[stdout] BundleEvent: RESOLVED #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] BundleEvent: STARTED #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #38 (Q1)
+[stdout] SynchronousBundleEvent: STARTING #38 (Q1)
+[stdout] BundleEvent: STARTED #38 (Q1)
+[stdout] SynchronousBundleEvent: STOPPING #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME170A:PASS
+[stdout] BundleEvent: STOPPED #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 48 objectClass=[java.lang.Object]
+[stdout] BundleEvent: UNRESOLVED #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #37 (internal:bundleQ_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #38 (Q1)
+[stdout] BundleEvent: STOPPED #38 (Q1)
+[stdout] BundleEvent: UNRESOLVED #38 (Q1)
+[stdout] junit_runner: End test Frame170a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame170a)
+[stdout] BundleEvent: UNINSTALLED #38 (Q1)
+[stdout] junit_runner: Starting test Frame175a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame175a)
+[stdout] ### framework test bundle :FRAME175A start
+[stdout] installBundle(bundleR2_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #39 (internal:bundleR2_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #39 (internal:bundleR2_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME175A:PASS
+[stdout] junit_runner: End test Frame175a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame175a)
+[stdout] junit_runner: Starting test Frame180a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame180a)
+[stdout] ### framework test bundle :FRAME180A start
+[stdout] installBundle(bundleR3_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #40 (internal:bundleR3_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME180A:PASS
+[stdout] BundleEvent: RESOLVED #40 (internal:bundleR3_test-1.0.0.jar)
+[stdout] junit_runner: End test Frame180a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame180a)
+[stdout] junit_runner: Starting test Frame181a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame181a)
+[stdout] ### framework test bundle :FRAME181A start
+[stdout] installBundle(bundleR3_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME181A:PASS
+[stdout] junit_runner: End test Frame181a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame181a)
+[stdout] junit_runner: Starting test Frame185a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame185a)
+[stdout] ### framework test bundle :FRAME185A start
+[stdout] installBundle(bundleR4_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME185A:PASS
+[stdout] BundleEvent: INSTALLED #41 (internal:bundleR4_test-1.0.0.jar)
+[stdout] junit_runner: End test Frame185a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame185a)
+[stdout] junit_runner: Starting test Frame186a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame186a)
+[stdout] ### framework test bundle :FRAME186A start
+[stdout] installBundle(bundleR4_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME186A:PASS
+[stdout] junit_runner: End test Frame186a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame186a)
+[stdout] junit_runner: Starting test Frame190a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame190a)
+[stdout] ### framework test bundle :FRAME190A start
+[stdout] installBundle(bundleR5_test-1.0.0.jar)
+[stdout] installBundle(bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #42 (internal:bundleR5_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #42 (internal:bundleR5_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: STARTED #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME190A:PASS
+[stdout] junit_runner: End test Frame190a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame190a)
+[stdout] junit_runner: Starting test Frame210a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame210a)
+[stdout] ### framework test bundle :FRAME210A start
+[stdout] ServiceEvent: REGISTERED 49 objectClass=[org.knopflerfish.bundle.framework_test.RegServThread]
+[stdout] ServiceEvent: MODIFIED 49 objectClass=[org.knopflerfish.bundle.framework_test.RegServThread]
+[stdout] ServiceEvent: MODIFIED 49 objectClass=[org.knopflerfish.bundle.framework_test.RegServThread]
+[stdout] ### framework test bundle :FRAME210A:PASS
+[stdout] junit_runner: End test Frame210a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame210a)
+[stdout] junit_runner: Starting test Frame211a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame211a)
+[stdout] ### framework test bundle :FRAME211A start
+[stdout] BundleEvent: UNRESOLVED #32 (internal:bundleF_test-1.0.0.jar)
+[stdout] [stdout] BundleEvent: UNINSTALLED #32 (internal:bundleF_test-1.0.0.jar)
+junit_runner: End test Frame211a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame211a)
+[stdout] junit_runner: Starting test Frame260a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame260a)
+[stdout] ### framework test bundle :FRAME260A start
+[stdout] installBundle(bundleA_lazy-1.0.0.jar)
+[stdout] Start using bundles activation policy (lazy)
+[stdout] BundleEvent: INSTALLED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] SynchronousBundleEvent: LAZY_ACTIVATION #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] Start once more using bundles activation policy (lazy)
+[stdout] Start eager, transient
+[stdout] SynchronousBundleEvent: STARTING #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 50 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STARTED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 50 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STOPPED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME260A:PASS
+[stdout] junit_runner: End test Frame260a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame260a)
+[stdout] junit_runner: Starting test Frame265a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame265a)
+[stdout] ### framework test bundle :FRAME265A start
+[stdout] SynchronousBundleEvent: LAZY_ACTIVATION #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] loading class, org.knopflerfish.service.bundleA_lazy.BundleA
+[stdout] SynchronousBundleEvent: STARTING #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 51 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STARTED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 51 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STOPPED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME265A:PASS
+[stdout] junit_runner: End test Frame265a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame265a)
+[stdout] junit_runner: Starting test Frame270a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame270a)
+[stdout] ### framework test bundle :FRAME270A start
+[stdout] BundleEvent: UNRESOLVED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #44 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] installBundle(bundleA_lazy-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] SynchronousBundleEvent: LAZY_ACTIVATION #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] loading class, org.knopflerfish.service.bundleA_lazy.BundleA
+[stdout] SynchronousBundleEvent: STARTING #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 52 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STARTED #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 52 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STOPPED #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME270A:PASS
+[stdout] junit_runner: End test Frame270a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame270a)
+[stdout] junit_runner: Starting test Frame275a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame275a)
+[stdout] ### framework test bundle :FRAME275A start
+[stdout] installBundle(bundleA_lazy2-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] [stdout] BundleEvent: RESOLVED #46 (internal:bundleA_lazy2-1.0.0.jar)
+SynchronousBundleEvent: LAZY_ACTIVATION #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME275A loading non-activation triggering class
+[stdout] loading class that shall trigger activation, org.knopflerfish.service.bundleA_lazy.BundleA
+[stdout] SynchronousBundleEvent: STARTING #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 53 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STARTED #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 53 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STOPPED #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME275A:PASS
+[stdout] junit_runner: End test Frame275a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame275a)
+[stdout] junit_runner: Starting test Frame280a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame280a)
+[stdout] ### framework test bundle :FRAME280A start
+[stdout] installBundle(bundleA_lazy3-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] [stdout] BundleEvent: RESOLVED #47 (internal:bundleA_lazy3-1.0.0.jar)
+SynchronousBundleEvent: LAZY_ACTIVATION #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] loading non-activation triggering class, org.knopflerfish.bundle.bundleA_lazy.BundleActivator
+[stdout] that triggers loading of a second class (the org.osgi.framework.BundleActivator class) which will trigger activation.
+[stdout] SynchronousBundleEvent: STARTING #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 54 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STARTED #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 54 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STOPPED #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME280A:PASS
+[stdout] junit_runner: End test Frame280a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame280a)
+[stdout] junit_runner: Starting test Frame285a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame285a)
+[stdout] ### framework test bundle :FRAME285A start
+[stdout] installBundle(bundleA_lazy4-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] SynchronousBundleEvent: LAZY_ACTIVATION #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] loading non-activation triggering class, org.knopflerfish.bundle.bundleA_lazy.BundleActivator
+[stdout] loading class that shall trigger activation, org.knopflerfish.service.bundleA_lazy.BundleA
+[stdout] SynchronousBundleEvent: STARTING #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] ServiceEvent: REGISTERED 55 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STARTED #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] ServiceEvent: UNREGISTERING 55 objectClass=[org.knopflerfish.service.bundleA_lazy.BundleA]
+[stdout] BundleEvent: STOPPED #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME285A:PASS
+[stdout] junit_runner: End test Frame285a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame285a)
+[stdout] junit_runner: Starting test Frame290a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame290a)
+[stdout] ### framework test bundle :FRAME290A start
+[stdout] installBundle(bundleT_test-1.0.0.jar)
+[stdout] BundleEvent: INSTALLED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] BundleEvent: RESOLVED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] BUE: org.osgi.framework.BundleException: Bundle.stop called during start of Bundle#49
+[stdout] BUE count 0
+[stdout] BUE count 1
+[stdout] BUE count 2
+[stdout] BUE count 3
+[stdout] BundleEvent: STARTED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] BundleEvent: STOPPED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] BundleEvent: STARTED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] BundleEvent: STOPPED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME290A:PASS
+[stdout] BundleEvent: UNINSTALLED #49 (internal:bundleT_test-1.0.0.jar)
+[stdout] junit_runner: End test Frame290a(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame290a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Cleanup)
+[stdout] ### framework test bundle :Cleanup start
+[stdout] BundleEvent: UNRESOLVED #31 (internal:bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #31 (internal:bundleA_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #29 (internal:bundleC_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #29 (internal:bundleC_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #30 (internal:bundleE_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #30 (internal:bundleE_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #33 (internal:bundleH_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #34 (internal:bundleJ_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #34 (internal:bundleJ_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #39 (internal:bundleR2_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #39 (internal:bundleR2_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #40 (internal:bundleR3_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #40 (internal:bundleR3_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #41 (internal:bundleR4_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #41 (internal:bundleR4_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #42 (internal:bundleR5_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #42 (internal:bundleR5_test-1.0.0.jar)
+[stdout] BundleEvent: STOPPED #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #43 (internal:bundleR6_test-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #45 (internal:bundleA_lazy-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #46 (internal:bundleA_lazy2-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] BundleEvent: UNINSTALLED #47 (internal:bundleA_lazy3-1.0.0.jar)
+[stdout] BundleEvent: UNRESOLVED #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Cleanup)
+[stdout] BundleEvent: UNINSTALLED #48 (internal:bundleA_lazy4-1.0.0.jar)
+[stdout] junit_runner: run test 'ServiceListenerTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/ServiceListenerTestSuite.xml
+[stdout] run test on ServiceListenerTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$Setup)
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] installBundle(bundleA2_test-1.0.0.jar)
+[stdout] installBundle(bundleSL1-1.0.0.jar)
+[stdout] installBundle(bundleSL2-1.0.0.jar)
+[stdout] installBundle(bundleSL3-1.0.0.jar)
+[stdout] installBundle(bundleSL4-1.0.0.jar)
+[stdout] org.knopflerfish.servicereference.valid.during.unregistering is true
+[stdout] ### ServiceListenerTestSuite :SETUP:PASS
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$Setup)
+[stdout] junit_runner: Starting test FrameSL05a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL05a)
+[stdout] Starting targetBundle: BundleImpl[id=50]
+[stdout] SynchronousBundleEvent: STARTING #50 (internal:bundleA_test-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.bundleA_test.BundleA
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.bundleA_test.BundleA
+[stdout] SynchronousBundleEvent: STOPPING #50 (internal:bundleA_test-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.bundleA_test.BundleA
+[stdout] Service (unreg): org.knopflerfish.bundle.bundleA_test.BundA@7fb6634c
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.bundleA_test.BundleA
+[stdout] Service (unreg): org.knopflerfish.bundle.bundleA_test.BundA@7fb6634c
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ### ServiceListenerTestsuite :FRAMEsl05A:PASS
+[stdout] junit_runner: End test FrameSL05a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL05a)
+[stdout] junit_runner: Starting test FrameSL10a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL10a)
+[stdout] Starting targetBundle: BundleImpl[id=51]
+[stdout] SynchronousBundleEvent: STARTING #51 (internal:bundleA2_test-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.bundleA2_test.BundleA
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.bundleA2_test.BundleA
+[stdout] SynchronousBundleEvent: STOPPING #51 (internal:bundleA2_test-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.bundleA2_test.BundleA
+[stdout] Service (unreg): org.knopflerfish.bundle.bundleA2_test.BundA@a6a435f
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.bundleA2_test.BundleA
+[stdout] Service (unreg): org.knopflerfish.bundle.bundleA2_test.BundA@a6a435f
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ### ServiceListenerTestsuite :FRAMEsl10A:PASS
+[stdout] junit_runner: End test FrameSL10a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL10a)
+[stdout] junit_runner: Starting test FrameSL15a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL15a)
+[stdout] Starting buSL1: BundleImpl[id=52]
+[stdout] SynchronousBundleEvent: STARTING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] Starting buSL2: BundleImpl[id=53]
+[stdout] SynchronousBundleEvent: STARTING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] Adding reference = org.knopflerfish.framework.ServiceReferenceImpl@106df95
+[stdout] bar: Doing foo
+[stdout] bar: Registered org.knopflerfish.framework.ServiceRegistrationImpl@106df95
+[stdout] Check that FooService is added to service tracker in buSL1
+[stdout] buSL1Activator.serviceAdded is true
+[stdout] updateBundle(org.knopflerfish.bundle.foo.bundleSL1, bundleSL1-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] Removing reference = org.knopflerfish.framework.ServiceReferenceImpl@106df95
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@51a9876e
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@51a9876e
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] SynchronousBundleEvent: STARTING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] buSL1 updated.
+[stdout] Check that FooService is not added to service tracker in buSL1 after update.
+[stdout] buSL1Activator.serviceAdded is false
+[stdout] Stop buSL2: BundleImpl[id=53]
+[stdout] SynchronousBundleEvent: STOPPING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@75d709a5
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@75d709a5
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Starting buSL2: BundleImpl[id=53]
+[stdout] SynchronousBundleEvent: STARTING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] bar: Registered org.knopflerfish.framework.ServiceRegistrationImpl@78ba6c13
+[stdout] Check that FooService is not added to service tracker in buSL1 after update and restart of buSL2.
+[stdout] buSL1Activator.serviceAdded is false
+[stdout] PackageAdmin.refreshPackages([BundleImpl[id=52]])
+[stdout] SynchronousBundleEvent: STOPPING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@3bc6d11a
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@3bc6d11a
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] SynchronousBundleEvent: STOPPING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@4523a389
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@4523a389
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] SynchronousBundleEvent: STARTING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] SynchronousBundleEvent: STARTING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] Adding reference = org.knopflerfish.framework.ServiceReferenceImpl@2d35da43
+[stdout] bar: Doing foo
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] bar: Registered org.knopflerfish.framework.ServiceRegistrationImpl@2d35da43
+[stdout] Got framework event of type 4
+[stdout] PackageAdmin.refreshPackages([BundleImpl[id=52]]) done.
+[stdout] Check that FooService is added to service tracker in buSL1 after package refresh.
+[stdout] buSL1Activator.serviceAdded is true
+[stdout] Stop buSL1: BundleImpl[id=52]
+[stdout] SynchronousBundleEvent: STOPPING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] Removing reference = org.knopflerfish.framework.ServiceReferenceImpl@2d35da43
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@49594a88
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@49594a88
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Stop buSL2: BundleImpl[id=53]
+[stdout] SynchronousBundleEvent: STOPPING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@2967c5e3
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@2967c5e3
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Checking ServiceEvents(ServiceListener):
+[stdout] Checking ServiceEvents(AllServiceListener):
+[stdout] junit_runner: End test FrameSL15a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL15a)
+[stdout] junit_runner: Starting test FrameSL20a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL20a)
+[stdout] Starting buSL1: BundleImpl[id=52]
+[stdout] SynchronousBundleEvent: STARTING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] Starting buSL2: BundleImpl[id=53]
+[stdout] SynchronousBundleEvent: STARTING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] Adding reference = org.knopflerfish.framework.ServiceReferenceImpl@77a9f87c
+[stdout] bar: Doing foo
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] bar: Registered org.knopflerfish.framework.ServiceRegistrationImpl@77a9f87c
+[stdout] Starting buSL3: BundleImpl[id=54]
+[stdout] SynchronousBundleEvent: STARTING #54 (internal:bundleSL3-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator3
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator3
+[stdout] SL3: Adding reference = org.knopflerfish.framework.ServiceReferenceImpl@77a9f87c
+[stdout] bar: Doing foo
+[stdout] Check that FooService is added to service tracker in buSL1
+[stdout] buSL1Activator.serviceAdded is true
+[stdout] Check that FooService is added to service tracker in buSL3
+[stdout] buSL3Activator.serviceAdded is true
+[stdout] Stop buSL2: BundleImpl[id=53]
+[stdout] SynchronousBundleEvent: STOPPING #53 (internal:bundleSL2-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@c292cb2
+Using bundles (unreg, after getService): BundleImpl[id=12], BundleImpl[id=54], BundleImpl[id=52]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Removing reference = org.knopflerfish.framework.ServiceReferenceImpl@77a9f87c
+[stdout] SL3: Removing reference = org.knopflerfish.framework.ServiceReferenceImpl@77a9f87c
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.Activator@c292cb2
+Using bundles (unreg, after getService): BundleImpl[id=12], BundleImpl[id=54], BundleImpl[id=52]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Check that FooService is removed from service tracker in buSL3
+[stdout] buSL3Activator.serviceRemoved is true
+[stdout] Stop buSL1: BundleImpl[id=52]
+[stdout] SynchronousBundleEvent: STOPPING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@4548e798
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@4548e798
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Stop buSL3: BundleImpl[id=54]
+[stdout] SynchronousBundleEvent: STOPPING #54 (internal:bundleSL3-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator3
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator3@604788d5
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator3
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator3@604788d5
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Checking ServiceEvents(ServiceListener):
+[stdout] Checking ServiceEvents(AllServiceListener):
+[stdout] junit_runner: End test FrameSL20a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL20a)
+[stdout] junit_runner: Starting test FrameSL25a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL25a)
+[stdout] Starting buSL1: BundleImpl[id=52]
+[stdout] SynchronousBundleEvent: STARTING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator
+[stdout] Starting buSL4: BundleImpl[id=55]
+[stdout] SynchronousBundleEvent: STARTING #55 (internal:bundleSL4-1.0.0.jar)
+[stdout] Adding reference = org.knopflerfish.framework.ServiceReferenceImpl@66200db9
+[stdout] bundleSL4: Doing foo
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.service.foo.FooService
+[stdout] bundleSL4: Registered org.knopflerfish.framework.ServiceRegistrationImpl@66200db9
+[stdout] Starting buSL3: BundleImpl[id=54]
+[stdout] SynchronousBundleEvent: STARTING #54 (internal:bundleSL3-1.0.0.jar)
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator3
+[stdout] ServiceEvent: 1 (REGISTERED)    org.knopflerfish.bundle.foo.Activator3
+[stdout] SL3: Adding reference = org.knopflerfish.framework.ServiceReferenceImpl@66200db9
+[stdout] bundleSL4: Doing foo
+[stdout] Check that FooService is added to service tracker in buSL3
+[stdout] buSL3Activator.serviceAdded is true
+[stdout] Check that FooService is added to service tracker in buSL1
+[stdout] buSL1Activator.serviceAdded is true
+[stdout] Stop buSL4: BundleImpl[id=55]
+[stdout] SynchronousBundleEvent: STOPPING #55 (internal:bundleSL4-1.0.0.jar)
+[stdout] SL3: Removing reference = org.knopflerfish.framework.ServiceReferenceImpl@66200db9
+[stdout] Removing reference = org.knopflerfish.framework.ServiceReferenceImpl@66200db9
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.ActivatorSL4@16cd83d8
+Using bundles (unreg, after getService): BundleImpl[id=12], BundleImpl[id=54], BundleImpl[id=52]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.service.foo.FooService
+[stdout] Service (unreg): org.knopflerfish.bundle.bar.ActivatorSL4@16cd83d8
+Using bundles (unreg, after getService): BundleImpl[id=12], BundleImpl[id=54], BundleImpl[id=52]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Check that FooService is removed from service tracker in buSL3
+[stdout] buSL3Activator.serviceRemoved is true
+[stdout] Stop buSL1: BundleImpl[id=52]
+[stdout] SynchronousBundleEvent: STOPPING #52 (internal:bundleSL1-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@40e7e8eb
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator@40e7e8eb
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Stop buSL3: BundleImpl[id=54]
+[stdout] SynchronousBundleEvent: STOPPING #54 (internal:bundleSL3-1.0.0.jar)
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator3
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator3@121321f5
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] ServiceEvent: 4 (UNREGISTERING) org.knopflerfish.bundle.foo.Activator3
+[stdout] Service (unreg): org.knopflerfish.bundle.foo.Activator3@121321f5
+Using bundles (unreg, after getService): BundleImpl[id=12]
+[stdout] ServiceReference for UNREGISTERING service is not found in the service registry; ok.
+[stdout] Checking ServiceEvents(ServiceListener):
+[stdout] Checking ServiceEvents(AllServiceListener):
+[stdout] junit_runner: End test FrameSL25a(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL25a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$Cleanup)
+[stdout] junit_runner: run test 'PackageAdminTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/PackageAdminTestSuite.xml
+[stdout] run test on PackageAdminTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Setup)
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] installBundle(bundleB_test-1.0.0.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame0187a(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame0187a)
+[stdout] Param: null
+[stdout] Count defaulted to: 1 :FRAME187A
+[stdout] installBundle(resexp_test-1.0.0.jar)
+[stdout] installBundle(resimp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #58 (internal:resexp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #59 (internal:resimp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #58 (internal:resexp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #58 (internal:resexp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #59 (internal:resimp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #58 (internal:resexp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #58 (internal:resexp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #59 (internal:resimp_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME187A:PASS
+[stdout] junit_runner: End test Frame0187a(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame0187a)
+[stdout] junit_runner: Starting test Frame0200a(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame0200a)
+[stdout] ### framework test bundle :FRAME200A:PASS
+[stdout] junit_runner: End test Frame0200a(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame0200a)
+[stdout] junit_runner: Starting test Frame215a(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame215a)
+[stdout] installBundle(bundleP1_test-1.0.0.jar)
+[stdout] installBundle(bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #61 (internal:bundleP2_test-1.0.0.jar)
+[stdout] installBundle(bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #61 (internal:bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #61 (internal:bundleP2_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME215A:PASS
+[stdout] SynchronousBundleEvent: STOPPING #61 (internal:bundleP2_test-1.0.0.jar)
+[stdout] junit_runner: End test Frame215a(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame215a)
+[stdout] junit_runner: Starting test Frame220b(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame220b)
+[stdout] installBundle(bundleP1_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #63 (internal:bundleP1_test-1.0.0.jar)
+[stdout] installBundle(bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #64 (internal:bundleP3_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME220B:PASS
+[stdout] junit_runner: End test Frame220b(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame220b)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #59 (internal:resimp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #58 (internal:resexp_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #63 (internal:bundleP1_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #64 (internal:bundleP3_test-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Cleanup)
+[stdout] junit_runner: run test 'NativeCodeTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/NativeCodeTestSuite.xml
+[stdout] run test on NativeCodeTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Setup)
+[stdout] ### framework test bundle :SETUP:PASS
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame0137a(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0137a)
+[stdout] installBundle(bundleN1_test-1.0.0.jar)
+[stdout] installBundle(bundleN2_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME137A:PASS
+[stdout] junit_runner: End test Frame0137a(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0137a)
+[stdout] junit_runner: Starting test Frame0138a(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0138a)
+[stdout] installBundle(bundleN3_test-1.0.0.jar)
+[stdout] installBundle(bundleN4_test-1.0.0.jar)
+[stdout] installBundle(bundleN5_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #67 (internal:bundleN3_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME138A:PASS
+[stdout] junit_runner: End test Frame0138a(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0138a)
+[stdout] junit_runner: Starting test Frame0139a(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0139a)
+[stdout] installBundle(bundleN3_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME139A:PASS
+[stdout] junit_runner: End test Frame0139a(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0139a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #67 (internal:bundleN3_test-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Cleanup)
+[stdout] junit_runner: run test 'PackageTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/PackageTestSuite.xml
+[stdout] run test on PackageTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] installBundle(bundleA1_test-1.0.1.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame300a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame300a)
+[stdout] installBundle(bundlePT1_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #72 (internal:bundlePT1_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME300A:PASS
+[stdout] junit_runner: End test Frame300a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame300a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #72 (internal:bundlePT1_test-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] installBundle(bundleA1_test-1.0.1.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame305a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame305a)
+[stdout] installBundle(bundlePT2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #75 (internal:bundlePT2_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME305A:PASS
+[stdout] junit_runner: End test Frame305a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame305a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #75 (internal:bundlePT2_test-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] installBundle(bundleA1_test-1.0.1.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame310a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame310a)
+[stdout] installBundle(bundlePT3_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME310A:PASS
+[stdout] junit_runner: End test Frame310a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame310a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] installBundle(bundleA1_test-1.0.1.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame320a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame320a)
+[stdout] ### framework test bundle :FRAME320A start
+[stdout] installBundle(bundleI_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #81 (internal:bundleI_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME320A:PASS
+[stdout] junit_runner: End test Frame320a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame320a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #81 (internal:bundleI_test-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] installBundle(bundleA_test-1.0.0.jar)
+[stdout] installBundle(bundleA1_test-1.0.1.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame325a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame325a)
+[stdout] ### framework test bundle :FRAME325A start
+[stdout] installBundle(bundleI_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #84 (internal:bundleI_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #84 (internal:bundleI_test-1.0.0.jar)
+[stdout] STATE I = 4 should 4
+[stdout] ### framework test bundle :FRAME325A:PASS
+[stdout] junit_runner: End test Frame325a(org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame325a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup)
+[stdout] junit_runner: run test 'RequireBundleTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/RequireBundleTestSuite.xml
+[stdout] run test on RequireBundleTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Setup)
+[stdout] installBundle(rb_A-0.1.0.jar)
+[stdout] installBundle(rb_B_api-0.1.0.jar)
+[stdout] installBundle(rb_C_api-0.1.0.jar)
+[stdout] installBundle(rb_D_api-0.1.0.jar)
+[stdout] installBundle(rb_C-0.1.0.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame400a(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame400a)
+[stdout] SynchronousBundleEvent: STARTING #85 (internal:rb_A-0.1.0.jar)
+[stdout] Started.
+[stdout] Expected exports: [test_rb.B]
+[stdout] Actual exports:   [test_rb.B(0.0.0)]
+[stdout] ### framework test bundle :FRAME400A:PASS
+[stdout] junit_runner: End test Frame400a(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame400a)
+[stdout] junit_runner: Starting test Frame410a(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame410a)
+[stdout] SynchronousBundleEvent: STARTING #89 (internal:rb_C-0.1.0.jar)
+[stdout] Started.
+[stdout] Class test_rb.C.C from bundle C.
+[stdout] Class test_rb.C.D from bundle D.
+[stdout] Class test_rb.D.D from bundle D.
+[stdout] Expected exports: [test_rb.C]
+[stdout] Actual exports:   [test_rb.C(0.0.0)]
+[stdout] Unused expected keys: {}
+[stdout] ### framework test bundle :FRAME410A:PASS
+[stdout] junit_runner: End test Frame410a(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame410a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #85 (internal:rb_A-0.1.0.jar)
+[stdout] Stoped.
+[stdout] SynchronousBundleEvent: STOPPING #89 (internal:rb_C-0.1.0.jar)
+[stdout] Stoped.
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Setup)
+[stdout] installBundle(rb_A-0.1.0.jar)
+[stdout] installBundle(rb_B_api-0.1.0.jar)
+[stdout] installBundle(rb_C_api-0.1.0.jar)
+[stdout] installBundle(rb_D_api-0.1.0.jar)
+[stdout] installBundle(rb_C-0.1.0.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame420a(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame420a)
+[stdout] SynchronousBundleEvent: STARTING #94 (internal:rb_C-0.1.0.jar)
+[stdout] Started.
+[stdout] Class test_rb.C.C from bundle C.
+[stdout] Class test_rb.C.D from bundle D.
+[stdout] Class test_rb.D.D from bundle D.
+[stdout] Expected exports: [test_rb.C]
+[stdout] Actual exports:   [test_rb.C(0.0.0)]
+[stdout] epkgs[0] initially: test_rb.D(0.0.0)
+[stdout] epkgs[1] initially: test_rb.C(0.0.0)
+[stdout] BundleImpl[id=93] is required by  BundleImpl[id=94] BundleImpl[id=92]
+[stdout] Updating BundleImpl[id=93]
+[stdout] updateBundle(test.rb_D-API, rb_D_api-0.1.0.jar)
+[stdout] epkgs[0] after update: test_rb.D(0.0.0)
+[stdout] epkgs[1] after update: test_rb.C(0.0.0)
+[stdout] BundleImpl[id=93] is required by  BundleImpl[id=94] BundleImpl[id=92]
+[stdout] Calling PackageAdmin.refresh().
+[stdout] SynchronousBundleEvent: STOPPING #94 (internal:rb_C-0.1.0.jar)
+[stdout] Stoped.
+[stdout] SynchronousBundleEvent: STARTING #94 (internal:rb_C-0.1.0.jar)
+[stdout] Started.
+[stdout] Class test_rb.C.C from bundle C.
+[stdout] Class test_rb.C.D from bundle D.
+[stdout] Class test_rb.D.D from bundle D.
+[stdout] epkgs[0] after refresh: test_rb.D(0.0.0)
+[stdout] epkgs[1] after refresh: test_rb.C(0.0.0)
+[stdout] BundleImpl[id=93] is required by  BundleImpl[id=94] BundleImpl[id=92]
+[stdout] ### framework test bundle :FRAME420A:PASS
+[stdout] junit_runner: End test Frame420a(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame420a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #94 (internal:rb_C-0.1.0.jar)
+[stdout] Stoped.
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Cleanup)
+[stdout] junit_runner: run test 'FragmentTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/FragmentTestSuite.xml
+[stdout] run test on FragmentTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame500a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame500a)
+[stdout] installBundle(fb_A-1.0.0.jar)
+[stdout] installBundle(fb_B-1.0.0.jar)
+[stdout] installBundle(fb_C_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #95 (internal:fb_A-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME500A:PASS
+[stdout] junit_runner: End test Frame500a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame500a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #95 (internal:fb_A-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame510a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame510a)
+[stdout] installBundle(fb_A-1.0.0.jar)
+[stdout] installBundle(fb_B-1.0.0.jar)
+[stdout] installBundle(fb_D_api-2.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #98 (internal:fb_A-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME510A:PASS
+[stdout] junit_runner: End test Frame510a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame510a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #98 (internal:fb_A-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame520a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame520a)
+[stdout] installBundle(fb_A-1.0.0.jar)
+[stdout] installBundle(fb_B-1.0.0.jar)
+[stdout] installBundle(fb_C_api-1.0.0.jar)
+[stdout] installBundle(fb_D_api-2.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #101 (internal:fb_A-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME520A:PASS
+[stdout] junit_runner: End test Frame520a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame520a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #101 (internal:fb_A-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame530a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame530a)
+[stdout] installBundle(fb_A-1.0.0.jar)
+[stdout] installBundle(fb_B-1.0.0.jar)
+[stdout] installBundle(fb_C_api-1.0.0.jar)
+[stdout] installBundle(fb_E-2.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #105 (internal:fb_A-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME530A:PASS
+[stdout] junit_runner: End test Frame530a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame530a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #105 (internal:fb_A-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame540a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame540a)
+[stdout] installBundle(fb_A-1.0.0.jar)
+[stdout] installBundle(fb_C_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #109 (internal:fb_A-1.0.0.jar)
+[stdout] installBundle(fb_B-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME540A:PASS
+[stdout] junit_runner: End test Frame540a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame540a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #109 (internal:fb_A-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame550b(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame550b)
+[stdout] installBundle(fb_F-2.0.0.jar)
+[stdout] installBundle(fb_B-1.0.0.jar)
+[stdout] installBundle(fb_G-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #112 (internal:fb_F-2.0.0.jar)
+[stdout] installBundle(fb_C_api-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME550B:PASS
+[stdout] junit_runner: End test Frame550b(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame550b)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #112 (internal:fb_F-2.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame560a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame560a)
+[stdout] installBundle(fb_A-1.0.0.jar)
+[stdout] installBundle(fb_B-1.0.0.jar)
+[stdout] installBundle(fb_C_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #116 (internal:fb_A-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #116 (internal:fb_A-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #116 (internal:fb_A-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME560A:PASS
+[stdout] junit_runner: End test Frame560a(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame560a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #116 (internal:fb_A-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup)
+[stdout] junit_runner: run test 'CapabiltyTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/CapabiltyTestSuite.xml
+[stdout] run test on CapabiltyTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Setup)
+[stdout] installBundle(bundleCUC1_test-1.0.0.jar)
+[stdout] installBundle(bundleCUC2_test-2.0.0.jar)
+[stdout] installBundle(bundleCUP1_test-1.0.0.jar)
+[stdout] installBundle(bundleCUP2_test-2.0.0.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame600a(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Frame600a)
+[stdout] installBundle(bundleCU_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #123 (internal:bundleCU_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME600A:PASS
+[stdout] junit_runner: End test Frame600a(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Frame600a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #123 (internal:bundleCU_test-1.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Setup)
+[stdout] installBundle(bundleCUC1_test-1.0.0.jar)
+[stdout] installBundle(bundleCUC2_test-2.0.0.jar)
+[stdout] installBundle(bundleCUP1_test-1.0.0.jar)
+[stdout] installBundle(bundleCUP2_test-2.0.0.jar)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame610a(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Frame610a)
+[stdout] installBundle(bundleCU1_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #124 (internal:bundleCUC1_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #125 (internal:bundleCUC2_test-2.0.0.jar)
+[stdout] org.osgi.framework.BundleException: Bundle#128, unable to resolve: Failed to satisfy: [org.osgi.framework.wiring.BundleRequirement: org.knopflerfish.test.capability directives: {filter=(name=CUC1)}]
+[stdout] 	at org.knopflerfish.framework.BundleImpl.getUpdatedState(BundleImpl.java:1259)
+[stdout] 	at org.knopflerfish.framework.BundleImpl.finalizeActivation(BundleImpl.java:312)
+[stdout] 	at org.knopflerfish.framework.SecurePermissionOps$5.run(SecurePermissionOps.java:581)
+[stdout] 	at java.security.AccessController.doPrivileged(Native Method)
+[stdout] 	at org.knopflerfish.framework.SecurePermissionOps.callFinalizeActivation(SecurePermissionOps.java:577)
+[stdout] 	at org.knopflerfish.framework.BundleImpl.start(BundleImpl.java:295)
+[stdout] 	at org.knopflerfish.framework.BundleImpl.start(BundleImpl.java:224)
+[stdout] 	at org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Frame610a.runTest(CapabilityTestSuite.java:207)
+[stdout] 	at junit.framework.TestCase.runBare(TestCase.java:127)
+[stdout] 	at junit.framework.TestResult$1.protect(TestResult.java:106)
+[stdout] 	at junit.framework.TestResult.runProtected(TestResult.java:124)
+[stdout] 	at junit.framework.TestResult.run(TestResult.java:109)
+[stdout] 	at junit.framework.TestCase.run(TestCase.java:118)
+[stdout] 	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+[stdout] 	at junit.framework.TestSuite.run(TestSuite.java:203)
+[stdout] 	at org.knopflerfish.bundle.junit.JUnitServiceImpl.runTestCase(JUnitServiceImpl.java:170)
+[stdout] 	at org.knopflerfish.bundle.junit.JUnitServiceImpl.runTestXML(JUnitServiceImpl.java:75)
+[stdout] 	at org.knopflerfish.bundle.junit.JUnitServiceImpl.runTest(JUnitServiceImpl.java:55)
+[stdout] 	at org.knopflerfish.bundle.junit_runner.Grunt.doRun(Grunt.java:198)
+[stdout] 	at org.knopflerfish.bundle.junit_runner.Grunt.doGrunt(Grunt.java:79)
+[stdout] 	at org.knopflerfish.bundle.junit_runner.Activator.start(Activator.java:57)
+[stdout] 	at org.knopflerfish.framework.BundleImpl.start0(BundleImpl.java:387)
+[stdout] 	at org.knopflerfish.framework.BundleThread.run(BundleThread.java:145)
+[stdout] ### framework test bundle :FRAME610A:PASS
+[stdout] junit_runner: End test Frame610a(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Frame610a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Cleanup)
+[stdout] SynchronousBundleEvent: STOPPING #124 (internal:bundleCUC1_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #125 (internal:bundleCUC2_test-2.0.0.jar)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.CapabilityTestSuite$Cleanup)
+[stdout] junit_runner: run test 'BundleWiringTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/BundleWiringTestSuite.xml
+[stdout] run test on BundleWiringTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.framework_test.BundleWiringTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.framework_test.BundleWiringTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame700a(org.knopflerfish.bundle.framework_test.BundleWiringTestSuite$Frame700a)
+[stdout] installBundle(bundleB_test-1.0.0.jar)
+[stdout] ### framework test bundle :FRAME700A:PASS
+[stdout] junit_runner: End test Frame700a(org.knopflerfish.bundle.framework_test.BundleWiringTestSuite$Frame700a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.framework_test.BundleWiringTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.framework_test.BundleWiringTestSuite$Cleanup)
+[stdout] junit_runner: run test 'FilterTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/FilterTestSuite.xml
+[stdout] run test on FilterTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.filter_test.FilterTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.filter_test.FilterTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame0140a(org.knopflerfish.bundle.filter_test.FilterTestSuite$Frame0140a)
+[stdout] test LDAP matchTest[0]=(string=test)
+[stdout] test LDAP matchTest[1]=(STRING=test)
+[stdout] test LDAP matchTest[2]=(StRiNg=test)
+[stdout] test LDAP matchTest[3]=(String=test)
+[stdout] test LDAP matchTest[4]=(SpaceString=test string with spaces)
+[stdout] test LDAP matchTest[5]=(Boolean=true)
+[stdout] test LDAP matchTest[6]=(Byte=16)
+[stdout] test LDAP matchTest[7]=(Character=X)
+[stdout] test LDAP matchTest[8]=(Short=10)
+[stdout] test LDAP matchTest[9]=(Integer=10)
+[stdout] test LDAP matchTest[10]=(Long=-9876543210)
+[stdout] test LDAP matchTest[11]=(Float=1.23)
+[stdout] test LDAP matchTest[12]=(Double=-3.21)
+[stdout] test LDAP matchTest[13]=(BigInteger=-98765432109876543210)
+[stdout] test LDAP matchTest[14]=(int_array=10)
+[stdout] test LDAP matchTest[15]=(int_array=20)
+[stdout] test LDAP matchTest[16]=(int_array=30)
+[stdout] test LDAP matchTest[17]=(Vector=apa)
+[stdout] test LDAP matchTest[18]=(Vector=bepa)
+[stdout] test LDAP matchTest[19]=(Vector=cepa)
+[stdout] test LDAP matchTest[20]=(String~=test)
+[stdout] test LDAP matchTest[21]=(Boolean~=true)
+[stdout] test LDAP matchTest[22]=(Byte~=16)
+[stdout] test LDAP matchTest[23]=(Character~=X)
+[stdout] test LDAP matchTest[24]=(Short~=10)
+[stdout] test LDAP matchTest[25]=(Integer~=10)
+[stdout] test LDAP matchTest[26]=(Long~=-9876543210)
+[stdout] test LDAP matchTest[27]=(Float~=1.23)
+[stdout] test LDAP matchTest[28]=(Double~=-3.21)
+[stdout] test LDAP matchTest[29]=(BigInteger~=-98765432109876543210)
+[stdout] test LDAP matchTest[30]=(String<=test)
+[stdout] test LDAP matchTest[31]=(Byte<=16)
+[stdout] test LDAP matchTest[32]=(Character<=X)
+[stdout] test LDAP matchTest[33]=(Short<=10)
+[stdout] test LDAP matchTest[34]=(Integer<=10)
+[stdout] test LDAP matchTest[35]=(Long<=-9876543210)
+[stdout] test LDAP matchTest[36]=(Float<=1.23)
+[stdout] test LDAP matchTest[37]=(Double<=-3.21)
+[stdout] test LDAP matchTest[38]=(BigInteger<=-98765432109876543210)
+[stdout] test LDAP matchTest[39]=(String<=u)
+[stdout] test LDAP matchTest[40]=(Byte<=21)
+[stdout] test LDAP matchTest[41]=(Character<=Y)
+[stdout] test LDAP matchTest[42]=(Short<=12)
+[stdout] test LDAP matchTest[43]=(Integer<=100)
+[stdout] test LDAP matchTest[44]=(Long<=9876543210)
+[stdout] test LDAP matchTest[45]=(Float<=2)
+[stdout] test LDAP matchTest[46]=(Double<=-1)
+[stdout] test LDAP matchTest[47]=(BigInteger<=-98765432109876543200)
+[stdout] test LDAP matchTest[48]=(String>=test)
+[stdout] test LDAP matchTest[49]=(Byte>=16)
+[stdout] test LDAP matchTest[50]=(Character>=X)
+[stdout] test LDAP matchTest[51]=(Short>=10)
+[stdout] test LDAP matchTest[52]=(Integer>=10)
+[stdout] test LDAP matchTest[53]=(Long>=-9876543210)
+[stdout] test LDAP matchTest[54]=(Float>=1.23)
+[stdout] test LDAP matchTest[55]=(Double>=-3.21)
+[stdout] test LDAP matchTest[56]=(BigInteger>=-98765432109876543210)
+[stdout] test LDAP matchTest[57]=(String>=sestur)
+[stdout] test LDAP matchTest[58]=(Byte>=1)
+[stdout] test LDAP matchTest[59]=(Character>=A)
+[stdout] test LDAP matchTest[60]=(Short>=-20)
+[stdout] test LDAP matchTest[61]=(Integer>=0)
+[stdout] test LDAP matchTest[62]=(Long>=-19876543210)
+[stdout] test LDAP matchTest[63]=(Float>=-21.23)
+[stdout] test LDAP matchTest[64]=(Double>=-3.211)
+[stdout] test LDAP matchTest[65]=(BigInteger>=-9871290865432109876543210)
+[stdout] test LDAP matchTest[66]=(String=*)
+[stdout] test LDAP matchTest[67]=(Boolean=*)
+[stdout] test LDAP matchTest[68]=(Integer=*)
+[stdout] test LDAP matchTest[69]=(int_array=*)
+[stdout] test LDAP matchTest[70]=(Vector=*)
+[stdout] test LDAP matchTest[71]=(!(No=*))
+[stdout] test LDAP matchTest[72]=(&(String=*))
+[stdout] test LDAP matchTest[73]=(&(String=*)(Integer>=0))
+[stdout] test LDAP matchTest[74]=(&(String=*)(Integer>=0)(Boolean=true))
+[stdout] test LDAP matchTest[75]=(|(String=*))
+[stdout] test LDAP matchTest[76]=(|(String=*)(Integer>=0))
+[stdout] test LDAP matchTest[77]=(|(Noway=*)(Integer>=0))
+[stdout] test LDAP matchTest[78]=(|(Integer>=0)(Noway=*))
+[stdout] test LDAP matchTest[79]=(|(Noway=*)(Noway=*)(String=*))
+[stdout] test LDAP matchTest[80]=(String=t*)
+[stdout] test LDAP matchTest[81]=(String=*t)
+[stdout] test LDAP matchTest[82]=(SpaceString=test string * spaces)
+[stdout] test LDAP matchTest[83]=(SpaceString=* string * spaces)
+[stdout] test LDAP matchTest[84]=(SpaceString=* *)
+[stdout] test LDAP matchTest[85]=(&(|(Noway=*)(!(Noway=*)))(String=*))
+[stdout] ### framework test bundle :FRAME140A:PASS
+[stdout] junit_runner: End test Frame0140a(org.knopflerfish.bundle.filter_test.FilterTestSuite$Frame0140a)
+[stdout] junit_runner: Starting test Frame0150a(org.knopflerfish.bundle.filter_test.FilterTestSuite$Frame0150a)
+[stdout] ### framework test bundle :FRAME150A:PASS
+[stdout] junit_runner: End test Frame0150a(org.knopflerfish.bundle.filter_test.FilterTestSuite$Frame0150a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.filter_test.FilterTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.filter_test.FilterTestSuite$Cleanup)
+[stdout] junit_runner: run test 'ServiceTrackerTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/ServiceTrackerTestSuite.xml
+[stdout] run test on ServiceTrackerTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$Setup)
+[stdout] junit_runner: Starting test St010a(org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$St010a)
+[stdout] installBundle(bundleS_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #130 (internal:bundleS_test-1.0.0.jar)
+[stdout] started service bundle
+[stdout] ### Frame test bundle :ST010A:PASS
+[stdout] junit_runner: End test St010a(org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$St010a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$Cleanup)
+[stdout] junit_runner: run test 'ConstantsTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/ConstantsTestSuite.xml
+[stdout] run test on ConstantsTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Setup)
+[stdout] junit_runner: Starting test Frame0300a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0300a)
+[stdout] junit_runner: End test Frame0300a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0300a)
+[stdout] junit_runner: Starting test Frame0310a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0310a)
+[stdout] junit_runner: End test Frame0310a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0310a)
+[stdout] junit_runner: Starting test Frame0320a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0320a)
+[stdout] junit_runner: End test Frame0320a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0320a)
+[stdout] junit_runner: Starting test Frame0330a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0330a)
+[stdout] junit_runner: End test Frame0330a(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0330a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Cleanup)
+[stdout] junit_runner: run test 'PerformanceRegistryTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/PerformanceRegistryTestSuite.xml
+[stdout] run test on PerformanceRegistryTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$Setup)
+[stdout] junit_runner: Starting test AddListeners(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$AddListeners)
+[stdout] registry_perf: adding 100 service listeners
+[stdout] registry_perf: listener count=100
+[stdout] junit_runner: End test AddListeners(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$AddListeners)
+[stdout] junit_runner: Starting test ModifyServices(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$RegisterServices)
+[stdout] registry_perf: registering 1000 services, listener count=100
+[stdout] registry_perf: register took 274ms
+[stdout] junit_runner: End test ModifyServices(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$RegisterServices)
+[stdout] junit_runner: Starting test ModifyServices(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$ModifyServices)
+[stdout] registry_perf: modifying 1000 services, listener count=100
+[stdout] registry_perf: modify took 168ms
+[stdout] junit_runner: End test ModifyServices(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$ModifyServices)
+[stdout] junit_runner: Starting test UnregisterServices(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$UnregisterServices)
+[stdout] registry_perf: unregistering 1000 services, listener count=100
+[stdout] registry_perf: unregister took 144ms
+[stdout] junit_runner: End test UnregisterServices(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$UnregisterServices)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$Cleanup)
+[stdout] junit_runner: run test 'HttpTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/HttpTestSuite.xml
+[stdout] run test on HttpTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.http_test.HttpTestSuite$Setup)
+[stdout] HttpTestSuite:SETUP starting
+[stdout] HttpTestSuite:SETUP using service with URL=http://localhost:50687/
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.http_test.HttpTestSuite$Setup)
+[stdout] junit_runner: Starting test Http005a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http005a)
+[stdout] HttpTestSuite:HTTP005A starting
+[stdout] checkAlias /index.html, http://localhost:50687/index.html
+[stdout] 005A: getResource /http_test/index.html
+[stdout]  -> bundle://17/http_test/index.html
+[stdout]  -> 139 bytes
+[stdout] junit_runner: End test Http005a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http005a)
+[stdout] junit_runner: Starting test Http006a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http006a)
+[stdout] HttpTestSuite:HTTP006A starting
+[stdout] junit_runner: End test Http006a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http006a)
+[stdout] junit_runner: Starting test Http010a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http010a)
+[stdout] HttpTestSuite:HTTP010A starting
+[stdout] checkAlias /index.html, http://localhost:50687/index.html
+[stdout] junit_runner: End test Http010a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http010a)
+[stdout] junit_runner: Starting test Http015a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http015a)
+[stdout] HttpTestSuite:HTTP015A starting
+[stdout] checkAlias /index2.html, http://localhost:50687/index2.html
+[stdout]  -> 232 bytes
+[stdout] junit_runner: End test Http015a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http015a)
+[stdout] junit_runner: Starting test Http015b(org.knopflerfish.bundle.http_test.HttpTestSuite$Http015b)
+[stdout] HttpTestSuite:HTTP015B starting
+[stdout] ### 15ba
+[stdout] checkAlias /, http://localhost:50687/
+[stdout]  -> 210 bytes
+[stdout] junit_runner: End test Http015b(org.knopflerfish.bundle.http_test.HttpTestSuite$Http015b)
+[stdout] junit_runner: Starting test Http020a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http020a)
+[stdout] HttpTestSuite:HTTP020A starting
+[stdout] checkAlias /index2.html, http://localhost:50687/index2.html
+[stdout] junit_runner: End test Http020a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http020a)
+[stdout] junit_runner: Starting test Http025a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http025a)
+[stdout] HttpTestSuite:HTTP025A starting
+[stdout] junit_runner: End test Http025a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http025a)
+[stdout] junit_runner: Starting test Http029a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http029a)
+[stdout] HttpTestSuite:HTTP029A starting
+[stdout] ### 29a
+[stdout] checkAlias /index.html, http://localhost:50687/index.html
+[stdout] 029A: getResource /http_test/index.html
+[stdout]  -> bundle://17/http_test/index.html
+[stdout]  -> 139 bytes
+[stdout] checkAlias /A/index.html, http://localhost:50687/A/index.html
+[stdout] 029A: getResource /http_test/A/index.html
+[stdout]  -> bundle://17/http_test/A/index.html
+[stdout]  -> 139 bytes
+[stdout] junit_runner: End test Http029a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http029a)
+[stdout] junit_runner: Starting test Http030a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http030a)
+[stdout] HttpTestSuite:HTTP030A starting
+[stdout] checkAlias /index.html, http://localhost:50687/index.html
+[stdout] 030A: getResource /http_test/index.html
+[stdout]  -> bundle://17/http_test/index.html
+[stdout]  -> 139 bytes
+[stdout] junit_runner: End test Http030a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http030a)
+[stdout] junit_runner: Starting test Http035a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http035a)
+[stdout] HttpTestSuite:HTTP035A starting
+[stdout] junit_runner: End test Http035a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http035a)
+[stdout] junit_runner: Starting test Http040a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http040a)
+[stdout] HttpTestSuite:HTTP040A starting
+[stdout] junit_runner: End test Http040a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http040a)
+[stdout] junit_runner: Starting test Http045a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http045a)
+[stdout] HttpTestSuite:HTTP045A starting
+[stdout] checkAlias /index2.html, http://localhost:50687/index2.html
+[stdout]  -> 232 bytes
+[stdout] junit_runner: End test Http045a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http045a)
+[stdout] junit_runner: Starting test Http050a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http050a)
+[stdout] HttpTestSuite:HTTP050A starting
+[stdout] junit_runner: End test Http050a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http050a)
+[stdout] junit_runner: Starting test Http055a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http055a)
+[stdout] HttpTestSuite:HTTP055A starting
+[stdout] checkAlias /index3.html, http://localhost:50687/index3.html
+[stdout]  -> java.io.IOException: Server returned HTTP response code: 403 for URL: http://localhost:50687/index3.html
+[stdout] junit_runner: End test Http055a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http055a)
+[stdout] junit_runner: Starting test Http060a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http060a)
+[stdout] HttpTestSuite:HTTP060A starting
+[stdout] ### 060A-1
+[stdout] ### 060A-1 a
+[stdout] ### 060A-1 b
+[stdout] checkAlias /A/index.html, http://localhost:50687/A/index.html
+[stdout] 060A-1: getResource /http_test/A/index.html
+[stdout]  -> bundle://17/http_test/A/index.html
+[stdout]  -> 139 bytes
+[stdout] ### 060A-1 c
+[stdout] ## 060A-2
+[stdout] checkAlias /A/B/index.html, http://localhost:50687/A/B/index.html
+[stdout] 060A-2: getResource /http_test/B/index.html
+[stdout]  -> bundle://17/http_test/B/index.html
+[stdout]  -> 139 bytes
+[stdout] ## 060A-3
+[stdout] checkAlias /A/B/C/index.html, http://localhost:50687/A/B/C/index.html
+[stdout] 060A-3: getResource /http_test/C/index.html
+[stdout]  -> bundle://17/http_test/C/index.html
+[stdout]  -> 139 bytes
+[stdout] ## 060A-4
+[stdout] checkAlias /A, http://localhost:50687/A
+[stdout] 060A-4: getResource /http_test/D/index.html
+[stdout]  -> bundle://17/http_test/D/index.html
+[stdout]  -> 139 bytes
+[stdout] junit_runner: End test Http060a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http060a)
+[stdout] junit_runner: Starting test Http065a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http065a)
+[stdout] HttpTestSuite:HTTP065A starting
+[stdout] ### Http test bundle :HTTP065A: PASS
+[stdout] junit_runner: End test Http065a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http065a)
+[stdout] junit_runner: Starting test Http085a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http085a)
+[stdout] HttpTestSuite:HTTP085A starting
+[stdout] checkAlias /tom, http://localhost:50687/tom
+[stdout]  -> java.io.FileNotFoundException: http://localhost:50687/tom
+[stdout] junit_runner: End test Http085a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http085a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.http_test.HttpTestSuite$Cleanup)
+[stdout] HttpTestSuite:CLEANUP starting
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.http_test.HttpTestSuite$Cleanup)
+[stdout] junit_runner: Starting test Http100a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http100a)
+[stdout] HttpTestSuite:HTTP100A starting
+[stdout] SynchronousBundleEvent: STOPPING #9 (file:jars/http/http_all-5.1.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #9 (file:jars/http/http_all-5.1.0.jar)
+[stdout] starting up
+[stdout] INFO: registered junit servlet at /junit, port=null
+[stdout] junit_runner: End test Http100a(org.knopflerfish.bundle.http_test.HttpTestSuite$Http100a)
+[stdout] junit_runner: run test 'ConnectorServiceTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/ConnectorServiceTestSuite.xml
+[stdout] run test on ConnectorServiceTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$Setup)
+[stdout] junit_runner: Starting test SimpleTest1(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest1)
+[stdout] junit_runner: End test SimpleTest1(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest1)
+[stdout] junit_runner: Starting test SimpleTest2(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest2)
+[stdout] junit_runner: End test SimpleTest2(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest2)
+[stdout] junit_runner: Starting test SimpleTest3(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest3)
+[stdout] junit_runner: End test SimpleTest3(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest3)
+[stdout] junit_runner: Starting test SimpleTest4(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest4)
+[stdout] junit_runner: End test SimpleTest4(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest4)
+[stdout] junit_runner: Starting test SimpleTest5(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest5)
+[stdout] junit_runner: End test SimpleTest5(org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest5)
+[stdout] junit_runner: run test 'PreferencesTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/PreferencesTestSuite.xml
+[stdout] run test on PreferencesTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Setup)
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Setup)
+[stdout] junit_runner: Starting test Preferences0100a(org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Preferences0100a)
+[stdout] junit_runner: End test Preferences0100a(org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Preferences0100a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Cleanup)
+[stdout] junit_runner: run test 'StartLevelTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/StartLevelTestSuite.xml
+[stdout] run test on StartLevelTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$Setup)
+[stdout] PASSED: Setup, sl=7
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$Setup)
+[stdout] junit_runner: Starting test StartLevel100a(org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$StartLevel100a)
+[stdout] ### framework test bundle :STARTLVL100A start
+[stdout] installBundle(bundleSLA_test-1.0.0.jar)
+[stdout] installBundle(bundleSLB_test-1.0.0.jar)
+[stdout] installBundle(bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #131 (internal:bundleSLA_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #133 (internal:bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #132 (internal:bundleSLB_test-1.0.0.jar)
+[stdout] installBundle(bundleSLD_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #134 (internal:bundleSLD_test-1.0.0.jar)
+[stdout] updateBundle(bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #133 (internal:bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #133 (internal:bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #132 (internal:bundleSLB_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #133 (internal:bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #134 (internal:bundleSLD_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #131 (internal:bundleSLA_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #131 (internal:bundleSLA_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #134 (internal:bundleSLD_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #133 (internal:bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #132 (internal:bundleSLB_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #131 (internal:bundleSLA_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #132 (internal:bundleSLB_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #133 (internal:bundleSLC_test_api-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #134 (internal:bundleSLD_test-1.0.0.jar)
+[stdout] ### start level test bundle :STARTLVL100A:PASS
+[stdout] junit_runner: End test StartLevel100a(org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$StartLevel100a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$Cleanup)
+[stdout] junit_runner: run test 'ConditionalPermissionAdminTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/ConditionalPermissionAdminTestSuite.xml
+[stdout] run test on ConditionalPermissionAdminTestSuite
+[stdout] junit_runner: Starting test Setup(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Setup)
+[stdout] ### framework test bundle :SETUP:PASS
+[stdout] junit_runner: End test Setup(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Setup)
+[stdout] junit_runner: Starting test Condperm100a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm100a)
+[stdout] ### framework test bundle :CONDPERM100A:PASS
+[stdout] junit_runner: End test Condperm100a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm100a)
+[stdout] junit_runner: Starting test Condperm110a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm110a)
+[stdout] ### framework test bundle :CONDPERM110A:PASS
+[stdout] junit_runner: End test Condperm110a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm110a)
+[stdout] junit_runner: Starting test Condperm200a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm200a)
+[stdout] installBundle(bundleP1_test-1.0.0.jar)
+[stdout] installBundle(bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #136 (internal:bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #136 (internal:bundleP2_test-1.0.0.jar)
+[stdout] ### framework test bundle :CONDPERM200A:PASS
+[stdout] junit_runner: End test Condperm200a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm200a)
+[stdout] junit_runner: Starting test Condperm210a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm210a)
+[stdout] installBundle(bundleP1_test-1.0.0.jar)
+[stdout] installBundle(bundleP2_test-1.0.0.jar)
+[stdout] installBundle(bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #138 (internal:bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #139 (internal:bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #139 (internal:bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #138 (internal:bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #138 (internal:bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #139 (internal:bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #138 (internal:bundleP2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #139 (internal:bundleP3_test-1.0.0.jar)
+[stdout] ### framework test bundle :CONDPERM210A:PASS
+[stdout] junit_runner: End test Condperm210a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm210a)
+[stdout] junit_runner: Starting test Condperm220a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm220a)
+[stdout] installBundle(bundleP3_test-1.0.0.jar)
+[stdout] installBundle(bundleP4_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #140 (internal:bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #140 (internal:bundleP3_test-1.0.0.jar)
+[stdout] installBundle(bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #142 (internal:bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #141 (internal:bundleP4_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #142 (internal:bundleP3_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #141 (internal:bundleP4_test-1.0.0.jar)
+[stdout] ### framework test bundle :CONDPERM220A:PASS
+[stdout] junit_runner: End test Condperm220a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm220a)
+[stdout] junit_runner: Starting test Condperm230a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm230a)
+[stdout] installBundle(bundleP5_test-1.0.0.jar)
+[stdout] ### framework test bundle :CONDPERM230A:PASS
+[stdout] junit_runner: End test Condperm230a(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Condperm230a)
+[stdout] junit_runner: Starting test Cleanup(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Cleanup)
+[stdout] junit_runner: End test Cleanup(org.knopflerfish.bundle.condpermadmin_test.CondPermAdminTestSuite$Cleanup)
+[stdout] junit_runner: run test 'ComponentTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/ComponentTestSuite.xml
+[stdout] run test on ComponentTestSuite
+[stdout] junit_runner: Starting test Test1(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test1)
+[stdout] installBundle(componentA_test-1.0.1.jar)
+[stdout] SynchronousBundleEvent: STARTING #144 (internal:componentA_test-1.0.1.jar)
+[stdout] #ComponentA was started
+[stdout] component.name= componentA1.test
+[stdout] component.id= 0
+[stdout] # In activate in ComponentA1
+[stdout] # In deactivate in ComponentA1
+[stdout] SynchronousBundleEvent: STOPPING #144 (internal:componentA_test-1.0.1.jar)
+[stdout] ComponentA was stopped
+[stdout] junit_runner: End test Test1(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test1)
+[stdout] junit_runner: Starting test Test2b(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test2b)
+[stdout] installBundle(componentA_test-1.0.1.jar)
+[stdout] SynchronousBundleEvent: STARTING #145 (internal:componentA_test-1.0.1.jar)
+[stdout] #ComponentA was started
+[stdout] # In bind componentC
+[stdout] # In activate componentC
+[stdout] # In activate componentA
+[stdout] # In bind componentC
+[stdout] # In deactivate componentA
+[stdout] # In deactivate componentC
+[stdout] # In unbind componentC
+[stdout] # In unbind componentC
+[stdout] SynchronousBundleEvent: STOPPING #145 (internal:componentA_test-1.0.1.jar)
+[stdout] ComponentA was stopped
+[stdout] junit_runner: End test Test2b(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test2b)
+[stdout] junit_runner: Starting test Test3(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test3)
+[stdout] installBundle(componentA_test-1.0.1.jar)
+[stdout] SynchronousBundleEvent: STARTING #146 (internal:componentA_test-1.0.1.jar)
+[stdout] #ComponentA was started
+[stdout] component.name= componentP.test
+[stdout] component.id= 16
+[stdout] String1= string1
+[stdout] Strings= [apa, bepa, cepa]
+[stdout] Long1= 1
+[stdout] Longs=  [1, 2, 3]
+[stdout] Double1= 1.677721600390625E7
+[stdout] Doubles=  [1.0, 2.0, 3.0, 4.0]
+[stdout] Float1= 4.0
+[stdout] Floats=  [1.0, 2.0, 3.0, 4.0, 5.0]
+[stdout] Integer1= 1
+[stdout] Integers=  [1, 2, 3, 4, 5, 6]
+[stdout] Byte1= 1
+[stdout] Bytes=  [1, 2, 3, 4, 5, 6, 7]
+[stdout] Short1= 1
+[stdout] Shorts=  [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+[stdout] Character1= 1
+[stdout] Characters=  [1, 2, 3, 4, 5, 6, 7, 8]
+[stdout] Character2= 2
+[stdout] Characters2=  [3, 4, 5, 6, 7, 8]
+[stdout] Boolean1= true
+[stdout] Booleans=  [false, true, false]
+[stdout] SynchronousBundleEvent: STOPPING #146 (internal:componentA_test-1.0.1.jar)
+[stdout] ComponentA was stopped
+[stdout] junit_runner: End test Test3(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test3)
+[stdout] junit_runner: Starting test TestSfBugs32556558(org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs32556558)
+[stdout] installBundle(componentE_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #147 (internal:componentE_test-1.0.0.jar)
+[stdout] component.name= componentE_test.E1
+[stdout] Initially no E2 service bound to E1.
+[stdout] Creating E2 component instance.
+[stdout] E1Impl: binding E2 to org.knopflerfish.bundle.componentE_test.ComponentE2Impl@ffce2f2
+[stdout] E2 service bound to E1: org.knopflerfish.bundle.componentE_test.ComponentE2Impl@ffce2f2
+[stdout] Disposing E2 component instance.
+[stdout] E1Impl: unbinding E2 from org.knopflerfish.bundle.componentE_test.ComponentE2Impl@ffce2f2
+[stdout] E2 service bound to E1 after disposal: null
+[stdout] Creating second E2 component instance.
+[stdout] E1Impl: binding E2 to org.knopflerfish.bundle.componentE_test.ComponentE2Impl@30e2d858
+[stdout] Second E2 service bound to e1: org.knopflerfish.bundle.componentE_test.ComponentE2Impl@30e2d858
+[stdout] Disposing second E2 component instance.
+[stdout] E1Impl: unbinding E2 from org.knopflerfish.bundle.componentE_test.ComponentE2Impl@30e2d858
+[stdout] E2 service bound to E1 after disposal (2): null
+[stdout] SynchronousBundleEvent: STOPPING #147 (internal:componentE_test-1.0.0.jar)
+[stdout] junit_runner: End test TestSfBugs32556558(org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs32556558)
+[stdout] junit_runner: Starting test TestSfBugs2883959(org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs2883959)
+[stdout] installBundle(component2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #148 (internal:component2_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #148 (internal:component2_test-1.0.0.jar)
+[stdout] junit_runner: End test TestSfBugs2883959(org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs2883959)
+[stdout] junit_runner: Starting test Test4(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test4)
+[stdout] installBundle(componentA_test-1.0.1.jar)
+[stdout] SynchronousBundleEvent: STARTING #149 (internal:componentA_test-1.0.1.jar)
+[stdout] #ComponentA was started
+[stdout] # In bind componentC
+[stdout] # In activate componentC
+[stdout] # In deactivate componentC
+[stdout] # In unbind componentC
+[stdout] SynchronousBundleEvent: STOPPING #149 (internal:componentA_test-1.0.1.jar)
+[stdout] ComponentA was stopped
+[stdout] junit_runner: End test Test4(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test4)
+[stdout] junit_runner: Starting test Test5(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test5)
+[stdout] installBundle(componentA_test-1.0.1.jar)
+[stdout] SynchronousBundleEvent: STARTING #150 (internal:componentA_test-1.0.1.jar)
+[stdout] #ComponentA was started
+[stdout] # In bind componentC
+[stdout] # In activate componentC
+[stdout] # In bind componentC
+[stdout] # In unbind componentC
+[stdout] # In bind componentC
+[stdout] # In deactivate componentC
+[stdout] # In unbind componentC
+[stdout] # In unbind componentC
+[stdout] SynchronousBundleEvent: STOPPING #150 (internal:componentA_test-1.0.1.jar)
+[stdout] ComponentA was stopped
+[stdout] junit_runner: End test Test5(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test5)
+[stdout] junit_runner: Starting test Test6(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test6)
+[stdout] installBundle(componentX_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #151 (internal:componentX_test-1.0.0.jar)
+[stdout] XImpl: activate
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentX_test.ComponentXImpl@382b7bd9
+[stdout] ZImpl: activate
+[stdout] YImpl: binding Z, org.knopflerfish.bundle.componentX_test.ComponentZImpl@59c83354
+[stdout] YImpl: activate
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentX_test.ComponentYImpl@1520a48c
+[stdout] ZImpl: disable!
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentX_test.ComponentYImpl@1520a48c
+[stdout] YImpl: deactivate
+[stdout] YImpl: unbinding Z, org.knopflerfish.bundle.componentX_test.ComponentZImpl@59c83354
+[stdout] ZImpl: deactivate
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentX_test.ComponentXImpl@382b7bd9
+[stdout] XImpl: enable!
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentX_test.ComponentXImpl@382b7bd9
+[stdout] ZImpl: activate
+[stdout] YImpl: binding Z, org.knopflerfish.bundle.componentX_test.ComponentZImpl@2f600492
+[stdout] YImpl: activate
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentX_test.ComponentYImpl@48cc258a
+[stdout] SynchronousBundleEvent: STOPPING #151 (internal:componentX_test-1.0.0.jar)
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentX_test.ComponentYImpl@48cc258a
+[stdout] YImpl: deactivate
+[stdout] YImpl: unbinding Z, org.knopflerfish.bundle.componentX_test.ComponentZImpl@2f600492
+[stdout] ZImpl: deactivate
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentX_test.ComponentXImpl@382b7bd9
+[stdout] XImpl: deactivate
+[stdout] SynchronousBundleEvent: STARTING #151 (internal:componentX_test-1.0.0.jar)
+[stdout] XImpl: activate
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentX_test.ComponentXImpl@7f25b750
+[stdout] ZImpl: activate
+[stdout] YImpl: binding Z, org.knopflerfish.bundle.componentX_test.ComponentZImpl@864dfeb
+[stdout] YImpl: activate
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentX_test.ComponentYImpl@213eb2bc
+[stdout] ZImpl: disable!
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentX_test.ComponentYImpl@213eb2bc
+[stdout] YImpl: deactivate
+[stdout] YImpl: unbinding Z, org.knopflerfish.bundle.componentX_test.ComponentZImpl@864dfeb
+[stdout] ZImpl: deactivate
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentX_test.ComponentXImpl@7f25b750
+[stdout] XImpl: deactivate
+[stdout] XImpl: activate
+[stdout] SynchronousBundleEvent: STOPPING #151 (internal:componentX_test-1.0.0.jar)
+[stdout] XImpl: deactivate
+[stdout] junit_runner: End test Test6(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test6)
+[stdout] junit_runner: Starting test Test7(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test7)
+[stdout] installBundle(componentU_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #152 (internal:componentU_test-1.0.0.jar)
+[stdout] YImpl: activate
+[stdout] ZImpl: binding Y, org.knopflerfish.bundle.componentU_test.ComponentYImpl@6bd3e069
+[stdout] ZImpl: activate
+[stdout] XImpl: binding Z, org.knopflerfish.bundle.componentU_test.ComponentZImpl@233244cd
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentU_test.ComponentYImpl@6bd3e069
+[stdout] XImpl: activate
+[stdout] XImpl: deactivate
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentU_test.ComponentYImpl@6bd3e069
+[stdout] XImpl: unbinding Z, org.knopflerfish.bundle.componentU_test.ComponentZImpl@233244cd
+[stdout] ZImpl: deactivate
+[stdout] ZImpl: unbinding Y, org.knopflerfish.bundle.componentU_test.ComponentYImpl@6bd3e069
+[stdout] YImpl: deactivate
+[stdout] SynchronousBundleEvent: STOPPING #152 (internal:componentU_test-1.0.0.jar)
+[stdout] junit_runner: End test Test7(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test7)
+[stdout] junit_runner: Starting test Test8(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test8)
+[stdout] installBundle(componentF_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #153 (internal:componentF_test-1.0.0.jar)
+[stdout] YImpl: activate
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@14860315
+[stdout] XImpl: activate
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@14860315
+[stdout] XImpl: activate
+[stdout] XImpl: binding TestService, org.knopflerfish.service.component_test.TestService@283b18f
+[stdout] XImpl: binding TestService, org.knopflerfish.service.component_test.TestService@283b18f
+[stdout] XImpl: unbinding TestService, org.knopflerfish.service.component_test.TestService@283b18f
+[stdout] XImpl: unbinding TestService, org.knopflerfish.service.component_test.TestService@283b18f
+[stdout] XImpl: binding TestService, org.knopflerfish.service.component_test.TestService@12133926
+[stdout] XImpl: binding TestService, org.knopflerfish.service.component_test.TestService@12133926
+[stdout] XImpl: deactivate
+[stdout] XImpl: unbinding TestService, org.knopflerfish.service.component_test.TestService@12133926
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@14860315
+[stdout] XImpl: unbinding TestService, org.knopflerfish.service.component_test.TestService@12133926
+[stdout] XImpl: deactivate
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@14860315
+[stdout] SynchronousBundleEvent: STOPPING #153 (internal:componentF_test-1.0.0.jar)
+[stdout] YImpl: deactivate
+[stdout] junit_runner: End test Test8(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test8)
+[stdout] junit_runner: Starting test Test9(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test9)
+[stdout] installBundle(componentF_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #154 (internal:componentF_test-1.0.0.jar)
+[stdout] ZImpl: activate
+[stdout] YImpl: activate
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@33262bf4
+[stdout] XImpl: activate
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@17c1e333
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@33262bf4
+[stdout] XImpl: activate
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@3685be9
+[stdout] XImpl: disable Z!
+[stdout] ZImpl: deactivate
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@17c1e333
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@3685be9
+[stdout] XImpl: enable Z!
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@17c1e333
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@3685be9
+[stdout] ZImpl: activate
+[stdout] XImpl: binding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@33262bf4
+[stdout] XImpl: activate
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@2c013ada
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@17c1e333
+[stdout] XImpl: deactivate
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@33262bf4
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@3685be9
+[stdout] XImpl: deactivate
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@33262bf4
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentF_test.ComponentXImpl@2c013ada
+[stdout] XImpl: deactivate
+[stdout] XImpl: unbinding Y, org.knopflerfish.bundle.componentF_test.ComponentYImpl@33262bf4
+[stdout] YImpl: deactivate
+[stdout] SynchronousBundleEvent: STOPPING #154 (internal:componentF_test-1.0.0.jar)
+[stdout] ZImpl: deactivate
+[stdout] junit_runner: End test Test9(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test9)
+[stdout] junit_runner: Starting test Test10(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test10)
+[stdout] installBundle(componentC_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #155 (internal:componentC_test-1.0.0.jar)
+[stdout] VImpl: activate {vnum=v1, component.name=componentC_test.V1, component.id=54}
+[stdout] VImpl: activate {vnum=v2, component.name=componentC_test.V2, component.id=55}
+[stdout] YImpl: activate
+[stdout] XImpl: activate
+[stdout] ZImpl: binding X, org.knopflerfish.bundle.componentC_test.ComponentXImpl@9ac8b37
+[stdout] ZImpl: activate
+[stdout] XImpl: modify
+[stdout] ZImpl: updated X, org.knopflerfish.bundle.componentC_test.ComponentXImpl@9ac8b37
+[stdout] XImpl: modify
+[stdout] ZImpl: updated X, org.knopflerfish.bundle.componentC_test.ComponentXImpl@9ac8b37
+[stdout] ZImpl: deactivate
+[stdout] ZImpl: unbinding X, org.knopflerfish.bundle.componentC_test.ComponentXImpl@9ac8b37
+[stdout] XImpl: deactivate
+[stdout] YImpl: deactivate
+[stdout] YImpl: activate
+[stdout] YImpl: deactivate
+[stdout] YImpl: activate
+[stdout] YImpl: deactivate
+[stdout] YImpl: activate
+[stdout] YImpl: activate
+[stdout] YImpl: activate
+[stdout] YImpl: activate
+[stdout] YImpl: deactivate
+[stdout] YImpl: deactivate
+[stdout] YImpl: deactivate
+[stdout] YImpl: deactivate
+[stdout] YImpl: activate
+[stdout] SynchronousBundleEvent: STOPPING #155 (internal:componentC_test-1.0.0.jar)
+[stdout] VImpl: deactivate
+[stdout] VImpl: deactivate
+[stdout] YImpl: deactivate
+[stdout] junit_runner: End test Test10(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test10)
+[stdout] junit_runner: Starting test Test11(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test11)
+[stdout] installBundle(componentC_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #156 (internal:componentC_test-1.0.0.jar)
+[stdout] VImpl: activate {vnum=v1, component.name=componentC_test.V1, component.id=60}
+[stdout] VImpl: activate {vnum=v2, component.name=componentC_test.V2, component.id=61}
+[stdout] YImpl: activate
+[stdout] UImpl: activate {service.pid=componentC_test.U._0, service.factoryPid=componentC_test.U, component.name=componentC_test.U, vRef.target=(vnum=v1), component.id=59}
+[stdout] UImpl: deactivate
+[stdout] UImpl: activate {service.pid=componentC_test.U._0, service.factoryPid=componentC_test.U, component.name=componentC_test.U, vRef.target=(vnum=v1), component.id=59}
+[stdout] UImpl: activate {service.pid=componentC_test.U._1, service.factoryPid=componentC_test.U, component.name=componentC_test.U, vRef.target=(vnum=v2), component.id=59}
+[stdout] UImpl: deactivate
+[stdout] UImpl: activate {service.pid=componentC_test.U._1, service.factoryPid=componentC_test.U, component.name=componentC_test.U, vRef.target=(vnum=v2), component.id=59}
+[stdout] VImpl: getProp from: 60
+[stdout] VImpl: getProp from: 61
+[stdout] UImpl: deactivate
+[stdout] UImpl: deactivate
+[stdout] SynchronousBundleEvent: STOPPING #156 (internal:componentC_test-1.0.0.jar)
+[stdout] VImpl: deactivate
+[stdout] VImpl: deactivate
+[stdout] YImpl: deactivate
+[stdout] junit_runner: End test Test11(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test11)
+[stdout] junit_runner: Starting test Test12(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test12)
+[stdout] installBundle(componentM_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #157 (internal:componentM_test-1.0.0.jar)
+[stdout] AImpl: activate {service.factoryPid=componentM_test.A, component.name=componentM_test.A, service.pid=componentM_test.A._1, component.id=65, bRef.target=(bnum=b1), anum=a1}
+[stdout] B2Impl: activate {service.factoryPid=componentM_test.B2, component.name=componentM_test.B2, bnum=b1, cRef.target=(cnum=c1), service.pid=componentM_test.B2._0, component.id=67}
+[stdout] CImpl: activate {service.pid=componentM_test.C._0, cnum=c1, service.factoryPid=componentM_test.C, component.name=componentM_test.C, component.id=68}
+[stdout] AImpl: activate {service.factoryPid=componentM_test.A, component.name=componentM_test.A, service.pid=componentM_test.A._2, component.id=65, bRef.target=(bnum=b2), anum=a2}
+[stdout] B2Impl: activate {service.factoryPid=componentM_test.B2, component.name=componentM_test.B2, bnum=b2, cRef.target=(cnum=c2), service.pid=componentM_test.B2._1, component.id=67}
+[stdout] CImpl: activate {service.pid=componentM_test.C._1, cnum=c2, service.factoryPid=componentM_test.C, component.name=componentM_test.C, component.id=68}
+[stdout] AImpl: deactivate
+[stdout] AImpl: activate {cRef.target=(cnum=c2), service.factoryPid=componentM_test.A, anum=a1, service.pid=componentM_test.A._1, bRef.target=(bnum=b1), component.name=componentM_test.A, component.id=65}
+[stdout] AImpl: deactivate
+[stdout] AImpl: activate {cRef.target=(cnum=c2), service.factoryPid=componentM_test.A, anum=a1, service.pid=componentM_test.A._1, bRef.target=(bnum=b1), component.name=componentM_test.A, component.id=65}
+[stdout] AImpl: deactivate
+[stdout] AImpl: deactivate
+[stdout] B2Impl: deactivate
+[stdout] B2Impl: deactivate
+[stdout] CImpl: deactivate
+[stdout] CImpl: deactivate
+[stdout] SynchronousBundleEvent: STOPPING #157 (internal:componentM_test-1.0.0.jar)
+[stdout] junit_runner: End test Test12(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test12)
+[stdout] junit_runner: Starting test Test13(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test13)
+[stdout] installBundle(componentM_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STARTING #158 (internal:componentM_test-1.0.0.jar)
+[stdout] B2Impl: activate {service.factoryPid=componentM_test.B2, component.name=componentM_test.B2, bnum=b1, cRef.target=(cnum=c1), service.pid=componentM_test.B2._2, component.id=71}
+[stdout] CImpl: activate {service.pid=componentM_test.C._2, cnum=c1, service.factoryPid=componentM_test.C, component.name=componentM_test.C, component.id=72}
+[stdout] B2Impl: activate {service.factoryPid=componentM_test.B2, component.name=componentM_test.B2, bnum=b2, cRef.target=(cnum=c2), service.pid=componentM_test.B2._3, component.id=71}
+[stdout] AImpl: activate {cRef.target=(cnum=c2), service.factoryPid=componentM_test.A, anum=a1, service.pid=componentM_test.A._4, bRef.target=(bnum=b1), component.name=componentM_test.A, component.id=69}
+[stdout] CImpl: activate {service.pid=componentM_test.C._3, cnum=c2, service.factoryPid=componentM_test.C, component.name=componentM_test.C, component.id=72}
+[stdout] AImpl: activate {cRef.target=(cnum=c0), service.factoryPid=componentM_test.A, anum=a2, service.pid=componentM_test.A._5, bRef.target=(bnum=b2), component.name=componentM_test.A, component.id=69}
+[stdout] AImpl: activate {cRef.target=(cnum=c1), service.factoryPid=componentM_test.A, anum=a0, service.pid=componentM_test.A._3, bRef.target=(bnum=b0), component.name=componentM_test.A, component.id=69}
+[stdout] B1Impl: activate {component.name=componentM_test.B1, bnum=b0, component.id=70}
+[stdout] CImpl: activate {service.pid=componentM_test.C._4, cnum=c0, service.factoryPid=componentM_test.C, component.name=componentM_test.C, component.id=72}
+[stdout] AImpl: deactivate
+[stdout] AImpl: deactivate
+[stdout] B2Impl: deactivate
+[stdout] CImpl: deactivate
+[stdout] AImpl: deactivate
+[stdout] B1Impl: deactivate
+[stdout] CImpl: deactivate
+[stdout] B2Impl: deactivate
+[stdout] CImpl: deactivate
+[stdout] SynchronousBundleEvent: STOPPING #158 (internal:componentM_test-1.0.0.jar)
+[stdout] junit_runner: End test Test13(org.knopflerfish.bundle.component_test.ComponentTestSuite$Test13)
+[stdout] junit_runner: 
+All tests (FrameworkTestSuite ServiceListenerTestSuite PackageAdminTestSuite NativeCodeTestSuite PackageTestSuite RequireBundleTestSuite FragmentTestSuite CapabiltyTestSuite BundleWiringTestSuite FilterTestSuite ServiceTrackerTestSuite ConstantsTestSuite PerformanceRegistryTestSuite HttpTestSuite ConnectorServiceTestSuite PreferencesTestSuite StartLevelTestSuite ConditionalPermissionAdminTestSuite ComponentTestSuite) done.
+Output XML in /Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt
+[stdout] junit_runner: Quit framework after tests
+[stdout] SynchronousBundleEvent: STOPPING #0 (System Bundle)
+[stdout] SynchronousBundleEvent: STOPPING #130 (internal:bundleS_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #24 (file:jars/junit_runner/junit_runner_all-4.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #23 (file:test_jars/component_test/component_test-1.6.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #22 (file:jars/component/component_all-5.0.3.jar)
+[stdout] SynchronousBundleEvent: STOPPING #21 (file:test_jars/condpermadmin_test/condpermadmin_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #20 (file:test_jars/startlevel_test/startlevel_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #19 (file:test_jars/preferences_test/preferences_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #18 (file:test_jars/io_test/io_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #17 (file:test_jars/http_test/http_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #16 (file:test_jars/registryperformance_test/registryperformance_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #15 (file:test_jars/constants_test/constants_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #14 (file:test_jars/servicetracker_test/servicetracker_test-1.0.1.jar)
+[stdout] SynchronousBundleEvent: STOPPING #13 (file:test_jars/filter_test/filter_test-1.0.0.jar)
+[stdout] SynchronousBundleEvent: STOPPING #12 (file:test_jars/framework_test/framework_test-1.0.3.jar)
+Framework terminated
+Jul 10 11:21:54 hagaby.mkwv.se java[94538] <Error>: The function `CGContextErase' is obsolete and will be removed in an upcoming update. Unfortunately, this application, or a library it uses, is using this obsolete function, and is thereby contributing to an overall degradation of system performance.
+Knopflerfish OSGi framework launcher, version <unknown>
+Copyright 2003-2015 Knopflerfish. All Rights Reserved.
+See http://www.knopflerfish.org for more information.
+
+Created Framework: org.knopflerfish.framework, version=7.2.0.
+junit_runner: Wait for framework start
+junit_runner: Framework start complete
+junit_runner: tests=RestartSetupTestSuite, outdir=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt, quit=true
+Framework launched
+junit_runner: run test 'RestartSetupTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/RestartSetupTestSuite.xml
+run test on RestartSetupTestSuite
+junit_runner: Starting test Setup(org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Setup)
+junit_runner: End test Setup(org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Setup)
+junit_runner: Starting test Restart001(org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Restart001)
+installBundle(bundleA_test-1.0.0.jar)
+installBundle(bundleB_test-1.0.0.jar)
+installBundle(bundleC_test-1.0.0.jar)
+installBundle(bundleF_test-1.0.0.jar)
+junit_runner: End test Restart001(org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Restart001)
+junit_runner: Starting test Cleanup(org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Cleanup)
+saved state={bundle_0_loc=internal:bundleA_test-1.0.0.jar, bundle_3_uuid=org.knopflerfish:bundleF_test:1.0.0:all, bundle_0_startlevel=5, bundle_1_id=5, bundle_1_startlevel=5, bundle_2_id=6, bundle_2_loc=internal:bundleC_test-1.0.0.jar, bundle_3_id=7, bundle_2_startlevel=-1, bundle_1_state=2, bundle_0_state=32, bundle_3_startlevel=7, bundle_1_loc=internal:bundleB_test-1.0.0.jar, bundle_0_uuid=org.knopflerfish:bundleA_test:1.0.0:all, bundle_3_state=32, bundle_1_uuid=org.knopflerfish:bundleB_test:1.0.0:all, bundle_2_state=1, bundle_3_loc=internal:bundleF_test-1.0.0.jar, bundle_0_id=4, bundle_2_uuid=org.knopflerfish:bundleC_test:1.0.0:all}
+junit_runner: End test Cleanup(org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Cleanup)
+junit_runner: 
+All tests (RestartSetupTestSuite) done.
+Output XML in /Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt
+junit_runner: Quit framework after tests
+Framework terminated
+Jul 10 11:21:59 hagaby.mkwv.se java[94539] <Error>: The function `CGContextErase' is obsolete and will be removed in an upcoming update. Unfortunately, this application, or a library it uses, is using this obsolete function, and is thereby contributing to an overall degradation of system performance.
+Knopflerfish OSGi framework launcher, version <unknown>
+Copyright 2003-2015 Knopflerfish. All Rights Reserved.
+See http://www.knopflerfish.org for more information.
+
+Created Framework: org.knopflerfish.framework, version=7.2.0.
+junit_runner: tests=RestartTestSuite, outdir=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt, quit=true
+junit_runner: run test 'RestartTestSuite', out=/Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt/RestartTestSuite.xml
+run test on RestartTestSuite
+junit_runner: Starting test Setup(org.knopflerfish.bundle.restart_test.RestartTestSuite$Setup)
+loaded state={bundle_0_loc=internal:bundleA_test-1.0.0.jar, bundle_3_uuid=org.knopflerfish:bundleF_test:1.0.0:all, bundle_0_startlevel=5, bundle_1_id=5, bundle_2_id=6, bundle_1_startlevel=5, bundle_2_loc=internal:bundleC_test-1.0.0.jar, bundle_3_id=7, bundle_2_startlevel=-1, bundle_1_state=2, bundle_0_state=32, bundle_3_startlevel=7, bundle_1_loc=internal:bundleB_test-1.0.0.jar, bundle_0_uuid=org.knopflerfish:bundleA_test:1.0.0:all, bundle_3_state=32, bundle_1_uuid=org.knopflerfish:bundleB_test:1.0.0:all, bundle_2_state=1, bundle_3_loc=internal:bundleF_test-1.0.0.jar, bundle_2_uuid=org.knopflerfish:bundleC_test:1.0.0:all, bundle_0_id=4}
+PASSED: Setup, sl=20
+junit_runner: End test Setup(org.knopflerfish.bundle.restart_test.RestartTestSuite$Setup)
+junit_runner: Starting test Restart050(org.knopflerfish.bundle.restart_test.RestartTestSuite$Restart050)
+0
+0, #7, org.knopflerfish:bundleF_test:1.0.0:all, state=32, level=7
+1
+1, #1, org.knopflerfish:junit:3.8.1.kf4-001, state=32, level=1
+2
+2, #2, org.knopflerfish:restart_test:1.0.0:all:impl, state=32, level=5
+3
+3, #0, null, state=8, level=0
+4
+4, #5, org.knopflerfish:bundleB_test:1.0.0:all, state=2, level=5
+5
+5, #4, org.knopflerfish:bundleA_test:1.0.0:all, state=32, level=5
+6
+6, #3, org.knopflerfish:junit_runner:4.0.0, state=8, level=20
+assertBundle uuid=org.knopflerfish:bundleF_test:1.0.0:all, n=3
+PASSED uuid=org.knopflerfish:bundleF_test:1.0.0:all
+assertBundle uuid=org.knopflerfish:bundleA_test:1.0.0:all, n=0
+PASSED uuid=org.knopflerfish:bundleA_test:1.0.0:all
+assertBundle uuid=org.knopflerfish:bundleB_test:1.0.0:all, n=1
+PASSED uuid=org.knopflerfish:bundleB_test:1.0.0:all
+assertBundle uuid=org.knopflerfish:bundleC_test:1.0.0:all, n=2
+PASSED: no UUID since uninstalled
+junit_runner: End test Restart050(org.knopflerfish.bundle.restart_test.RestartTestSuite$Restart050)
+junit_runner: Starting test Cleanup(org.knopflerfish.bundle.restart_test.RestartTestSuite$Cleanup)
+junit_runner: End test Cleanup(org.knopflerfish.bundle.restart_test.RestartTestSuite$Cleanup)
+junit_runner: 
+All tests (RestartTestSuite) done.
+Output XML in /Users/cl/wr/5.2.0/knopflerfish.org/out/distrib_5.2.0/junit_grunt
+junit_runner: Quit framework after tests
+Framework launched
+Framework terminated

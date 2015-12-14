@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>httproot-IMPL</artifactId>
+  <version>4.0.0</version>
+  <versioning>
+    <versions>
+      <version>4.0.0</version>
+    </versions>
+    <lastUpdated>20150710092205</lastUpdated>
+  </versioning>
+</metadata>
