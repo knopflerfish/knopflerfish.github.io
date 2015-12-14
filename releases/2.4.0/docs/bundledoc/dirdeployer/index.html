@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <LINK href="../../css/knopflerfish.css" rel="stylesheet" type="text/css">
+    <LINK href="../../css/kf_man.css" rel="stylesheet" type="text/css">
+    <title>Bundle User Documentation - dirdeployer:2.0.0</title>
+  </head>
+  <body class="mainblock">
+    <div class="manpage">
+      <div class="userdoc_hdr_left">
+	Bundle: dirdeployer
+      </div>
+      <div class="userdoc_hdr_right">
+	Version 2.0.0
+      </div>
+      <h1 class="man">Directory deployer</h1>
+
+<p>
+Simple bundle which scans file system directories and
+installs/uninstalls bundles found or removed from these directories.
+</p>
+
+<p>
+This is a quite useful tool for handle bundle deployment without using any 
+console. Just copy the bundles that should be started to the deploy 
+directory, and the directory deployer will find and start them. When the 
+files are removed, they are uninstalled.
+</p>
+
+<h2 class="man">Deploy method</h2>
+
+<p>The procedure for scanning and deploying is as follows:
+
+<ol>
+<li>
+Check if any new files have appeared or
+if any already deployed files has been replaced with newer
+files.
+</li>
+
+<li>
+New files are installed into the framework.<br>
+If they have a bundle activator, they are marked for delayed start.<br>
+Files newer than a previously deployed bundle are updated.
+</li>
+
+<li>
+Files that have the same location as an already installed
+bundle is not installed again, instead, the installed bundle is
+re-used in the created DeployedFile instance.
+</li>
+
+<li>Files marked for delayed start is started.
+</li>
+
+<li>Sleep a while</li>
+<li>Repeat from 1.</li>
+
+</ol>
+
+<h2 class="man">Configuration</h2>
+
+<p>
+See <a href="https://www.knopflerfish.org/svn/knopflerfish.org/tags/2.4.0/osgi/bundles_opt/dirdeployer/resources/metatype.xml">metatype.xml</a> for
+specification using CM. The same properties as defined by CM are also
+read as default values from the system properties. Thus, the bundle
+can be both configured by CM and using system properties.
+</p>
+<p>
+Quick guide to the metatype.xml format:
+<ul>
+ <li>Top level <tt>xsd:complexType</tt> is service PIDs</li>
+ <li><tt>xsd:element</tt> is a property</li>
+ <li><tt>metatype:values</tt> defines default values</li>
+</ul>
+For details on the metatype format, see <a
+href="http://www.knopflerfish.org/XMLMetatype">http://www.knopflerfish.org/XMLMetatype/</a>
+
+
+<p> You can set the deployment directory in <tt>metatype.xml</tt> in
+the bundle's resource directory (defaults to <tt>./load</tt>). The
+path is relative to from where the framework is started (given that
+the path is relative).  </p>
+
+      <h2 class="man">Jar docs</h2>
+      <a target="_blank" href="../../jars/dirdeployer/dirdeployer_api-2.0.0.html">dirdeployer_api-2.0.0</a><br>
+<a target="_blank" href="../../jars/dirdeployer/dirdeployer_all-2.0.0.html">dirdeployer_all-2.0.0</a><br>
+
+
+      <h2 class="man">Exported Packages</h2>
+      org.knopflerfish.service.dirdeployer
+    </div>
+  </body>
+</html>
+

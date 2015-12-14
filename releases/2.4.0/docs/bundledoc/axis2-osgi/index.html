@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <LINK href="../../css/knopflerfish.css" rel="stylesheet" type="text/css">
+    <LINK href="../../css/kf_man.css" rel="stylesheet" type="text/css">
+    <title>Bundle User Documentation - axis2-osgi:1.3</title>
+  </head>
+  <body class="mainblock">
+    <div class="manpage">
+      <div class="userdoc_hdr_left">
+	Bundle: axis2-osgi
+      </div>
+      <div class="userdoc_hdr_right">
+	Version 1.3
+      </div>
+      <h1 class="man">Axis2 OSGi</h1>
+
+<div class="abstract">
+This is an OSGi bundlification of a standard Axis2 server.<br/>
+
+The version used for this bundle is identical to the version of the
+Axis2 implementation that it contains.
+</div>
+
+<p> The bundle is part of the <a href="../soap/index.html#axis1">The
+Knopflerfish Axis 2</a> package.  </p>
+
+
+<h2 class="man">Description</h2>
+
+<p>
+In order to export a service object as a
+SOAP service, the only thing needed is to set a property named
+"SOAP.service.name" on the registered service. As a convenience
+<tt>org.knopflerfish.service.axis2.Axis2Admin.SOAP_SERVICE_NAME</tt> is
+a String constant that holds this name. The property value should be
+of type java.lang.String and its value will be used as the name of the
+exposed SOAP service.</p>
+
+<p> The set of service methods exported from a service with the
+<tt>SOAP.service.name</tt> property set can be controlled via another
+service property named, <tt>SOAP.service.methods</tt>. 
+
+<ul>
+ <li>If not set, or set to the value <tt>*</tt> then <b>all</b> methods in the registered classes are exposed as web service methods. </li>
+ <li>If set to a string with space separated method names, only 
+     those methods will be exposed as web service methods.</li>
+ <li>If set to a valid LDAP filter string, only methods names matching
+     the filter will be added. For example, <tt>(name=get*)</tt> will
+     export all <tt>get*()</tt> methods.
+ </li>
+</ul>
+
+As a convenience
+<tt>org.knopflerfish.service.axis2.Axis2Admin.SOAP_SERVICE_METHODS</tt>
+is a String constant that holds this service property name.  </p>
+
+<p>Web Services exported by the axis2-osgi bundle will have URLs on the
+form:</p>
+<pre>
+   http://localhost:8080/axis2/services/<i>&lt;SOAP_SERVICE_NAME&gt;</i>
+</pre>
+
+<p> To view the WSDL for a specific Web Service visit the URL: </p>
+<pre>
+   http://localhost:8080/axis2/services/<i>&lt;SOAP_SERVICE_NAME&gt;?wsdl</i>
+</pre>
+
+<p> To explore all web services provided by the axis2-osgi bundle the
+following URL may be used. </p>
+
+<pre>
+   http://localhost:8080/axis2admin/
+</pre>
+
+<p><b>Note: </b>The standard method in the Axis 2 web application to
+   view all service, visiting the URL
+   <tt>http://localhost:8080/axis2/listServices</tt> does <b>not</b>
+   work in axis2-osgi since it requires full WAR-support with JSP
+   handling which is not supported by the Knopflerfish HTTP
+   server.</p>
+
+<p> The code to make all this work consist of just a few quite small
+classes (not counting all Axis classes) so it is quite easy to get an
+overview of the porting effort. However it took some time
+experimenting and studying the Axis code to make this work, so some of
+the code may be harder to understand.</p>
+
+
+<p><b>Note: </b>The axis-osgi bundle depends on the commons-logging
+bundle to be installed an started. Further if your JRE does not
+support an XML parser you need to provide that as well (e.g Xerces).
+</p>
+
+<p> The axis-osgi.jar file is quite large due to the contained axis2
+jar files, even though some axis2 libraries are removed. For details
+and axis2 licenses, see contents of <tt>/WEB-INF/lib/</tt> inside the
+<tt>axis2-osgi.jar</tt>-file.  </p>
+
+<h2 class="man">See Also</h2>
+<a href="../soap/index.html">SOAP - WebServices</a>
+
+
+      <h2 class="man">Jar docs</h2>
+      <a target="_blank" href="../../jars/axis2-osgi/axis2-osgi_all-1.3.html">axis2-osgi_all-1.3</a><br>
+
+
+      <h2 class="man">Exported Packages</h2>
+      org.knopflerfish.service.axis2<br>edu.emory.mathcs.backport.java.util<br>edu.emory.mathcs.backport.java.util.concurrent<br>edu.emory.mathcs.backport.java.util.concurrent.atomic<br>edu.emory.mathcs.backport.java.util.concurrent.helpers<br>edu.emory.mathcs.backport.java.util.concurrent.locks<br>javax.mail<br>javax.mail.event<br>javax.mail.internet<br>javax.mail.search<br>javax.mail.util<br>javax.wsdl.extensions<br>javax.wsdl.extensions.http<br>javax.wsdl.extensions.mime<br>javax.wsdl.extensions.schema<br>javax.wsdl.extensions.soap<br>javax.wsdl.extensions.soap12<br>javax.wsdl.factory<br>javax.wsdl.xml<br>javax.xml.soap<br>javax.xml.stream<br>javax.xml.stream.events<br>javax.xml.stream.util<br>org.apache.axiom.attachments<br>org.apache.axiom.attachments.utils<br>org.apache.axiom.om<br>org.apache.axiom.om.impl.llom<br>org.apache.axiom.om.util<br>org.apache.axiom.om.xpath<br>org.apache.axiom.soap<br>org.apache.axis2<br>org.apache.axis2.addressing<br>org.apache.axis2.client<br>org.apache.axis2.client.async<br>org.apache.axis2.context<br>org.apache.axis2.databinding<br>org.apache.axis2.databinding.i18n<br>org.apache.axis2.databinding.typemapping<br>org.apache.axis2.databinding.types<br>org.apache.axis2.databinding.utils<br>org.apache.axis2.databinding.utils.reader<br>org.apache.axis2.databinding.utils.writer<br>org.apache.axis2.description<br>org.apache.axis2.engine<br>org.apache.axis2.rpc.receivers<br>org.apache.axis2.rpc.receivers.ejb<br>org.apache.axis2.transport<br>org.apache.axis2.transport.http<br>org.apache.axis2.transport.local<br>org.apache.axis2.transport.mail<br>org.apache.axis2.transport.nhttp<br>org.apache.axis2.transport.tcp<br>org.apache.axis2.util<br>org.apache.commons.fileupload<br>org.apache.commons.fileupload.disk<br>org.apache.commons.fileupload.portlet<br>org.apache.commons.fileupload.servlet<br>org.apache.commons.httpclient<br>org.apache.commons.httpclient.auth<br>org.apache.commons.httpclient.cookie<br>org.apache.commons.httpclient.methods<br>org.apache.commons.httpclient.methods.multipart<br>org.apache.commons.httpclient.params<br>org.apache.commons.httpclient.protocol<br>org.apache.neethi<br>org.apache.neethi.builders<br>org.apache.neethi.builders.xml<br>org.apache.neethi.util<br>org.apache.ws.commons.schema<br>org.apache.ws.commons.schema.constants<br>org.apache.ws.commons.schema.extensions<br>org.apache.ws.commons.schema.resolver<br>org.apache.ws.commons.schema.utils<br>org.codehaus.annogen.generate<br>org.codehaus.annogen.override<br>org.codehaus.annogen.view<br>org.codehaus.jam<br>org.codehaus.jam.annotation<br>org.codehaus.jam.mutable<br>org.codehaus.jam.provider<br>org.codehaus.jam.visitor<br>org.codehaus.jam.xml
+    </div>
+  </body>
+</html>
+

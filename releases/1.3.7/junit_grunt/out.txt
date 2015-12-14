@@ -1,0 +1,305 @@
+Knopflerfish OSGi framework, version 3.3.15
+Copyright 2003-2008 Knopflerfish. All Rights Reserved.
+
+See http://www.knopflerfish.org for more information.
+Loading xargs file /home/jan/work/1.3.7/osgi/init-tests.xargs
+Installed and started: file:jars/junit/junit_all-1.0.0.jar (id#1)
+Installed and started: file:bundles_test/regression_tests/jars/framework_test-1.0.0.jar (id#2)
+Installed and started: file:bundles_test/regression_tests/jars/filter_test-1.0.0.jar (id#3)
+Installed and started: file:bundles_test/regression_tests/jars/servicetracker_test-1.0.0.jar (id#4)
+Installed and started: file:bundles_test/regression_tests/jars/constants_test-1.0.0.jar (id#5)
+Installed and started: file:bundles_test/regression_tests/jars/registryperformance_test-1.0.0.jar (id#6)
+Installed and started: file:jars/junit_runner/junit_runner_all-1.0.0.jar (id#7)
+Framework launched
+junit_runner: tests=FrameworkTestSuite PackageAdminTestSuite NativeCodeTestSuite FilterTestSuite ServiceTrackerTestSuite ConstantsTestSuite PerformanceRegistryTestSuite, outdir=junit_grunt, quit=true
+junit_runner: run test 'FrameworkTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/FrameworkTestSuite.xml
+run test on FrameworkTestSuite
+### framework test bundle :SETUP:PASS
+framework test bundle, Java version 1.4.2_18
+framework test bundle, Java vendor Sun Microsystems Inc.
+### framework test bundle :FRAME005A:PASS
+org.osgi.framework.version 1.2
+org.osgi.framework.vendor Knopflerfish
+org.osgi.framework.language en
+org.osgi.framework.os.name Linux
+org.osgi.framework.os.version 2.6.27-7-server
+org.osgi.framework.processor i386
+### framework test bundle :FRAME007A:PASS
+CONTEXT ID: 2
+LOCATION: file:bundles_test/regression_tests/jars/framework_test-1.0.0.jar
+BCACTIVE: 32
+### FRAME018A:PASS: got NPE=java.lang.NullPointerException: null ServiceReference is not valid input to getService()
+### FRAME019A: PASSED, bundle: URL not supported: java.net.MalformedURLException: unknown protocol: bundle
+installBundle(bundleA_test-1.0.0.jar)
+### framework test bundle :FRAME020A:PASS
+### framework test bundle :FRAME025A:PASS
+### framework test bundle :FRAME030A:PASS
+### framework test bundle :FRAME035A:PASS
+installBundle(nonexisting_bundle_file.jar)
+### framework test bundle :FRAME038A:PASS
+installBundle(bundleD1_test-1.0.0.jar)
+### framework test bundle :FRAME041A:PASS
+### framework test bundle :FRAME045A:PASS
+installBundle(bundleB_test-1.0.0.jar)
+### framework test bundle :FRAME050A:PASS
+installBundle(bundleC_test-1.0.0.jar)
+framework test bundle, buC.getState() = 4
+### framework test bundle :FRAME055A:PASS
+Set called
+servRegB= org.knopflerfish.framework.ServiceRegistrationImpl@1ee4648
+### framework test bundle :FRAME060A:PASS
+installBundle(bundleE_test-1.0.0.jar)
+### framework test bundle :FRAME065A:PASS
+### framework test bundle :FRAME068A:PASS
+### framework test bundle :FRAME069A:PASS
+installBundle(bundleA_test-1.0.0.jar)
+Before version = 1.0.0
+update from bundle://2/bundleA1_test-1.0.1.jar
+After  version = 1.0.1
+### framework test bundle :FRAME070A:PASS
+### framework test bundle :FRAME075A:PASS
+installBundle(bundleF_test-1.0.0.jar)
+### framework test bundle :FRAME080A:PASS
+installBundle(bundleH_test-1.0.0.jar)
+start in H
+### framework test bundle :FRAME085A:PASS
+installBundle(bundleJ_test-1.0.0.jar)
+framework test bundle org.osgi.framework.BundleException: Bundle.start: BundleActivator start failed :FRAME110A:expexted
+### framework test bundle :FRAME110A:PASS
+### framework test bundle :FRAME115A:PASS
+### framework test bundle :FRAME120A:PASS
+### framework test bundle :FRAME125A:PASS
+### framework test bundle :FRAME130A:PASS
+installBundle(bundleR_test-1.0.0.jar)
+installBundle(bundleR1_test-1.0.0.jar)
+### framework test bundle :FRAME160A:PASS
+installBundle(bundleQ_test-1.0.0.jar)
+### framework test bundle :FRAME170A:PASS
+installBundle(bundleR2_test-1.0.0.jar)
+### framework test bundle :FRAME175A:PASS
+installBundle(bundleR3_test-1.0.0.jar)
+### framework test bundle :FRAME180A:PASS
+installBundle(bundleR3_test-1.0.0.jar)
+### framework test bundle :FRAME181A:PASS
+installBundle(bundleR4_test-1.0.0.jar)
+### framework test bundle :FRAME185A:PASS
+installBundle(bundleR4_test-1.0.0.jar)
+### framework test bundle :FRAME186A:PASS
+installBundle(bundleR5_test-1.0.0.jar)
+installBundle(bundleR6_test-1.0.0.jar)
+### framework test bundle :FRAME190A:PASS
+### framework test bundle :FRAME210A:PASS
+junit_runner: run test 'PackageAdminTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/PackageAdminTestSuite.xml
+run test on PackageAdminTestSuite
+installBundle(bundleA_test-1.0.0.jar)
+installBundle(bundleB_test-1.0.0.jar)
+Param: null
+Count defaulted to: 1 :FRAME187A
+installBundle(resexp_test-1.0.0.jar)
+installBundle(resimp_test-1.0.0.jar)
+### framework test bundle :FRAME187A:PASS
+### framework test bundle :FRAME200A:PASS
+installBundle(bundleP1_test-1.0.0.jar)
+installBundle(bundleP2_test-1.0.0.jar)
+installBundle(bundleP3_test-1.0.0.jar)
+### framework test bundle :FRAME215A:PASS
+installBundle(bundleP1_test-1.0.0.jar)
+installBundle(bundleP3_test-1.0.0.jar)
+### framework test bundle :FRAME220A:PASS
+junit_runner: run test 'NativeCodeTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/NativeCodeTestSuite.xml
+run test on NativeCodeTestSuite
+### framework test bundle :SETUP:PASS
+junit_runner: run test 'FilterTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/FilterTestSuite.xml
+run test on FilterTestSuite
+test LDAP matchTest[0]=(string=test)
+test LDAP matchTest[1]=(STRING=test)
+test LDAP matchTest[2]=(StRiNg=test)
+test LDAP matchTest[3]=(String=test)
+test LDAP matchTest[4]=(SpaceString=test string with spaces)
+test LDAP matchTest[5]=(Boolean=true)
+test LDAP matchTest[6]=(Byte=16)
+test LDAP matchTest[7]=(Character=X)
+test LDAP matchTest[8]=(Short=10)
+test LDAP matchTest[9]=(Integer=10)
+test LDAP matchTest[10]=(Long=-9876543210)
+test LDAP matchTest[11]=(Float=1.23)
+test LDAP matchTest[12]=(Double=-3.21)
+test LDAP matchTest[13]=(BigInteger=-98765432109876543210)
+test LDAP matchTest[14]=(int_array=10)
+test LDAP matchTest[15]=(int_array=20)
+test LDAP matchTest[16]=(int_array=30)
+test LDAP matchTest[17]=(Vector=apa)
+test LDAP matchTest[18]=(Vector=bepa)
+test LDAP matchTest[19]=(Vector=cepa)
+test LDAP matchTest[20]=(String~=test)
+test LDAP matchTest[21]=(Boolean~=true)
+test LDAP matchTest[22]=(Byte~=16)
+test LDAP matchTest[23]=(Character~=X)
+test LDAP matchTest[24]=(Short~=10)
+test LDAP matchTest[25]=(Integer~=10)
+test LDAP matchTest[26]=(Long~=-9876543210)
+test LDAP matchTest[27]=(Float~=1.23)
+test LDAP matchTest[28]=(Double~=-3.21)
+test LDAP matchTest[29]=(BigInteger~=-98765432109876543210)
+test LDAP matchTest[30]=(String<=test)
+test LDAP matchTest[31]=(Byte<=16)
+test LDAP matchTest[32]=(Character<=X)
+test LDAP matchTest[33]=(Short<=10)
+test LDAP matchTest[34]=(Integer<=10)
+test LDAP matchTest[35]=(Long<=-9876543210)
+test LDAP matchTest[36]=(Float<=1.23)
+test LDAP matchTest[37]=(Double<=-3.21)
+test LDAP matchTest[38]=(BigInteger<=-98765432109876543210)
+test LDAP matchTest[39]=(String<=u)
+test LDAP matchTest[40]=(Byte<=21)
+test LDAP matchTest[41]=(Character<=Y)
+test LDAP matchTest[42]=(Short<=12)
+test LDAP matchTest[43]=(Integer<=100)
+test LDAP matchTest[44]=(Long<=9876543210)
+test LDAP matchTest[45]=(Float<=2)
+test LDAP matchTest[46]=(Double<=-1)
+test LDAP matchTest[47]=(BigInteger<=-98765432109876543200)
+test LDAP matchTest[48]=(String>=test)
+test LDAP matchTest[49]=(Byte>=16)
+test LDAP matchTest[50]=(Character>=X)
+test LDAP matchTest[51]=(Short>=10)
+test LDAP matchTest[52]=(Integer>=10)
+test LDAP matchTest[53]=(Long>=-9876543210)
+test LDAP matchTest[54]=(Float>=1.23)
+test LDAP matchTest[55]=(Double>=-3.21)
+test LDAP matchTest[56]=(BigInteger>=-98765432109876543210)
+test LDAP matchTest[57]=(String>=sestur)
+test LDAP matchTest[58]=(Byte>=1)
+test LDAP matchTest[59]=(Character>=A)
+test LDAP matchTest[60]=(Short>=-20)
+test LDAP matchTest[61]=(Integer>=0)
+test LDAP matchTest[62]=(Long>=-19876543210)
+test LDAP matchTest[63]=(Float>=-21.23)
+test LDAP matchTest[64]=(Double>=-3.211)
+test LDAP matchTest[65]=(BigInteger>=-9871290865432109876543210)
+test LDAP matchTest[66]=(String=*)
+test LDAP matchTest[67]=(Boolean=*)
+test LDAP matchTest[68]=(Integer=*)
+test LDAP matchTest[69]=(int_array=*)
+test LDAP matchTest[70]=(Vector=*)
+test LDAP matchTest[71]=(!(No=*))
+test LDAP matchTest[72]=(&(String=*))
+test LDAP matchTest[73]=(&(String=*)(Integer>=0))
+test LDAP matchTest[74]=(&(String=*)(Integer>=0)(Boolean=true))
+test LDAP matchTest[75]=(|(String=*))
+test LDAP matchTest[76]=(|(String=*)(Integer>=0))
+test LDAP matchTest[77]=(|(Noway=*)(Integer>=0))
+test LDAP matchTest[78]=(|(Integer>=0)(Noway=*))
+test LDAP matchTest[79]=(|(Noway=*)(Noway=*)(String=*))
+test LDAP matchTest[80]=(String=t*)
+test LDAP matchTest[81]=(String=*t)
+test LDAP matchTest[82]=(SpaceString=test string * spaces)
+test LDAP matchTest[83]=(SpaceString=* string * spaces)
+test LDAP matchTest[84]=(SpaceString=* *)
+test LDAP matchTest[85]=(&(|(Noway=*)(!(Noway=*)))(String=*))
+java.lang.NumberFormatException: Value out of range. Value:"160" Radix:10
+	at java.lang.Byte.parseByte(Byte.java:124)
+	at java.lang.Byte.parseByte(Byte.java:79)
+	at org.knopflerfish.framework.LDAPExpr.compare(LDAPExpr.java:253)
+	at org.knopflerfish.framework.LDAPExpr.evaluate(LDAPExpr.java:208)
+	at org.knopflerfish.framework.LDAPExpr.query(LDAPExpr.java:200)
+	at org.knopflerfish.framework.Services.get(Services.java:208)
+	at org.knopflerfish.framework.BundleContextImpl.getServiceReferences(BundleContextImpl.java:304)
+	at org.knopflerfish.bundle.filter_test.FilterTestSuite$Frame0140a.runTest(FilterTestSuite.java:322)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.knopflerfish.bundle.junit.JUnitServiceImpl.runTestCase(JUnitServiceImpl.java:152)
+	at org.knopflerfish.bundle.junit.JUnitServiceImpl.runTestXML(JUnitServiceImpl.java:74)
+	at org.knopflerfish.bundle.junit.JUnitServiceImpl.runTest(JUnitServiceImpl.java:54)
+	at org.knopflerfish.bundle.junit_runner.Grunt.doRun(Grunt.java:186)
+	at org.knopflerfish.bundle.junit_runner.Grunt.doGrunt(Grunt.java:74)
+	at org.knopflerfish.bundle.junit_runner.Activator.start(Activator.java:57)
+	at org.knopflerfish.framework.BundleImpl$1.run(BundleImpl.java:285)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.knopflerfish.framework.BundleImpl.start(BundleImpl.java:259)
+	at org.knopflerfish.framework.StartLevelImpl.increaseStartLevel(StartLevelImpl.java:266)
+	at org.knopflerfish.framework.StartLevelImpl$1.run(StartLevelImpl.java:199)
+	at org.knopflerfish.framework.StartLevelImpl.run(StartLevelImpl.java:164)
+	at java.lang.Thread.run(Thread.java:534)
+### framework test bundle :FRAME140A:PASS
+### framework test bundle :FRAME150A:PASS
+junit_runner: run test 'ServiceTrackerTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/ServiceTrackerTestSuite.xml
+run test on ServiceTrackerTestSuite
+installBundle(bundleS_test-1.0.0.jar)
+started service bundle
+### Frame test bundle :ST010A:PASS
+junit_runner: run test 'ConstantsTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/ConstantsTestSuite.xml
+run test on ConstantsTestSuite
+junit_runner: run test 'PerformanceRegistryTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/PerformanceRegistryTestSuite.xml
+run test on PerformanceRegistryTestSuite
+registry_perf: adding 100 service listeners
+registry_perf: listener count=100
+registry_perf: registering 1000 services, listener count=100
+registry_perf: register took 648ms
+registry_perf: modifying 1000 services, listener count=100
+registry_perf: modify took 583ms
+registry_perf: unregistering 1000 services, listener count=100
+registry_perf: unregister took 522ms
+junit_runner: 
+All tests (FrameworkTestSuite PackageAdminTestSuite NativeCodeTestSuite FilterTestSuite ServiceTrackerTestSuite ConstantsTestSuite PerformanceRegistryTestSuite) done.
+Output XML in /home/jan/work/1.3.7/osgi/junit_grunt
+junit_runner: Quit framework after tests
+Knopflerfish OSGi framework, version 3.3.15
+Copyright 2003-2008 Knopflerfish. All Rights Reserved.
+
+See http://www.knopflerfish.org for more information.
+Loading xargs file /home/jan/work/1.3.7/osgi/bundles_test/regression_tests/restart_test/test-restart1.xargs
+Removed existing fwdir /home/jan/work/1.3.7/osgi/fwdir
+Installed and started: file:jars/junit/junit_all-1.0.0.jar (id#1)
+Installed and started: file:bundles_test/regression_tests/jars/restart_test-1.0.0.jar (id#2)
+Installed and started: file:jars/junit_runner/junit_runner_all-1.0.0.jar (id#3)
+Framework launched
+junit_runner: Wait for framework start
+junit_runner: Framework start complete
+junit_runner: tests=RestartSetupTestSuite, outdir=junit_grunt, quit=true
+junit_runner: run test 'RestartSetupTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/RestartSetupTestSuite.xml
+run test on RestartSetupTestSuite
+installBundle(bundleA_test-1.0.0.jar)
+installBundle(bundleB_test-1.0.0.jar)
+installBundle(bundleC_test-1.0.0.jar)
+installBundle(bundleF_test-1.0.0.jar)
+saved state={bundle_0_loc=internal:bundleA_test-1.0.0.jar, bundle_3_uuid=org.knopflerfish:bundleF_test:1.0.0:all, bundle_0_startlevel=5, bundle_1_id=5, bundle_1_startlevel=5, bundle_2_id=6, bundle_2_loc=internal:bundleC_test-1.0.0.jar, bundle_3_id=7, bundle_2_startlevel=-2, bundle_1_state=2, bundle_0_state=32, bundle_3_startlevel=7, bundle_1_loc=internal:bundleB_test-1.0.0.jar, bundle_0_uuid=org.knopflerfish:bundleA_test:1.0.0:all, bundle_3_state=32, bundle_1_uuid=org.knopflerfish:bundleB_test:1.0.0:all, bundle_2_state=1, bundle_3_loc=internal:bundleF_test-1.0.0.jar, bundle_0_id=4, bundle_2_uuid=org.knopflerfish:bundleC_test:1.0.0:all}
+junit_runner: 
+All tests (RestartSetupTestSuite) done.
+Output XML in /home/jan/work/1.3.7/osgi/junit_grunt
+junit_runner: Quit framework after tests
+Knopflerfish OSGi framework, version 3.3.15
+Copyright 2003-2008 Knopflerfish. All Rights Reserved.
+
+See http://www.knopflerfish.org for more information.
+Loading xargs file /home/jan/work/1.3.7/osgi/bundles_test/regression_tests/restart_test/test-restart2.xargs
+Framework launched
+junit_runner: tests=RestartTestSuite, outdir=junit_grunt, quit=true
+junit_runner: run test 'RestartTestSuite', out=/home/jan/work/1.3.7/osgi/junit_grunt/RestartTestSuite.xml
+run test on RestartTestSuite
+loaded state={bundle_0_loc=internal:bundleA_test-1.0.0.jar, bundle_3_uuid=org.knopflerfish:bundleF_test:1.0.0:all, bundle_0_startlevel=5, bundle_1_id=5, bundle_2_id=6, bundle_1_startlevel=5, bundle_2_loc=internal:bundleC_test-1.0.0.jar, bundle_3_id=7, bundle_2_startlevel=-2, bundle_1_state=2, bundle_0_state=32, bundle_3_startlevel=7, bundle_1_loc=internal:bundleB_test-1.0.0.jar, bundle_0_uuid=org.knopflerfish:bundleA_test:1.0.0:all, bundle_3_state=32, bundle_1_uuid=org.knopflerfish:bundleB_test:1.0.0:all, bundle_2_state=1, bundle_3_loc=internal:bundleF_test-1.0.0.jar, bundle_2_uuid=org.knopflerfish:bundleC_test:1.0.0:all, bundle_0_id=4}
+PASSED: Setup, sl=20
+0, #7, org.knopflerfish:bundleF_test:1.0.0:all, state=32, level=7
+1, #1, org.knopflerfish:JUnit:1.0.0:all, state=32, level=1
+2, #0, null, state=32, level=0
+3, #2, org.knopflerfish:restart_test:1.0.0:all, state=32, level=5
+4, #5, org.knopflerfish:bundleB_test:1.0.0:all, state=2, level=5
+5, #4, org.knopflerfish:bundleA_test:1.0.0:all, state=32, level=5
+6, #3, org.knopflerfish:JUnitRunner:1.0.0:all, state=8, level=20
+assertBundle uuid=org.knopflerfish:bundleF_test:1.0.0:all, n=3
+PASSED uuid=org.knopflerfish:bundleF_test:1.0.0:all
+assertBundle uuid=org.knopflerfish:bundleA_test:1.0.0:all, n=0
+PASSED uuid=org.knopflerfish:bundleA_test:1.0.0:all
+assertBundle uuid=org.knopflerfish:bundleB_test:1.0.0:all, n=1
+PASSED uuid=org.knopflerfish:bundleB_test:1.0.0:all
+assertBundle uuid=org.knopflerfish:bundleC_test:1.0.0:all, n=2
+PASSED: no UUID since uninstalled
+junit_runner: 
+All tests (RestartTestSuite) done.
+Output XML in /home/jan/work/1.3.7/osgi/junit_grunt
+junit_runner: Quit framework after tests

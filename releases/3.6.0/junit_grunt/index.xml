@@ -1,0 +1,2240 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="junit_index_style.xsl"?>
+<junit_index>
+<junit date="Thu Jul 11 09:05:48 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="ComponentTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.component_test.ComponentTestSuite" name  = "ComponentTestSuite" time  = "25151">
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test1" name  = "Test1" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test2b" name  = "Test2b" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test3" name  = "Test3" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs32556558" name  = "TestSfBugs32556558" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs2883959" name  = "TestSfBugs2883959" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test4" name  = "Test4" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test5" name  = "Test5" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test6" name  = "Test6" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test7" name  = "Test7" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test8" name  = "Test8" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test9" name  = "Test9" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "11"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:46 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="ConnectorServiceTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite" name  = "ConnectorServiceTestSuite" time  = "9">
+     <case class = "org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest1" name  = "SimpleTest1" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest2" name  = "SimpleTest2" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest3" name  = "SimpleTest3" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest4" name  = "SimpleTest4" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.io_test.ConnectorServiceTestSuite$SimpleTest5" name  = "SimpleTest5" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "6"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:40 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="ConstantsTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.constants_test.ConstantsTestSuite" name  = "ConstantsTestSuite" time  = "7">
+     <case class = "org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0300a" name  = "Frame0300a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0310a" name  = "Frame0310a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0320a" name  = "Frame0320a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Frame0330a" name  = "Frame0330a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.constants_test.ConstantsTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "6"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:40 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="FilterTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.filter_test.FilterTestSuite" name  = "FilterTestSuite" time  = "21">
+     <case class = "org.knopflerfish.bundle.filter_test.FilterTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.filter_test.FilterTestSuite$Frame0140a" name  = "Frame0140a" status = "passed">
+  <description><![CDATA[Test the LDAP filter when getting service refences]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.filter_test.FilterTestSuite$Frame0150a" name  = "Frame0150a" status = "passed">
+  <description><![CDATA[Test the Framework Filter class]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.filter_test.FilterTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "4"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:24 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="FragmentTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite" name  = "FragmentTestSuite" time  = "16005">
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame500a" name  = "Frame500a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame510a" name  = "Frame510a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame520a" name  = "Frame520a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame530a" name  = "Frame530a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame540a" name  = "Frame540a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame550a" name  = "Frame550a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Frame560a" name  = "Frame560a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FragmentTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "21"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:04:26 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="FrameworkTestSuite">
+  <description><![CDATA[Tests core functionality in the framework]]></description>
+  <docurl><![CDATA[https://www.knopflerfish.org/svn/knopflerfish.org/trunk/osgi/bundles_test/regression_tests/framework_test/readme.txt]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite" name  = "FrameworkTestSuite" time  = "38355">
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame005a" name  = "Frame005a" status = "passed">
+  <description><![CDATA[Verify information from the getHeaders() method]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame007a" name  = "Frame007a" status = "passed">
+  <description><![CDATA[Extract all information from the getProperty in the BundleContext interface ]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame010a" name  = "Frame010a" status = "passed">
+  <description><![CDATA[Get context id, location and status of the bundle]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame018a" name  = "Frame018a" status = "passed">
+  <description><![CDATA[Test result of getService(null). Should throw NPE]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame019a" name  = "Frame019a" status = "passed">
+  <description><![CDATA[Try bundle:// syntax, if present in FW, by installing bundleA_test
+This test is also valid if 
+new URL(bundle://) throws MalformedURLException]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame020a" name  = "Frame020a" status = "passed">
+  <description><![CDATA[Load bundleA_test and check that it exists and that its expected service does not exist
+Also check that the expected events in the framework occurs]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame025b" name  = "Frame025b" status = "passed">
+  <description><![CDATA[Start bundleA_test and check that it gets state ACTIVE
+and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame030b" name  = "Frame030b" status = "passed">
+  <description><![CDATA[Stop bundleA_test and check that it gets state RESOLVED]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame035b" name  = "Frame035b" status = "passed">
+  <description><![CDATA[Uninstall bundleA_test and check that it gets state UNINSTALLED]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame038b" name  = "Frame038b" status = "passed">
+  <description><![CDATA[Install a non existent file, check that the right exception is thrown]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame041a" name  = "Frame041a" status = "passed">
+  <description><![CDATA[Install bundleD1_test, which has a broken manifest file,
+an empty import statement and check
+that the expected exceptions are thrown]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame045a" name  = "Frame045a" status = "passed">
+  <description><![CDATA[Add a service listener with a broken LDAP filter to get an exception]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame050a" name  = "Frame050a" status = "passed">
+  <description><![CDATA[Loads and starts bundleB_test, checks that it gets the state ACTIVE.
+Checks that it implements the Configurable interface.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame055a" name  = "Frame055a" status = "passed">
+  <description><![CDATA[Load and start bundleC_test, checks that it gets the state ACTIVE.
+Checks that it is available under more than one name.
+Then stop the bundle, check that no exception is thrown
+as the bundle unregisters itself in its stop method.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame060a" name  = "Frame060a" status = "passed">
+  <description><![CDATA[Gets the configurable object from testbundle B,
+update its properties and check that a ServiceEvent occurs.
+Also get the ServiceRegistration object from bundle
+and check that the bundle is the same and that
+unregistration causes a ServiceEvent.UNREGISTERING.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame065b" name  = "Frame065b" status = "passed">
+  <description><![CDATA[Load and try to start bundleE_test, 
+It should be possible to load , but should not be possible to start
+as the start method in the manifest is not available in the bundle.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame068a" name  = "Frame068a" status = "passed">
+  <description><![CDATA[Tests accessing multiple resources inside the test bundle itself
+using ClassLoader.getResource]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame069a" name  = "Frame069a" status = "passed">
+  <description><![CDATA[Tests contents of multiple resources inside the test bundle itself
+using ClassLoader.getResource]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame070a" name  = "Frame070a" status = "passed">
+  <description><![CDATA[Reinstalls and the updates testbundle_A.
+The version is checked to see if an update has been made.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame075a" name  = "Frame075a" status = "passed">
+  <description><![CDATA[Uninstall bundleB_test and the try to start and stop it.
+In both cases exceptions should be thrown.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame080a" name  = "Frame080a" status = "passed">
+  <description><![CDATA[Installs and starts bundleF_test and then try to and stop it.
+A BundleException is expected.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame085b" name  = "Frame085b" status = "passed">
+  <description><![CDATA[Installs and starts bundleH_test, a service factory
+and tests that the methods in that API works.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame110b" name  = "Frame110b" status = "passed">
+  <description><![CDATA[Install and start bundleJ_test, which should throw an exception at start.
+then check if the framework removes all traces of the bundle
+as it registers one service (itself) before the bundle exception is thrown]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame115a" name  = "Frame115a" status = "passed">
+  <description><![CDATA[Test getDataFile() method.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame125a" name  = "Frame125a" status = "passed">
+  <description><![CDATA[Test of the PackagePermission class]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame130a" name  = "Frame130a" status = "passed">
+  <description><![CDATA[Test of the ServicePermission class]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame160a" name  = "Frame160a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame161a" name  = "Frame161a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval from boot class path;  a resource in-side the java package.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame162a" name  = "Frame162a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval from boot class path;  a resource outside the java package that should not be found.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame163a" name  = "Frame163a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval from boot class path;  a resource found via boot delegation.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame164a" name  = "Frame164a" status = "passed">
+  <description><![CDATA[Test normalization of relative paths in bundle URLs created using  new URL(bundleUrl, 'relative path').]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame165a" name  = "Frame165a" status = "passed">
+  <description><![CDATA[bundle.getResource("/META-INF") and bundle.getResource("/META-INF/") i.e., asking for directory with or without trailing file separator.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame170a" name  = "Frame170a" status = "passed">
+  <description><![CDATA[Test of ServiceReference.getUsingBundles() and SynchronousBundleListener.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame175a" name  = "Frame175a" status = "passed">
+  <description><![CDATA[Check of resource integrity when using intermixed reading of differenent resources from bundleR2_test.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame180a" name  = "Frame180a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR3_test.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame181a" name  = "Frame181a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR3_test.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame185a" name  = "Frame185a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR4_test,
+that has an unresolvable package imported]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame186a" name  = "Frame186a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR4_test,
+that has an unresolvable package imported]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame190a" name  = "Frame190a" status = "passed">
+  <description><![CDATA[Check of resource access inside bundle name space from bundleR5_test and
+bundleR6_test, that bundleR5_test exports a resource that is accessed via 
+the bundle context of bundleR6_test]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame210a" name  = "Frame210a" status = "passed">
+  <description><![CDATA[Deadlock test when using synchronous serviceChange listener and updating different threads.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame211a" name  = "Frame211a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame260a" name  = "Frame260a" status = "passed">
+  <description><![CDATA[Start bundleA_lazy according to its activation policy, check that 
+it gets state STARTING. Then start the bundle eagerly and check that 
+its state is ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame265a" name  = "Frame265a" status = "passed">
+  <description><![CDATA[Restart bundleA_lazy according to its activation policy, check that 
+it gets state STARTING. Then load a class from it, check that is started
+and its state is ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame270a" name  = "Frame270a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it, check that 
+is started and its state is ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame275a" name  = "Frame275a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it that shall 
+not trigger activation, check that the bundle is still in state STARTING.
+ Load a class that shall trigger activation and check that the state 
+changes to ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame280a" name  = "Frame280a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it that shall 
+not trigger activation (via excludes directive), this class depends on 
+another class thatt will be loaded and is not mentioned in either the 
+includes nor the excludes directive. Thus this second class will will 
+trigger activation. Check that the state changes to ACTIVE and that the 
+service it registers becomes available.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame285a" name  = "Frame285a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it that shall 
+not trigger activation (via excludes directive), check that the 
+bundle is still in state STARTING. Load a class that shall trigger 
+activation (via includes directive) and check that the state 
+changes to ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame290a" name  = "Frame290a" status = "passed">
+  <description><![CDATA[Start bundleT_test that sleeps 3s in start, at the same time
+try to stop the bundle, we should get an exception and the
+bundle should remain started.
+Then stop and start again and at the same time uninstall
+this time the bundle should be uninstalled correctly.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "50"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:41 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="HttpTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.http_test.HttpTestSuite" name  = "HttpTestSuite" time  = "5093">
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http005a" name  = "Http005a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http006a" name  = "Http006a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http010a" name  = "Http010a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http015a" name  = "Http015a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http015b" name  = "Http015b" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http020a" name  = "Http020a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http025a" name  = "Http025a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http029a" name  = "Http029a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http030a" name  = "Http030a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http035a" name  = "Http035a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http040a" name  = "Http040a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http045a" name  = "Http045a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http050a" name  = "Http050a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http055a" name  = "Http055a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http060a" name  = "Http060a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http065a" name  = "Http065a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http085a" name  = "Http085a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.http_test.HttpTestSuite$Http100a" name  = "Http100a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "20"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:12 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="NativeCodeTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.NativeCodeTestSuite" name  = "NativeCodeTestSuite" time  = "28">
+     <case class = "org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[This does some error handling tests of bundles with native code]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0137a" name  = "Frame0137a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Frame0139a" name  = "Frame0139a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.NativeCodeTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "4"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:08 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="PackageAdminTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.PackageAdminTestSuite" name  = "PackageAdminTestSuite" time  = "4446">
+     <case class = "org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame0187a" name  = "Frame0187a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame0200a" name  = "Frame0200a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame215a" name  = "Frame215a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Frame220b" name  = "Frame220b" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageAdminTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "6"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:12 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="PackageTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.PackageTestSuite" name  = "PackageTestSuite" time  = "6836">
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame300a" name  = "Frame300a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame305a" name  = "Frame305a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame310a" name  = "Frame310a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame320a" name  = "Frame320a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Frame325a" name  = "Frame325a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.PackageTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "15"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:40 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="PerformanceRegistryTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite" name  = "PerformanceRegistryTestSuite" time  = "1560">
+     <case class = "org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[Initialize event counters]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$AddListeners" name  = "AddListeners" status = "passed">
+  <description><![CDATA[Add 100 service listeners with a filter]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$RegisterServices" name  = "ModifyServices" status = "passed">
+  <description><![CDATA[Register services, and check that we get #of services (1000) * #of listeners (100)  REGISTERED events (818ms)]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$ModifyServices" name  = "ModifyServices" status = "passed">
+  <description><![CDATA[Modify all services, and check that we get #of services (1000) * #of listeners (100)  MODIFIED  events (451ms)]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$UnregisterServices" name  = "UnregisterServices" status = "passed">
+  <description><![CDATA[Unregister all services, and check that we get #of services (1000) * #of listeners (100)  UNREGISTERING events (285ms)]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.perf.servicereg.PerformanceRegistryTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[Remove all service listeners]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "6"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:46 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="PreferencesTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.preferences_test.PreferencesTestSuite" name  = "PreferencesTestSuite" time  = "19">
+     <case class = "org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Preferences0100a" name  = "Preferences0100a" status = "passed">
+  <description><![CDATA[Test that a deleted preferences node can be re-used after a flush.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.preferences_test.PreferencesTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "3"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:19 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="RequireBundleTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite" name  = "RequireBundleTestSuite" time  = "4359">
+     <case class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame400a" name  = "Frame400a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame410a" name  = "Frame410a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Frame420a" name  = "Frame420a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.RequireBundleTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "7"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:06:19 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs test-restart1.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="RestartSetupTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.restart_test.RestartSetupTestSuite" name  = "RestartSetupTestSuite" time  = "4058">
+     <case class = "org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Restart001" name  = "Restart001" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.restart_test.RestartSetupTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "3"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:06:24 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs test-restart2.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="RestartTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.restart_test.RestartTestSuite" name  = "RestartTestSuite" time  = "18">
+     <case class = "org.knopflerfish.bundle.restart_test.RestartTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.restart_test.RestartTestSuite$Restart050" name  = "Restart050" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.restart_test.RestartTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "3"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:04 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="ServiceListenerTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite" name  = "ServiceListenerTestSuite" time  = "3853">
+     <case class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL05a" name  = "FrameSL05a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL10a" name  = "FrameSL10a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL15a" name  = "FrameSL15a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL20a" name  = "FrameSL20a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$FrameSL25a" name  = "FrameSL25a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.ServiceListenerTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "7"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:40 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="ServiceTrackerTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite" name  = "ServiceTrackerTestSuite" time  = "18">
+     <case class = "org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$St010a" name  = "St010a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.servicetracker_test.ServiceTrackerTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "3"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:06:16 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs soapcline_adb_test.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="SOAP-Axis2TestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.axis2_soapclient_adb.Axis2TestSuite" name  = "SOAP-Axis2TestSuite" time  = "368">
+     <case class = "org.knopflerfish.bundle.axis2_soapclient_adb.Axis2TestSuite$GetName" name  = "MySoapTestService:GetName" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.axis2_soapclient_adb.Axis2TestSuite$Add" name  = "MySoapTestService:add(1,2)" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.axis2_soapclient_adb.Axis2TestSuite$Mul" name  = "MySoapTestService:mul(1.0,2.0)" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.axis2_soapclient_adb.Axis2TestSuite$AddToAll" name  = "MySoapTestService:addToAll(1,[2,3,4])" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.axis2_soapclient_adb.Axis2TestSuite$Bean1" name  = "MySoapTestService:setBean(null)" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.axis2_soapclient_adb.Axis2TestSuite$Bean2" name  = "MySoapTestService:setBean(MyJavaBean)" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "6"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+<junit date="Thu Jul 11 09:05:46 CEST 2013">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.51-b01-457]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[10M4509]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_51-b11-457-10M4509]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/QE/QEg99vQkEySK4NysXWBV9E+++TI/-Tmp-/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.6.8]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/work/release/knopflerfish.org/out/distrib_3.6.0/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_51]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1060.1.6.0_51-457]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.5]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.6.8]]></value>
+</properties>
+ <testcase id="StartLevelTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite" name  = "StartLevelTestSuite" time  = "1344">
+     <case class = "org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$StartLevel100a" name  = "StartLevel100a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.startlevel_test.StartLevelTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "3"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>
+</junit_index>

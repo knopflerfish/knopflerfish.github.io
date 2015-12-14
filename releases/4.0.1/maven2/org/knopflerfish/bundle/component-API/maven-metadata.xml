@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>component-API</artifactId>
+  <version>4.0.3</version>
+  <versioning>
+    <versions>
+      <version>4.0.3</version>
+    </versions>
+    <lastUpdated>20131018102605</lastUpdated>
+  </versioning>
+</metadata>

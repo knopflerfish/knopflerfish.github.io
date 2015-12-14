@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<!-- This is a generated file. Do not edit. Built by jan on Fri October 18 2013, 12:24:10 -->
+
+<html>
+
+  <head>
+    <meta http-equiv = "Content-Type"
+	  content    = "text/html; charset=ISO-8859-1"/>
+    
+    <meta http-equiv = "CACHE-CONTROL"
+	  content    = "NO-CACHE"/>
+
+    <meta name       = "description"
+	  content    = "Release notes for Knopflerfish OSGi, version 4.0.1 - "/>
+    
+    <meta name       = "title"
+	  content    = "Knopflerfish OSGi, version 4.0.1 -  Release Notes"/>
+
+    <title>Knopflerfish OSGi, version 4.0.1 -  Release Notes</title>
+
+    <style>
+BODY  {
+  background: #ccc;
+}
+
+#main {
+  width: 1000; 
+  background: #fff;
+  border:		1px solid #000;
+  margin: 0px auto;
+  font-family: Lucida Grande, Tahoma, Helvetica, sans-serif;
+  padding: 0px 0px 0px 0px;
+}
+
+#mainblock {
+  margin-left: 20px; 
+  padding-right: 15px;
+  font-family: "Lucida Grande", Tahoma, Lucida Sans, Verdana, Helvetica, sans-serif;
+  font-size: 12.8px;
+}
+
+#footer {
+  clear:both;
+  border-style: solid;
+  border-color: #802060;
+  border-width: 1px 0px 0px 0px;
+  margin:	20px 15px 15px 15px;
+}
+
+#copyright {
+  margin-left: 200px;
+  font-size:10px;
+  color: #000;
+  text-align: right;
+  padding: 5px 10px 0px 0px;
+}	  
+
+H1, H1.kf {
+    font-family: Helvetica Neue, Helvetica, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight:bold;
+    border-style: solid;
+    border-color: #802060;
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 2px;
+    margin: 2.0em 0 0.6em 0;
+    color: #444444;
+}
+
+H2.kf  {
+    font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+    font-size:	1.3em;
+    font-weight:bold;
+    border-style: solid;
+    color:		#444444;
+    border-style:  solid;
+    border-color:	#ccc;
+    border-width:	1px 0px 1px 0px;
+    background-image: url('../images/shortfadeout_20px.png');
+    background-repeat: repeat-x;
+    padding:	3px 0px 3px 6px;
+    margin: 1.4em 0 0.8em 0;
+}
+
+.note_group {
+    margin: 1.5em 0 0.5em 0;
+}
+
+.note_name {
+    font-weight: bold;
+    color:#333333;
+}
+
+.note_item {
+    display: list-item;
+    margin: 0.5em 0 0.5em 2em;
+}
+a {
+    color:#111111;
+    text-decoration:none;
+}
+    </style>
+
+  </head>
+
+
+  <body>
+    <div id="main">
+      <div id="mainblock">
+	<!-- The first line in this file is used by the desktop to check -->
+<!-- for new releases, i.e., do not change its format.           -->
+<!-- It must contain the word "Knopflerfish" followed by a space -->
+<!-- and then the version followed by another space.             -->
+
+<h1 class="kf">Release Notes Knopflerfish 4.0.1 (OSGi R4 v4.3)</h1>
+<p>
+  Maintaince release Knopflerfish 4 available from
+  http://www.knopflerfish.org/releases/4.0.1. Released 2013-10-18.
+</p>
+<p>
+  Knopflerfish 4 is an implementation of the "OSGi Service Platform
+  Release 4 Version 4.3". It contains all services specified in the
+  "Core Specification" and most of the non Enterprise Edition related
+  services specified in the "Compendium Specification".
+</p>
+<p>
+  The Release Notes include all new features & changes for 
+  Knopflerfish 4.0.1 compared to the release of Knopflerfish 4.0.0.
+</p>
+
+<h2 class="kf">Knopflerfish Framework - OSGi Core Specification</h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name"> Framework 6.0.4</div>
+    <div class="note_item">
+      Fixed broken support for memory bundlestorage.
+    </div>
+    <div class="note_item">
+      The system bundle didn't by default export the packages
+      org.osgi.framework.hooks.bundle;version=1.0,
+      org.osgi.framework.hooks.weaving;version=1.0 and
+      org.osgi.framework.hooks.resolver;version=1.0.
+    </div>
+  </div>
+</div>
+
+
+<h2 class="kf">OSGi Compendium Specification</h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name">SCR(component) 4.0.3</div>
+    <div class="note_item">
+      Fixed bug that caused the instance properties to be ignored
+      for certain factory components.
+    </div>
+    <div class="note_item">
+      Fixed dead-lock during component activation.
+    </div>
+    <div class="note_item">
+      Widen the search for circular component activations to include
+      components that might be activated depending on CM and/or instance
+      properties.
+    </div>
+  </div>
+  
+</div>
+
+<h2 class="kf">Knopflerfish Services</h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name">Classpatcher 1.0.1</div>
+    <div class="note_item">
+      Removed unnecessary Import-Package.
+    </div>
+  </div>
+
+</div>
+
+
+<h2 class="kf">Misc, start scripts, build system etc </h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name">Build system and SDK packing</div>
+    <div class="note_item">
+
+      The build files in the SDK refered to
+      <code>osgi/bundles/dmtree</code> but that bundle was replaced by
+      <code>osgi/bundles/dmt</code>.
+
+    </div>
+    <div class="note_item">
+
+      The build files in the SDK refered to
+      <code>osgi/bundles_opt/classpatcher</code> but the source code
+      for that bundle was not included in the SDK.
+
+    </div>
+  </div>
+
+</div>
+
+      </div>
+      <div id="footer">
+	<div id="copyright">
+	  Copyright &copy; 2008-2013 The Knopflerfish Project. All rights reserved.
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

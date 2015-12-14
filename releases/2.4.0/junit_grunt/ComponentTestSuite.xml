@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="junit_style.xsl"?>
+<junit date="Mon Jun 21 16:52:47 CEST 2010">
+<properties name="System.properties">
+ <value key="java.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="org.osgi.service.http.port"><![CDATA[0]]></value>
+ <value key="org.knopflerfish.bundle.perf.servicereg.nlisteners"><![CDATA[100]]></value>
+ <value key="org.knopflerfish.servicereference.valid.during.unregistering"><![CDATA[true]]></value>
+ <value key="os.name"><![CDATA[Linux]]></value>
+ <value key="org.knopflerfish.framework.debug.errors"><![CDATA[true]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/usr/local/j2sdk1.4.2_18/jre/lib/rt.jar:/usr/local/j2sdk1.4.2_18/jre/lib/i18n.jar:/usr/local/j2sdk1.4.2_18/jre/lib/sunrsasign.jar:/usr/local/j2sdk1.4.2_18/jre/lib/jsse.jar:/usr/local/j2sdk1.4.2_18/jre/lib/jce.jar:/usr/local/j2sdk1.4.2_18/jre/lib/charsets.jar:/usr/local/j2sdk1.4.2_18/jre/classes]]></value>
+ <value key="org.knopflerfish.framework.debug.permissions"><![CDATA[false]]></value>
+ <value key="org.knopflerfish.log.out"><![CDATA[false]]></value>
+ <value key="org.knopflerfish.framework.debug.certificates"><![CDATA[false]]></value>
+ <value key="org.knopflerfish.prodver"><![CDATA[4.1.13]]></value>
+ <value key="sun.java2d.fontpath"><![CDATA[]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="java.runtime.version"><![CDATA[1.4.2_18-b06]]></value>
+ <value key="org.knopflerfish.log.file"><![CDATA[true]]></value>
+ <value key="org.knopflerfish.log.level"><![CDATA[info]]></value>
+ <value key="user.name"><![CDATA[ekolin]]></value>
+ <value key="org.osgi.framework.system.packages"><![CDATA[]]></value>
+ <value key="org.knopflerfish.framework.debug.packages"><![CDATA[false]]></value>
+ <value key="org.knopflerfish.http.dnslookup"><![CDATA[false]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/usr/local/j2sdk1.4.2_18/jre/lib/i386]]></value>
+ <value key="org.knopflerfish.framework.debug.startlevel"><![CDATA[false]]></value>
+ <value key="org.osgi.framework.bootdelegation"><![CDATA[sun.*,javax.naming,javax.crypto]]></value>
+ <value key="java.version"><![CDATA[1.4.2_18]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="sun.arch.data.model"><![CDATA[32]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/usr/local/j2sdk1.4.2_18/jre/lib/endorsed]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[48.0]]></value>
+ <value key="org.knopflerfish.framework.validator.jks.ca_certs_password"><![CDATA[catest]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="org.knopflerfish.bundle.cm.store"><![CDATA[cmdir]]></value>
+ <value key="java.home"><![CDATA[/usr/local/j2sdk1.4.2_18/jre]]></value>
+ <value key="org.knopflerfish.junit_runner.tests"><![CDATA[filter:(objectclass=junit.framework.TestSuite)]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="org.knopflerfish.startlevel.use"><![CDATA[true]]></value>
+ <value key="os.version"><![CDATA[2.6.27-7-server]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.version"><![CDATA[1.4.2_18-b06]]></value>
+ <value key="java.util.prefs.PreferencesFactory"><![CDATA[java.util.prefs.FileSystemPreferencesFactory]]></value>
+ <value key="org.knopflerfish.framework.debug.ldap"><![CDATA[false]]></value>
+ <value key="java.awt.printerjob"><![CDATA[sun.print.PSPrinterJob]]></value>
+ <value key="java.security.policy"><![CDATA[framework.policy]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="org.knopflerfish.framework.validator"><![CDATA[JKSValidator]]></value>
+ <value key="user.home"><![CDATA[/home/ekolin]]></value>
+ <value key="org.knopflerfish.framework.validator.jks.ca_certs"><![CDATA[/home/ekolin/work/kf/svn/knopflerfish.org-2.4.0/osgi/bundles_test/regression_tests/jars/test.castore]]></value>
+ <value key="org.osgi.framework.dir"><![CDATA[fwdir]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="org.knopflerfish.log.grabio"><![CDATA[true]]></value>
+ <value key="org.knopflerfish.prefs.dir"><![CDATA[junit_grunt/prefs]]></value>
+ <value key="java.library.path"><![CDATA[/usr/local/j2sdk1.4.2_18/jre/lib/i386/client:/usr/local/j2sdk1.4.2_18/jre/lib/i386:/usr/local/j2sdk1.4.2_18/jre/../lib/i386::/usr/local/rvplayer:/usr/pd/lib:/usr/local/lib:/usr/pkg/pgsql/lib]]></value>
+ <value key="java.vendor.url"><![CDATA[http://java.sun.com/]]></value>
+ <value key="java.vm.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="java.runtime.name"><![CDATA[Java(TM) 2 Runtime Environment, Standard Edition]]></value>
+ <value key="java.class.path"><![CDATA[/home/ekolin/work/kf/svn/knopflerfish.org-2.4.0/osgi/framework.jar]]></value>
+ <value key="org.knopflerfish.bundle.perf.servicereg.nservices"><![CDATA[1000]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/tmp]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://java.sun.com/cgi-bin/bugreport.cgi]]></value>
+ <value key="os.arch"><![CDATA[i386]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[sun.awt.X11GraphicsEnvironment]]></value>
+ <value key="java.ext.dirs"><![CDATA[/usr/local/j2sdk1.4.2_18/jre/lib/ext]]></value>
+ <value key="user.dir"><![CDATA[/home/ekolin/work/kf/svn/knopflerfish.org-2.4.0/osgi]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:]]></value>
+ <value key="java.security.manager"><![CDATA[org.knopflerfish.framework.permissions.KFSecurityManager]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) Client VM]]></value>
+ <value key="org.knopflerfish.framework.debug.service_reference"><![CDATA[false]]></value>
+ <value key="org.knopflerfish.framework.debug.classloader"><![CDATA[false]]></value>
+ <value key="org.knopflerfish.framework.debug.bundle_resource"><![CDATA[false]]></value>
+ <value key="file.encoding"><![CDATA[ANSI_X3.4-1968]]></value>
+ <value key="org.knopflerfish.junit_runner.quit"><![CDATA[true]]></value>
+ <value key="org.knopflerfish.verbosity"><![CDATA[0]]></value>
+ <value key="java.specification.version"><![CDATA[1.4]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[Linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[[null]]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[i386]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[1.3]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[2.6.27]]></value>
+</properties>
+ <testcase id="ComponentTestSuite">
+  <description><![CDATA[]]></description>
+  <docurl><![CDATA[]]></docurl>
+    <suite class = "org.knopflerfish.bundle.component_test.ComponentTestSuite" name  = "ComponentTestSuite" time  = "10319">
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test1" name  = "Test1" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test2" name  = "Test2" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$Test3" name  = "Test3" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs32556558" name  = "TestSfBugs32556558" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.component_test.ComponentTestSuite$TestSfBugs2883959" name  = "TestSfBugs2883959" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "5"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>

@@ -1,0 +1,87 @@
+#
+# Generated from template.xargs
+# Knopflerfish release 4.0.1
+#
+
+# load common properties
+-xargs props.xargs
+
+# Semicolon seprated list of base URLs for searching (completing)
+# bundle URLs in "-install URL" command line options and in the console.
+-Forg.knopflerfish.gosg.jars=file:jars/
+
+## Basic KF bundles
+-initlevel 1
+-install log/log_all-4.0.1.jar
+-install cm/cm_all-4.0.1.jar
+-install console/console_all-4.0.1.jar
+-install component/component_all-4.0.3.jar
+-install event/event_all-4.0.1.jar
+-install prefs/prefs_all-4.0.1.jar
+#-istart trayicon_fw/trayicon_fw-4.0.0.jar
+
+
+## Some library bundles
+-initlevel 2
+-install util/util-4.1.0.jar
+-install crimson/crimson-2.1.0.kf4-001.jar
+-install jsdk/jsdk_api-2.5.0.kf3-2.jar
+-install kxml/kxml-2.3.0.kf4-001.jar
+
+# The Bundle repo commands and desktop plugin
+#-install bundlerepository/bundlerepository_all-3.1.3.jar
+
+## More basic KF bundles
+-initlevel 3
+-install device/device_all-4.0.1.jar
+-install useradmin/useradmin_all-4.0.0.jar
+
+-initlevel 4
+-install http/http_all-4.0.1.jar
+
+## console command bundles
+-initlevel 5
+-install frameworkcommands/frameworkcommands-4.0.1.jar
+-install logcommands/logcommands-4.0.0.jar
+-install cm_cmd/cm_cmd-4.0.1.jar
+-install scrcommands/scrcommands-4.0.1.jar
+
+-install consoletty/consoletty-4.0.1.jar
+
+-install consoletelnet/consoletelnet-4.0.1.jar
+
+-initlevel 6
+#-install remotefw/remotefw_api-4.0.0.jar
+#-install desktop/desktop_all-4.0.1.jar
+
+
+-initlevel 7
+-install httproot/httproot-4.0.0.jar
+
+
+
+-startlevel 7
+
+
+# Start of these bundles are delayed since this makes start
+# order dependencies much easier
+
+-start log/log_all-4.0.1.jar
+-start crimson/crimson-2.1.0.kf4-001.jar
+-start cm/cm_all-4.0.1.jar
+-start console/console_all-4.0.1.jar
+-start component/component_all-4.0.3.jar
+-start event/event_all-4.0.1.jar
+-start prefs/prefs_all-4.0.1.jar
+-start device/device_all-4.0.1.jar
+-start useradmin/useradmin_all-4.0.0.jar
+#-start bundlerepository/bundlerepository_all-3.1.3.jar
+-start consoletty/consoletty-4.0.1.jar
+-start consoletelnet/consoletelnet-4.0.1.jar
+-start frameworkcommands/frameworkcommands-4.0.1.jar
+-start logcommands/logcommands-4.0.0.jar
+-start cm_cmd/cm_cmd-4.0.1.jar
+-start scrcommands/scrcommands-4.0.1.jar
+#-start desktop/desktop_all-4.0.1.jar
+-start http/http_all-4.0.1.jar
+-start httproot/httproot-4.0.0.jar
