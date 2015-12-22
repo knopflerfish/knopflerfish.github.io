@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish</groupId>
+  <artifactId>frameworkbundle</artifactId>
+  <version>4.1.13</version>
+  <versioning>
+    <versions>
+      <version>4.1.13</version>
+      <version>4.1.10</version>
+    </versions>
+    <lastUpdated>20150710100653</lastUpdated>
+  </versioning>
+</metadata>

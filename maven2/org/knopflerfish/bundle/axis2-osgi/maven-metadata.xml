@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>axis2-osgi</artifactId>
+  <version>1.3.0.kf3-001</version>
+  <versioning>
+    <versions>
+      <version>1.3.0.kf3-001</version>
+      <version>1.3.0.kf3</version>
+      <version>1.3.0</version>
+    </versions>
+    <lastUpdated>20150710100654</lastUpdated>
+  </versioning>
+</metadata>

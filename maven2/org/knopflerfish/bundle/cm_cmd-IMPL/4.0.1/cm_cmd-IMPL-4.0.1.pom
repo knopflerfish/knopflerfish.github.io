@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>cm_cmd-IMPL</artifactId>
+  <version>4.0.1</version>
+  <name>CM-Commands-IMPL</name>
+  <description>Commands for the CM service (IMPL)</description>
+  <organization>
+    <name>Knopflerfish</name>
+    <url>http://www.knopflerfish.org/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>&lt;&lt;EXTERNAL>></name>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>util-LIB</artifactId>
+      <version>4.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>framework</artifactId>
+      <version>6.0.2</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

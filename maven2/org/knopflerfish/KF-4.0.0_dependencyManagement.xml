@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type='text/xsl' href='mvn_dep_mgmt.xsl'?>
+<KF product="Knopflerfish" version="4.0.0">
+<dependencyManagement>
+  <dependencies>
+
+    <!--applicationadmin/applicationadmin_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>applicationadmin-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--basicdriverlocator/basicdriverlocator_all-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>basicdriverlocator</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--basicdriverlocator/basicdriverlocator-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>basicdriverlocator-IMPL</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--blueprint/blueprint_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>blueprint-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--bundlerepository/bundlerepository_all-3.1.3.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>bundlerepository</artifactId>
+      <version>3.1.3</version>
+    </dependency>
+
+    <!--classpatcher/classpatcher_all-1.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>classpatcher</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
+    <!--cm/cm_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--cm/cm_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--cm/cm-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--cm_cmd/cm_cmd-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm_cmd-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--cm_desktop/cm_desktop_all-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm_desktop</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--cm_desktop/cm_desktop-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm_desktop-IMPL</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--comm-linux/comm-linux_all-3.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>comm-linux</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <!--comm-win32/comm-win32_all-3.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>comm-win32</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <!--command/command_all-0.2.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>command</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+
+    <!--command/command_api-0.2.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>command-API</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+
+    <!--commandtty/commandtty-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>commandtty-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--commons-logging/commons-logging_all-2.0.0.kf4-001.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>2.0.0.kf4-001</version>
+    </dependency>
+
+    <!--component/component_all-4.0.2.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>component</artifactId>
+      <version>4.0.2</version>
+    </dependency>
+
+    <!--component/component_api-4.0.2.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>component-API</artifactId>
+      <version>4.0.2</version>
+    </dependency>
+
+    <!--connectors/connectors_all-3.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>connectors</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <!--connectors/connectors-3.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>connectors-IMPL</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <!--console/console_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--console/console_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--console/console-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--console2command/console2command-2.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console2command-IMPL</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+
+    <!--consoletcp/consoletcp_all-3.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletcp</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <!--consoletcp/consoletcp-3.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletcp-IMPL</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+    <!--consoletelnet/consoletelnet-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletelnet-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--consoletty/consoletty-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletty-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--crimson/crimson-2.1.0.kf4-001.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>crimson</artifactId>
+      <version>2.1.0.kf4-001</version>
+    </dependency>
+
+    <!--deploymentadmin/deploymentadmin_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>deploymentadmin-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--desktop/desktop_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--desktop/desktop_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--desktop/desktop-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--desktop_jvm/desktop_jvm_all-1.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop_jvm</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
+    <!--desktop_jvm/desktop_jvm-1.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop_jvm-IMPL</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
+    <!--device/device_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>device</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--device/device_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>device-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--device/device-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>device-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--dirdeployer/dirdeployer_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>dirdeployer</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--dirdeployer/dirdeployer_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>dirdeployer-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--dmt/dmt_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>dmt-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--event/event_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>event</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--event/event_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>event-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--foreignapplication/foreignapplication_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>foreignapplication-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--frameworkcommands/frameworkcommands-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>frameworkcommands-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--http/http_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>http</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--http/http_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>http-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--http/http-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>http-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--httpconsole/httpconsole_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>httpconsole</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--httpconsole/httpconsole-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>httpconsole-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--httproot/httproot-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>httproot-IMPL</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--io/io_all-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>io</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--io/io_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>io-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--jinidriver/jinidriver_all-0.1.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>jinidriver</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+
+    <!--jsdk/jsdk_api-2.5.0.kf3-2.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>jsdk-API</artifactId>
+      <version>2.5.0.kf3-2</version>
+    </dependency>
+
+    <!--junit/junit_all-3.8.1.kf4-001.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1.kf4-001</version>
+    </dependency>
+
+    <!--junit_runner/junit_runner_all-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>junit_runner</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--kf_metatype/kf_metatype_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>kf_metatype</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--kf_metatype/kf_metatype-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>kf_metatype-LIB</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--kxml/kxml-2.3.0.kf4-001.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>kxml-LIB</artifactId>
+      <version>2.3.0.kf4-001</version>
+    </dependency>
+
+    <!--logcommands/logcommands-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>logcommands-IMPL</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--measurement/measurement-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>measurement-LIB</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--metatype/metatype-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>metatype-LIB</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--monitor/monitor_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>monitor-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--oscar-shell/oscar-shell_all-2.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>oscar-shell</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+
+    <!--oscar-shell/oscar-shell_api-2.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>oscar-shell-API</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+
+    <!--position/position-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>position-LIB</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--prefs/prefs_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>prefs</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--prefs/prefs_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>prefs-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--provisioning/provisioning_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>provisioning-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--remotefw/remotefw_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>remotefw-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--rxtxcomm/rxtxcomm_api-2.2.0.pre2.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>rxtxcomm-API</artifactId>
+      <version>2.2.0.pre2</version>
+    </dependency>
+
+    <!--rxtxcomm-linux-arm/rxtxcomm-linux-arm-2.1.7.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>rxtxcomm-linux-arm-LIB</artifactId>
+      <version>2.1.7.1</version>
+    </dependency>
+
+    <!--rxtxcomm-linux-x86/rxtxcomm-linux-x86-2.2.0.pre2.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>rxtxcomm-linux-x86-LIB</artifactId>
+      <version>2.2.0.pre2</version>
+    </dependency>
+
+    <!--scrcommands/scrcommands-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>scrcommands-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--serialportdevice/serialportdevice_all-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>serialportdevice</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--serialportdevice/serialportdevice_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>serialportdevice-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--sslj2sp/sslj2sp-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>sslj2sp-IMPL</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--threadio/threadio_all-0.2.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>threadio</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+
+    <!--threadio/threadio_api-0.2.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>threadio-API</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+
+    <!--threadio/threadio-0.2.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>threadio-IMPL</artifactId>
+      <version>0.2.0</version>
+    </dependency>
+
+    <!--trayicon_fw/trayicon_fw-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>trayicon_fw</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--upnp/upnp_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>upnp-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--useradmin/useradmin_all-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>useradmin</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--useradmin/useradmin_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>useradmin-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--useradmin/useradmin-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>useradmin-IMPL</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--util/util-4.1.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>util-LIB</artifactId>
+      <version>4.1.0</version>
+    </dependency>
+
+    <!--wireadmin/wireadmin_api-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>wireadmin-API</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--xalan/xalan-2.7.1.kf3_01.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>xalan</artifactId>
+      <version>2.7.1.kf3_01</version>
+    </dependency>
+
+    <!--xerces/xerces-2.10.1.kf3.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>xerces</artifactId>
+      <version>2.10.1.kf3</version>
+    </dependency>
+
+    <!--xml/xml-4.0.0.jar-->
+    <dependency>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>xml-LIB</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!--framework.jar-->
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>framework</artifactId>
+      <version>6.0.2</version>
+    </dependency>
+
+    <!--log/log_all-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>log</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--log/log_api-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>log-API</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
+    <!--log/log-4.0.1.jar-->
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>log-IMPL</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+  </dependencies>
+</dependencyManagement>
+<bundles>
+    <bundle>
+      <name>applicationadmin-API</name>
+      <description>Application Admin API (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>applicationadmin-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/applicationadmin-API/4.0.0/applicationadmin-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>basicdriverlocator</name>
+      <description>Basic device driver locator</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>basicdriverlocator</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/basicdriverlocator/4.0.0/basicdriverlocator-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>basicdriverlocator-IMPL</name>
+      <description>Basic device driver locator (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>basicdriverlocator-IMPL</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/basicdriverlocator-IMPL/4.0.0/basicdriverlocator-IMPL-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>blueprint-API</name>
+      <description>Blueprint Container API (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>blueprint-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/blueprint-API/4.0.0/blueprint-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Bundlerepository</name>
+      <description>OBR bundle repository using the KF console and desktop</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>bundlerepository</artifactId>
+      <version>3.1.3</version>
+      <url>bundle/bundlerepository/3.1.3/bundlerepository-3.1.3.jar</url>
+    </bundle>
+    <bundle>
+      <name>Class Patcher</name>
+      <description>Implements a WeavingHook to allow patching of classes at load time using ASM</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>classpatcher</artifactId>
+      <version>1.0.0</version>
+      <url>bundle/classpatcher/1.0.0/classpatcher-1.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>cm</name>
+      <description>Configuration Management Service</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/cm/4.0.1/cm-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>cm-API</name>
+      <description>Configuration Management Service (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/cm-API/4.0.1/cm-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>cm-IMPL</name>
+      <description>Configuration Management Service (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/cm-IMPL/4.0.1/cm-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>CM-Commands-IMPL</name>
+      <description>Commands for the CM service (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm_cmd-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/cm_cmd-IMPL/4.0.1/cm_cmd-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>CM-Desktop</name>
+      <description>CM desktop plugin</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm_desktop</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/cm_desktop/4.0.0/cm_desktop-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>CM-Desktop-IMPL</name>
+      <description>CM desktop plugin (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>cm_desktop-IMPL</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/cm_desktop-IMPL/4.0.0/cm_desktop-IMPL-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>comm-linux</name>
+      <description>Native driver for linux javax.comm using the RXTX library. Note that this bundle is LGPL and contains full source to rxtx</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>comm-linux</artifactId>
+      <version>3.0.0</version>
+      <url>bundle/comm-linux/3.0.0/comm-linux-3.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>comm-win32</name>
+      <description>Native driver for win32 javax.comm using Sun's COMM library</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>comm-win32</artifactId>
+      <version>3.0.0</version>
+      <url>bundle/comm-win32/3.0.0/comm-win32-3.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>command</name>
+      <description>Command Service</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>command</artifactId>
+      <version>0.2.0</version>
+      <url>bundle/command/0.2.0/command-0.2.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>command-API</name>
+      <description>Command Service (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>command-API</artifactId>
+      <version>0.2.0</version>
+      <url>bundle/command-API/0.2.0/command-API-0.2.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>TTY-Command-IMPL</name>
+      <description>Command line system console (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>commandtty-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/commandtty-IMPL/4.0.1/commandtty-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Commons-Logging</name>
+      <description>Apache Commons logging. Publishced under Apache License. See http://www.apache.org/licenses/LICENSE-2.0</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>2.0.0.kf4-001</version>
+      <url>bundle/commons-logging/2.0.0.kf4-001/commons-logging-2.0.0.kf4-001.jar</url>
+    </bundle>
+    <bundle>
+      <name>SCR</name>
+      <description>Declarative Services SCR</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>component</artifactId>
+      <version>4.0.2</version>
+      <url>bundle/component/4.0.2/component-4.0.2.jar</url>
+    </bundle>
+    <bundle>
+      <name>SCR-API</name>
+      <description>Declarative Services SCR (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>component-API</artifactId>
+      <version>4.0.2</version>
+      <url>bundle/component-API/4.0.2/component-API-4.0.2.jar</url>
+    </bundle>
+    <bundle>
+      <name>Connection-Factories</name>
+      <description>OSGi IO http, socket and datagram-receive Connectors</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>connectors</artifactId>
+      <version>3.0.0</version>
+      <url>bundle/connectors/3.0.0/connectors-3.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Connection-Factories-IMPL</name>
+      <description>OSGi IO http, socket and datagram-receive Connectors (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>connectors-IMPL</artifactId>
+      <version>3.0.0</version>
+      <url>bundle/connectors-IMPL/3.0.0/connectors-IMPL-3.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Console</name>
+      <description>Knopflerfish Console Service</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/console/4.0.1/console-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Console-API</name>
+      <description>Knopflerfish Console Service (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/console-API/4.0.1/console-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Console-IMPL</name>
+      <description>Knopflerfish Console Service (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/console-IMPL/4.0.1/console-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Console2Command-IMPL</name>
+      <description>Wrapper for KF console commands to OSGi 4.3 commands (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>console2command-IMPL</artifactId>
+      <version>2.0.0</version>
+      <url>bundle/console2command-IMPL/2.0.0/console2command-IMPL-2.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>TCP-Console</name>
+      <description>Console Service Server accepting TCP connection.</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletcp</artifactId>
+      <version>3.0.0</version>
+      <url>bundle/consoletcp/3.0.0/consoletcp-3.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>TCP-Console-IMPL</name>
+      <description>Console Service Server accepting TCP connection. (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletcp-IMPL</artifactId>
+      <version>3.0.0</version>
+      <url>bundle/consoletcp-IMPL/3.0.0/consoletcp-IMPL-3.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Telnet-Console-IMPL</name>
+      <description>Console service server accepting telnet connections. (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletelnet-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/consoletelnet-IMPL/4.0.1/consoletelnet-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>TTY-Console-IMPL</name>
+      <description>Console Service Command Line Console (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>consoletty-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/consoletty-IMPL/4.0.1/consoletty-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Crimson-XML</name>
+      <description>The Crimson XML parser</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>crimson</artifactId>
+      <version>2.1.0.kf4-001</version>
+      <url>bundle/crimson/2.1.0.kf4-001/crimson-2.1.0.kf4-001.jar</url>
+    </bundle>
+    <bundle>
+      <name>deploymentadmin-API</name>
+      <description>Deployment Admin API (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>deploymentadmin-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/deploymentadmin-API/4.0.0/deploymentadmin-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Desktop</name>
+      <description>Swing framework desktop</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/desktop/4.0.1/desktop-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Desktop-API</name>
+      <description>Swing framework desktop (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/desktop-API/4.0.1/desktop-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Desktop-IMPL</name>
+      <description>Swing framework desktop (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/desktop-IMPL/4.0.1/desktop-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>desktop_jvm</name>
+      <description>JVM info desktop plugin</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop_jvm</artifactId>
+      <version>1.0.0</version>
+      <url>bundle/desktop_jvm/1.0.0/desktop_jvm-1.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>desktop_jvm-IMPL</name>
+      <description>JVM info desktop plugin (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>desktop_jvm-IMPL</artifactId>
+      <version>1.0.0</version>
+      <url>bundle/desktop_jvm-IMPL/1.0.0/desktop_jvm-IMPL-1.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Device-Manager</name>
+      <description>Device manager</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>device</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/device/4.0.1/device-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Device-Manager-API</name>
+      <description>Device manager (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>device-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/device-API/4.0.1/device-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Device-Manager-IMPL</name>
+      <description>Device manager (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>device-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/device-IMPL/4.0.1/device-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Directory Deployer</name>
+      <description>Monitors a set of file system directory for bundlesand configurations to deploy</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>dirdeployer</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/dirdeployer/4.0.1/dirdeployer-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Directory Deployer-API</name>
+      <description>Monitors a set of file system directory for bundlesand configurations to deploy (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>dirdeployer-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/dirdeployer-API/4.0.1/dirdeployer-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>dmt-API</name>
+      <description>DMT (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>dmt-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/dmt-API/4.0.0/dmt-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Event-Admin</name>
+      <description>Event Admin</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>event</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/event/4.0.1/event-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Event-Admin-API</name>
+      <description>Event Admin (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>event-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/event-API/4.0.1/event-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>foreignapplication-API</name>
+      <description>Foreign Application Access API (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>foreignapplication-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/foreignapplication-API/4.0.0/foreignapplication-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>FW-Commands-IMPL</name>
+      <description>Framework commands (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>frameworkcommands-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/frameworkcommands-IMPL/4.0.1/frameworkcommands-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>HTTP-Server</name>
+      <description>HTTP/HTTPS Server</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>http</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/http/4.0.1/http-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>HTTP-Server-API</name>
+      <description>HTTP/HTTPS Server (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>http-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/http-API/4.0.1/http-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>HTTP-Server-IMPL</name>
+      <description>HTTP/HTTPS Server (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>http-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/http-IMPL/4.0.1/http-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>httpconsole</name>
+      <description/>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>httpconsole</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/httpconsole/4.0.1/httpconsole-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>httpconsole-IMPL</name>
+      <description/>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>httpconsole-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/httpconsole-IMPL/4.0.1/httpconsole-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>HTTP-root-IMPL</name>
+      <description>Demo HTTP Service user that publishes on the root (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>httproot-IMPL</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/httproot-IMPL/4.0.0/httproot-IMPL-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>io</name>
+      <description>IO</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>io</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/io/4.0.0/io-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>io-API</name>
+      <description>IO (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>io-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/io-API/4.0.0/io-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Jini-Driver</name>
+      <description>Jini driver (experimental) using Sun's jini impl. jini-core.jar and jini-ext.jar, see http://wwws.sun.com/software/jini/licensing/SCSL3_JiniTSA1.html</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>jinidriver</artifactId>
+      <version>0.1.0</version>
+      <url>bundle/jinidriver/0.1.0/jinidriver-0.1.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>JSDK-API</name>
+      <description>The servlet API classes (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>jsdk-API</artifactId>
+      <version>2.5.0.kf3-2</version>
+      <url>bundle/jsdk-API/2.5.0.kf3-2/jsdk-API-2.5.0.kf3-2.jar</url>
+    </bundle>
+    <bundle>
+      <name>JUnit</name>
+      <description>JUnit support</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1.kf4-001</version>
+      <url>bundle/junit/3.8.1.kf4-001/junit-3.8.1.kf4-001.jar</url>
+    </bundle>
+    <bundle>
+      <name>JUnitRunner</name>
+      <description>Grunt, the JUnit test runner. Runs JUnit tests registered in the framework and dumps results to XML files.</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>junit_runner</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/junit_runner/4.0.0/junit_runner-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>KF-XML-Metatype</name>
+      <description>XML format support for CM and Metatype</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>kf_metatype</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/kf_metatype/4.0.1/kf_metatype-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>KF-XML-Metatype-LIB</name>
+      <description>XML format support for CM and Metatype (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>kf_metatype-LIB</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/kf_metatype-LIB/4.0.1/kf_metatype-LIB-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>kXML 2-LIB</name>
+      <description>Packing of kXML 2 as a bundle (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>kxml-LIB</artifactId>
+      <version>2.3.0.kf4-001</version>
+      <url>bundle/kxml-LIB/2.3.0.kf4-001/kxml-LIB-2.3.0.kf4-001.jar</url>
+    </bundle>
+    <bundle>
+      <name>LogCommands-IMPL</name>
+      <description>Provides log commands for the Knopflerfish console (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>logcommands-IMPL</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/logcommands-IMPL/4.0.0/logcommands-IMPL-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>measurement-LIB</name>
+      <description>Measurement API (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>measurement-LIB</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/measurement-LIB/4.0.0/measurement-LIB-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>metatype-LIB</name>
+      <description>Metatype API (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>metatype-LIB</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/metatype-LIB/4.0.0/metatype-LIB-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>monitor-API</name>
+      <description>Monitor Admin API (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>monitor-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/monitor-API/4.0.0/monitor-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>oscar-shell</name>
+      <description>Compatability layer for bundles using the Oscar shell API. See readme.txt for details.</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>oscar-shell</artifactId>
+      <version>2.0.0</version>
+      <url>bundle/oscar-shell/2.0.0/oscar-shell-2.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>oscar-shell-API</name>
+      <description>Compatability layer for bundles using the Oscar shell API. See readme.txt for details. (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>oscar-shell-API</artifactId>
+      <version>2.0.0</version>
+      <url>bundle/oscar-shell-API/2.0.0/oscar-shell-API-2.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>position-LIB</name>
+      <description>Position API (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>position-LIB</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/position-LIB/4.0.0/position-LIB-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>prefs</name>
+      <description>Preferences</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>prefs</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/prefs/4.0.1/prefs-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>prefs-API</name>
+      <description>Preferences (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>prefs-API</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/prefs-API/4.0.1/prefs-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>provisioning-API</name>
+      <description>Initial Provisioning (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>provisioning-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/provisioning-API/4.0.0/provisioning-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>RemoteFW-API</name>
+      <description>Remote Framework (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>remotefw-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/remotefw-API/4.0.0/remotefw-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>RXTXcomm-API</name>
+      <description>RXTX comm java library, requires native driver fragment (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>rxtxcomm-API</artifactId>
+      <version>2.2.0.pre2</version>
+      <url>bundle/rxtxcomm-API/2.2.0.pre2/rxtxcomm-API-2.2.0.pre2.jar</url>
+    </bundle>
+    <bundle>
+      <name>RXTXcomm-linux-arm-LIB</name>
+      <description>RXTX comm native driver for Linux/arm_le (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>rxtxcomm-linux-arm-LIB</artifactId>
+      <version>2.1.7.1</version>
+      <url>bundle/rxtxcomm-linux-arm-LIB/2.1.7.1/rxtxcomm-linux-arm-LIB-2.1.7.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>RXTXcomm-linux-x86-LIB</name>
+      <description>RXTX comm native driver for Linux/x86 (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>rxtxcomm-linux-x86-LIB</artifactId>
+      <version>2.2.0.pre2</version>
+      <url>bundle/rxtxcomm-linux-x86-LIB/2.2.0.pre2/rxtxcomm-linux-x86-LIB-2.2.0.pre2.jar</url>
+    </bundle>
+    <bundle>
+      <name>ScrCommands-IMPL</name>
+      <description>Provides SCR admin commands for the Knopflerfish console (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>scrcommands-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>bundle/scrcommands-IMPL/4.0.1/scrcommands-IMPL-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>serialportdevice</name>
+      <description>Serial port device</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>serialportdevice</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/serialportdevice/4.0.0/serialportdevice-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>serialportdevice-API</name>
+      <description>Serial port device (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>serialportdevice-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/serialportdevice-API/4.0.0/serialportdevice-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>sslj2sp-IMPL</name>
+      <description>SSL Provider using the Java 2 security architecture. (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>sslj2sp-IMPL</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/sslj2sp-IMPL/4.0.0/sslj2sp-IMPL-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>threadio</name>
+      <description>ThreadIO Service</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>threadio</artifactId>
+      <version>0.2.0</version>
+      <url>bundle/threadio/0.2.0/threadio-0.2.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>threadio-API</name>
+      <description>ThreadIO Service (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>threadio-API</artifactId>
+      <version>0.2.0</version>
+      <url>bundle/threadio-API/0.2.0/threadio-API-0.2.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>threadio-IMPL</name>
+      <description>ThreadIO Service (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>threadio-IMPL</artifactId>
+      <version>0.2.0</version>
+      <url>bundle/threadio-IMPL/0.2.0/threadio-IMPL-0.2.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>FW-Tray</name>
+      <description>Framework tray icon. Allows basic control of the framework using the windows system tray.</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>trayicon_fw</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/trayicon_fw/4.0.0/trayicon_fw-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>upnp-API</name>
+      <description>UPnP (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>upnp-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/upnp-API/4.0.0/upnp-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>UserAdmin</name>
+      <description>User Administration Service</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>useradmin</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/useradmin/4.0.0/useradmin-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>UserAdmin-API</name>
+      <description>User Administration Service (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>useradmin-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/useradmin-API/4.0.0/useradmin-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>UserAdmin-IMPL</name>
+      <description>User Administration Service (IMPL)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>useradmin-IMPL</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/useradmin-IMPL/4.0.0/useradmin-IMPL-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>util-LIB</name>
+      <description>Misc utilities (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>util-LIB</artifactId>
+      <version>4.1.0</version>
+      <url>bundle/util-LIB/4.1.0/util-LIB-4.1.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>wireadmin-API</name>
+      <description>WireAdmin (API)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>wireadmin-API</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/wireadmin-API/4.0.0/wireadmin-API-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>Xalan</name>
+      <description>The Apache Xalan-Java XML transformer</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>xalan</artifactId>
+      <version>2.7.1.kf3_01</version>
+      <url>bundle/xalan/2.7.1.kf3_01/xalan-2.7.1.kf3_01.jar</url>
+    </bundle>
+    <bundle>
+      <name>Xerces-J</name>
+      <description>The Apache Xerces2 Java XML parser</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>xerces</artifactId>
+      <version>2.10.1.kf3</version>
+      <url>bundle/xerces/2.10.1.kf3/xerces-2.10.1.kf3.jar</url>
+    </bundle>
+    <bundle>
+      <name>xml-LIB</name>
+      <description>XML (LIB)</description>
+      <groupId>org.knopflerfish.bundle</groupId>
+      <artifactId>xml-LIB</artifactId>
+      <version>4.0.0</version>
+      <url>bundle/xml-LIB/4.0.0/xml-LIB-4.0.0.jar</url>
+    </bundle>
+    <bundle>
+      <name>frameworkbundle</name>
+      <description>Knopflerfish OSGi framework system bundle</description>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>framework</artifactId>
+      <version>6.0.2</version>
+      <url>framework/6.0.2/framework-6.0.2.jar</url>
+    </bundle>
+    <bundle>
+      <name>Log Service</name>
+      <description>The Knopflerfish OSGi log service</description>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>log</artifactId>
+      <version>4.0.1</version>
+      <url>log/4.0.1/log-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Log Service-API</name>
+      <description>The Knopflerfish OSGi log service (API)</description>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>log-API</artifactId>
+      <version>4.0.1</version>
+      <url>log-API/4.0.1/log-API-4.0.1.jar</url>
+    </bundle>
+    <bundle>
+      <name>Log Service-IMPL</name>
+      <description>The Knopflerfish OSGi log service (IMPL)</description>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>log-IMPL</artifactId>
+      <version>4.0.1</version>
+      <url>log-IMPL/4.0.1/log-IMPL-4.0.1.jar</url>
+    </bundle>
+  </bundles>
+</KF>

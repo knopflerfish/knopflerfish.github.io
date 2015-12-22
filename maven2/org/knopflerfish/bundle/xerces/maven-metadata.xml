@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>xerces</artifactId>
+  <version>2.10.1.kf5</version>
+  <versioning>
+    <versions>
+      <version>2.10.1.kf5</version>
+      <version>2.10.1.kf3</version>
+      <version>2.9.1</version>
+    </versions>
+    <lastUpdated>20150710100658</lastUpdated>
+  </versioning>
+</metadata>
