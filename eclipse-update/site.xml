@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Knopflerfish Update Site" url="http://www.knopflerfish.org/eclipse-update">
+      Knopflerfish Eclipse Plugins Update Site
+   </description>
+   <feature url="features/org.knopflerfish.eclipse.ide_feature_1.2.2.jar" id="org.knopflerfish.eclipse.ide_feature" version="1.2.2">
+      <category name="Knopflerfish"/>
+   </feature>
+   <category-def name="Knopflerfish" label="Knopflerfish Plugin">
+      <description>
+         The Knopflerfish OSGi plugin
+      </description>
+   </category-def>
+</site>
