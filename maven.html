@@ -6,9 +6,10 @@
   <meta name="description" content="Maven respository with Knopflerfish OSGi artifacts, i.e. OSGi bundles">
   <meta name="title" content="Knopflerfish Maven Repository - KF OSGi bundles">
   <title>Knopflerfish Maven Repository - KF OSGi bundles</title>
-  <link href="css/knopflerfish2.3.1.css"  type="text/css" rel="stylesheet">
+  <link href="css/knopflerfish2.3.2.css"  type="text/css" rel="stylesheet">
   <link rel="shortcut icon"                          href="images/favicon.png">
   <script type="text/javascript" src="scripts/menu.js"></script>
+  <script type="text/javascript" src="scripts/current_release.js"></script>
 </head>
 <body>
   <div id="main">
@@ -48,14 +49,21 @@
 	  <img src="images/arrow_closed.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')">
 	  <a class="nrow_closed" href="news.html">News</a></div>
 	<div class="nrow1_closed"><a href="news_archive.html">Archive</a></div>
-	<div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div>
+	<!-- <div class="nrow1_closed"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists</a></div> -->
+	<div class="nrow1_off_closed">Mailing lists</div>
       </div>
       
       <div id="menu_download"><div class="nrow"><img src="images/arrow_open.gif" alt="" onclick="setMenuById(this.parentNode.parentNode.id, 'toggle')"><a class="nrow_open" href="download.html">Download</a></div>
 	<div class="nrow1_open"><a href="license.html">License</a></div>
+	<!--
 	<div class="nrow1_open"><a href="/snapshots/">Nightly builds</a></div>
 	<div class="nrow1_open"><a href="/snapshots/current_trunk/junit_grunt/index.xml">Nightly tests</a></div>
-	<div class="nrow1_open"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div>
+	-->
+	<div class="nrow1_off_open">Nightly builds (off)</div>
+	<div class="nrow1_off_open">Nightly tests (off)</div>
+	<!-- <div class="nrow1_open"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div> -->
+	<div class="nrow1_open"><a href="/releases/current/osgi/jars/index.html"
+						onclick="currentReleasePath(this, '/osgi/jars/index.html')"> Bundle repository</a></div>
 	<div class="nrow1_open"><a href="git_info.html">Source code (git)</a></div>
 	<div class="nrow1_open"><a href="archive.html">Archived releases</a></div>
 	<div class="nrow1_open"><a href="maven.html">Maven repository</a></div>
@@ -65,14 +73,19 @@
 	<div class="nrow1_closed"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
 	<div class="nrow1_closed"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
 	<div class="nrow1_closed"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
-	<div class="nrow1_closed"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div>
+	<!-- <div class="nrow1_closed"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div> -->
+	<div class="nrow1_closed"><a href="/releases/current/docs/index.html"
+					    onclick="currentReleasePath(this, '/docs/index.html')">Manual (KF 5.2.0)</a></div>
+	<!--
 	<div class="nrow1_label_closed">Shortcuts</div>
 	<div class="nrow1_indent_closed"><a href="/releases/current/docs/installing.html">Installing</a></div>
 	<div class="nrow1_indent_closed"><a href="/releases/current/docs/running.html">Running</a></div>
 	<div class="nrow1_indent_closed"><a href="/releases/current/docs/building.html">Building</a></div>
 	<div class="nrow1_indent_closed"><a href="/releases/current/docs/programming.html">Programming</a></div>
 	<div class="nrow1_indent_closed"><a href="/releases/current/docs/testing.html">Testing</a></div>
-	<div class="nrow1_closed"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div>
+	-->
+	<!-- <div class="nrow1_closed"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div> -->
+	<div class="nrow1_off_closed">Manual (snapshot)</a></div>
 	<div class="nrow1_closed"><a href="tutorials.html">Tutorials</a></div>
 	<div class="nrow1_closed"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
       </div>
@@ -83,11 +96,14 @@
 	<div class="nrow1_closed"><a href="merchandise.html">T-shirt and stuff</a></div>
       </div>
       <div class="nrow">&nbsp;</div>
-      <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div>
+      <!-- <div class="nrow"><a href="http://www.knopflerfish.org/mailman/listinfo">Mailing lists </a></div> -->
+      <div class="nrow_off">Mailing lists</div>
       <div class="nrow"><a  href="http://sourceforge.net/tracker/?atid=567241&amp;group_id=82798&amp;func=browse">Bug tracker <img border="0" alt="" src="images/extlink.gif"></a></div>
+      <!--
       <div class="nrow"><a href="https://sourceforge.net/forum/forum.php?forum_id=328005">
 	  Forum <img border="0" src="images/extlink.gif"alt="">
-      </a></div>
+      </a></div-->
+      <div class="nrow_off">Forum</div>
       <div class="nrow"><a href="http://knopflerfish.blogspot.com/">
 	  Knopflerfish Blog <img border="0" src="images/extlink.gif"alt="">
       </a></div>
