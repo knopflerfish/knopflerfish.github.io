@@ -63,7 +63,7 @@
 	<div class="nrow1_off_open">Nightly tests (off)</div>
 	<!-- <div class="nrow1_open"><a href="/releases/current/osgi/jars/index.xml">Bundle repository</a></div> -->
 	<div class="nrow1_open"><a href="/releases/current/osgi/jars/index.html"
-						onclick="currentReleasePath(this, '/osgi/jars/index.html')"> Bundle repository</a></div>
+						onclick="currentReleasePath(this, '/osgi/jars/index.xml')"> Bundle repository</a></div>
 	<div class="nrow1_open"><a href="git_info.html">Source code (git)</a></div>
 	<div class="nrow1_open"><a href="archive.html">Archived releases</a></div>
 	<div class="nrow1_open"><a href="maven.html">Maven repository</a></div>
@@ -72,7 +72,7 @@
 	<div class="nrow1_closed"><a href="kf5_osgi_r5.html">About Knopflerfish 5</a></div>
 	<div class="nrow1_closed"><a href="kf4_osgi_r4_v4.3.html">About Knopflerfish 4</a></div>
 	<div class="nrow1_closed"><a href="kf3_osgi_r4_v4.2.html">About Knopflerfish 3</a></div>
-	<div class="nrow1_closed"><a href="osgi_java_compatability_guide.html">Java Compatability</a></div>
+	<div class="nrow1_closed"><a href="osgi_java_compatibility_guide.html">Java Compatability</a></div>
 	<!-- <div class="nrow1_closed"><a href="/releases/current/docs/index.html">Manual (KF 5.2.0)</a></div> -->
 	<div class="nrow1_closed"><a href="/releases/current/docs/index.html"
 					    onclick="currentReleasePath(this, '/docs/index.html')">Manual (KF 5.2.0)</a></div>
@@ -85,7 +85,7 @@
 	<div class="nrow1_indent_closed"><a href="/releases/current/docs/testing.html">Testing</a></div>
 	-->
 	<!-- <div class="nrow1_closed"><a href="/snapshots_trunk/current_trunk/docs/index.html">Manual (snapshot)</a></div> -->
-	<div class="nrow1_off_closed">Manual (snapshot)</a></div>
+	<div class="nrow1_off_closed">Manual (snapshot) (off)</a></div>
 	<div class="nrow1_closed"><a href="tutorials.html">Tutorials</a></div>
 	<div class="nrow1_closed"><a href="eclipse_plugin.html">Eclipse plugin</a></div>
       </div>
@@ -127,17 +127,18 @@
     <div id="mainblock">
       <h1 class="kf">Knopflerfish Maven Repositories</h1>
 
+<!--
 <div class="inline_right infobox">
   <div class="infobox_title">Knopflerfish releases repository</div>
   <a href="http://www.knopflerfish.org/maven2/"> http://www.knopflerfish.org/maven2 </a>
 </div>  
+-->
 <p>
 Knopflerfish offers a set of different maven2 repositories, each with a specific purpose.
 </p>
 <p>
 The main repository is the Knopflerfish releases repository at:<br>
-<a href="http://www.knopflerfish.org/maven2/">
-  http://www.knopflerfish.org/maven2/</a>.
+  http://www.knopflerfish.org/maven2/
 </p>
 <p>
 This repository is populated with all artifacts from all Knopflerfish
@@ -151,7 +152,9 @@ as well as specific release repositories. Both of them are described
 in the sections below. 
 </p>
 
-<h2 class="kf">Snapshot repositories</h2>
+<h2 class="kf">Snapshot repositories (temporarily turned off)</h2>
+The KF snapshot build repository is temporarily turned off.
+<!--
 The latest KF snapshot build repository is always available at:
 <a href="http://www.knopflerfish.org/snapshots/current_trunk/maven2/">
 http://www.knopflerfish.org/snapshots/current_trunk/maven2/
@@ -164,6 +167,7 @@ Every
 <a href="http://www.knopflerfish.org/snapshots/">
   Knopflerfish snapshot build page</a>
 </p>
+-->
 
 <h2 class="kf">Dedicated Knopflerfish release repositories </h2>
 <p>
@@ -171,6 +175,9 @@ Every
   <code>&lt;dependencyManagement&gt;</code> element that lists all
   artifacts, i.e. bundles, included in that specific release. 
 </p>
+
+<!--
+
 <p>
   The xml documents
   are located at:
@@ -178,8 +185,9 @@ Every
     http://www.knopflerfish.org/maven2/org/knopflerfish/
   </a>
 </p>
+-->
 
-For convenience the table below contains direct links to the xml documents.
+The table below contains direct links to the xml documents for each release:
 <table class="fancy">
   <tr>
     <th>Release</th>
