@@ -1,6 +1,6 @@
 
 function getCurrentVersion() {
-    var kf_release = "5.2.0";
+    var kf_release = "5.2.1";
 
     return kf_release;
 }
