@@ -1,0 +1,22 @@
+#state
+#Thu Oct 20 16:08:15 CEST 2016
+bundle_0_loc=internal\:bundleA_test-1.0.0.jar
+bundle_3_uuid=org.knopflerfish\:bundleF_test\:1.0.0\:all
+bundle_0_startlevel=5
+bundle_1_id=5
+bundle_1_startlevel=5
+bundle_2_id=6
+bundle_2_loc=internal\:bundleC_test-1.0.0.jar
+bundle_3_id=7
+bundle_2_startlevel=-1
+bundle_1_state=2
+bundle_0_state=32
+bundle_3_startlevel=7
+bundle_1_loc=internal\:bundleB_test-1.0.0.jar
+bundle_0_uuid=org.knopflerfish\:bundleA_test\:1.0.0\:all
+bundle_3_state=32
+bundle_1_uuid=org.knopflerfish\:bundleB_test\:1.0.0\:all
+bundle_2_state=1
+bundle_3_loc=internal\:bundleF_test-1.0.0.jar
+bundle_0_id=4
+bundle_2_uuid=org.knopflerfish\:bundleC_test\:1.0.0\:all

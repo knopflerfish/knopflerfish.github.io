@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="junit_style.xsl"?>
+<junit date="Thu Oct 20 16:06:01 CEST 2016">
+<properties name="System.properties">
+ <value key="java.runtime.name"><![CDATA[Java(TM) SE Runtime Environment]]></value>
+ <value key="sun.boot.library.path"><![CDATA[/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries]]></value>
+ <value key="java.vm.version"><![CDATA[20.65-b04-468]]></value>
+ <value key="awt.nativeDoubleBuffering"><![CDATA[true]]></value>
+ <value key="gopherProxySet"><![CDATA[false]]></value>
+ <value key="mrj.build"><![CDATA[11M4833]]></value>
+ <value key="java.vm.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="java.vendor.url"><![CDATA[http://www.apple.com/]]></value>
+ <value key="path.separator"><![CDATA[:]]></value>
+ <value key="java.vm.name"><![CDATA[Java HotSpot(TM) 64-Bit Server VM]]></value>
+ <value key="file.encoding.pkg"><![CDATA[sun.io]]></value>
+ <value key="sun.java.launcher"><![CDATA[SUN_STANDARD]]></value>
+ <value key="user.country"><![CDATA[US]]></value>
+ <value key="sun.os.patch.level"><![CDATA[unknown]]></value>
+ <value key="java.vm.specification.name"><![CDATA[Java Virtual Machine Specification]]></value>
+ <value key="user.dir"><![CDATA[/Users/jan/git/knopflerfish/knopflerfish.org/out/distrib_5.2.1/osgi]]></value>
+ <value key="java.runtime.version"><![CDATA[1.6.0_65-b14-468-11M4833]]></value>
+ <value key="java.awt.graphicsenv"><![CDATA[apple.awt.CGraphicsEnvironment]]></value>
+ <value key="java.endorsed.dirs"><![CDATA[/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed]]></value>
+ <value key="os.arch"><![CDATA[x86_64]]></value>
+ <value key="java.io.tmpdir"><![CDATA[/var/folders/f4/5hpbxq611yg5hslyw8w8v15m0000gn/T/]]></value>
+ <value key="line.separator"><![CDATA[
+]]></value>
+ <value key="java.vm.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="os.name"><![CDATA[Mac OS X]]></value>
+ <value key="org.knopflerfish.gosg.jars"><![CDATA[file:jars/;file:test_jars/]]></value>
+ <value key="sun.jnu.encoding"><![CDATA[MacRoman]]></value>
+ <value key="org.knopflerfish.framework.main.verbosity"><![CDATA[0]]></value>
+ <value key="java.library.path"><![CDATA[.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java]]></value>
+ <value key="java.specification.name"><![CDATA[Java Platform API Specification]]></value>
+ <value key="java.class.version"><![CDATA[50.0]]></value>
+ <value key="sun.management.compiler"><![CDATA[HotSpot 64-Bit Tiered Compilers]]></value>
+ <value key="os.version"><![CDATA[10.11.6]]></value>
+ <value key="http.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="user.home"><![CDATA[/Users/jan]]></value>
+ <value key="java.security.policy"><![CDATA[jar:file:/Users/jan/git/knopflerfish/knopflerfish.org/out/distrib_5.2.1/osgi/framework.jar!/framework.policy]]></value>
+ <value key="user.timezone"><![CDATA[Europe/Stockholm]]></value>
+ <value key="java.awt.printerjob"><![CDATA[apple.awt.CPrinterJob]]></value>
+ <value key="file.encoding"><![CDATA[MacRoman]]></value>
+ <value key="java.specification.version"><![CDATA[1.6]]></value>
+ <value key="java.class.path"><![CDATA[/Users/jan/git/knopflerfish/knopflerfish.org/out/distrib_5.2.1/osgi/framework.jar]]></value>
+ <value key="user.name"><![CDATA[jan]]></value>
+ <value key="java.vm.specification.version"><![CDATA[1.0]]></value>
+ <value key="sun.java.command"><![CDATA[/Users/jan/git/knopflerfish/knopflerfish.org/out/distrib_5.2.1/osgi/framework.jar -Forg.osgi.framework.security=osgi -Forg.osgi.framework.storage=/Users/jan/git/knopflerfish/knopflerfish.org/out/distrib_5.2.1/junit_grunt/test_fwdir -Forg.knopflerfish.junit_runner.outdir=/Users/jan/git/knopflerfish/knopflerfish.org/out/distrib_5.2.1/junit_grunt -xargs init-tests.xargs -Forg.knopflerfish.prefs.dir=/Users/jan/git/knopflerfish/knopflerfish.org/out/distrib_5.2.1/junit_grunt/prefs]]></value>
+ <value key="java.home"><![CDATA[/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home]]></value>
+ <value key="sun.arch.data.model"><![CDATA[64]]></value>
+ <value key="user.language"><![CDATA[en]]></value>
+ <value key="java.specification.vendor"><![CDATA[Sun Microsystems Inc.]]></value>
+ <value key="awt.toolkit"><![CDATA[apple.awt.CToolkit]]></value>
+ <value key="java.vm.info"><![CDATA[mixed mode]]></value>
+ <value key="java.version"><![CDATA[1.6.0_65]]></value>
+ <value key="java.ext.dirs"><![CDATA[/Library/Java/Extensions:/System/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext]]></value>
+ <value key="sun.boot.class.path"><![CDATA[/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar]]></value>
+ <value key="java.vendor"><![CDATA[Apple Inc.]]></value>
+ <value key="file.separator"><![CDATA[/]]></value>
+ <value key="java.vendor.url.bug"><![CDATA[http://bugreport.apple.com/]]></value>
+ <value key="sun.io.unicode.encoding"><![CDATA[UnicodeLittle]]></value>
+ <value key="sun.cpu.endian"><![CDATA[little]]></value>
+ <value key="mrj.version"><![CDATA[1070.1.6.0_65-468]]></value>
+ <value key="socksNonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="ftp.nonProxyHosts"><![CDATA[local|*.local|169.254/16|*.169.254/16]]></value>
+ <value key="sun.cpu.isalist"><![CDATA[]]></value>
+</properties>
+<properties name="Framework.properties">
+ <value key="org.osgi.framework.os.name"><![CDATA[linux]]></value>
+ <value key="org.osgi.framework.executionenvironment"><![CDATA[OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JavaSE-1.6,J2SE-1.5,J2SE-1.4,J2SE-1.3,J2SE-1.2]]></value>
+ <value key="org.osgi.framework.processor"><![CDATA[arm_le]]></value>
+ <value key="org.osgi.framework.vendor"><![CDATA[Knopflerfish]]></value>
+ <value key="org.osgi.framework.version"><![CDATA[7.2.4]]></value>
+ <value key="org.osgi.framework.os.version"><![CDATA[10.11.6]]></value>
+</properties>
+ <testcase id="FrameworkTestSuite">
+  <description><![CDATA[Tests core functionality in the framework]]></description>
+  <docurl><![CDATA[https://github.com/knopflerfish/knopflerfish.org/tree/master/osgi/bundles_test/regression_tests/framework_test/readme.txt]]></docurl>
+    <suite class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite" name  = "FrameworkTestSuite" time  = "35380">
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Setup" name  = "Setup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame005a" name  = "Frame005a" status = "passed">
+  <description><![CDATA[Verify information from the getHeaders() method]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame007a" name  = "Frame007a" status = "passed">
+  <description><![CDATA[Extract all information from the getProperty in the BundleContext interface ]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame010a" name  = "Frame010a" status = "passed">
+  <description><![CDATA[Get context id, location and status of the bundle]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame018a" name  = "Frame018a" status = "passed">
+  <description><![CDATA[Test result of getService(null). Should throw NPE]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame019a" name  = "Frame019a" status = "passed">
+  <description><![CDATA[Try bundle:// syntax, if present in FW, by installing bundleA_test
+This test is also valid if 
+new URL(bundle://) throws MalformedURLException]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame020a" name  = "Frame020a" status = "passed">
+  <description><![CDATA[Load bundleA_test and check that it exists and that its expected service does not exist
+Also check that the expected events in the framework occurs]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame025b" name  = "Frame025b" status = "passed">
+  <description><![CDATA[Start bundleA_test and check that it gets state ACTIVE
+and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame030b" name  = "Frame030b" status = "passed">
+  <description><![CDATA[Stop bundleA_test and check that it gets state RESOLVED]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame035b" name  = "Frame035b" status = "passed">
+  <description><![CDATA[Uninstall bundleA_test and check that it gets state UNINSTALLED]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame038b" name  = "Frame038b" status = "passed">
+  <description><![CDATA[Install a non existent file, check that the right exception is thrown]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame041a" name  = "Frame041a" status = "passed">
+  <description><![CDATA[Install bundleD1_test, which has a broken manifest file,
+an empty import statement and check
+that the expected exceptions are thrown]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame045a" name  = "Frame045a" status = "passed">
+  <description><![CDATA[Add a service listener with a broken LDAP filter to get an exception]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame050a" name  = "Frame050a" status = "passed">
+  <description><![CDATA[Loads and starts bundleB_test, checks that it gets the state ACTIVE.
+Checks that it implements the Configurable interface.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame055a" name  = "Frame055a" status = "passed">
+  <description><![CDATA[Load and start bundleC_test, checks that it gets the state ACTIVE.
+Checks that it is available under more than one name.
+Then stop the bundle, check that no exception is thrown
+as the bundle unregisters itself in its stop method.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame060a" name  = "Frame060a" status = "passed">
+  <description><![CDATA[Gets the configurable object from testbundle B,
+update its properties and check that a ServiceEvent occurs.
+Also get the ServiceRegistration object from bundle
+and check that the bundle is the same and that
+unregistration causes a ServiceEvent.UNREGISTERING.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame065b" name  = "Frame065b" status = "passed">
+  <description><![CDATA[Load and try to start bundleE_test, 
+It should be possible to load , but should not be possible to start
+as the start method in the manifest is not available in the bundle.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame068a" name  = "Frame068a" status = "passed">
+  <description><![CDATA[Tests accessing multiple resources inside the test bundle itself
+using ClassLoader.getResource]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame069a" name  = "Frame069a" status = "passed">
+  <description><![CDATA[Tests contents of multiple resources inside the test bundle itself
+using ClassLoader.getResource]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame070a" name  = "Frame070a" status = "passed">
+  <description><![CDATA[Reinstalls and the updates testbundle_A.
+The version is checked to see if an update has been made.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame075a" name  = "Frame075a" status = "passed">
+  <description><![CDATA[Uninstall bundleB_test and the try to start and stop it.
+In both cases exceptions should be thrown.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame080a" name  = "Frame080a" status = "passed">
+  <description><![CDATA[Installs and starts bundleF_test and then try to and stop it.
+A BundleException is expected.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame085b" name  = "Frame085b" status = "passed">
+  <description><![CDATA[Installs and starts bundleH_test, a service factory
+and tests that the methods in that API works.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame110b" name  = "Frame110b" status = "passed">
+  <description><![CDATA[Install and start bundleJ_test, which should throw an exception at start.
+then check if the framework removes all traces of the bundle
+as it registers one service (itself) before the bundle exception is thrown]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame115a" name  = "Frame115a" status = "passed">
+  <description><![CDATA[Test getDataFile() method.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame125a" name  = "Frame125a" status = "passed">
+  <description><![CDATA[Test of the PackagePermission class]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame130a" name  = "Frame130a" status = "passed">
+  <description><![CDATA[Test of the ServicePermission class]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame160a" name  = "Frame160a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame161a" name  = "Frame161a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval from boot class path;  a resource in-side the java package.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame162a" name  = "Frame162a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval from boot class path;  a resource outside the java package that should not be found.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame163a" name  = "Frame163a" status = "passed">
+  <description><![CDATA[Test bundle resource retrieval from boot class path;  a resource found via boot delegation.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame164a" name  = "Frame164a" status = "passed">
+  <description><![CDATA[Test normalization of relative paths in bundle URLs created using  new URL(bundleUrl, 'relative path').]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame165a" name  = "Frame165a" status = "passed">
+  <description><![CDATA[bundle.getResource("/META-INF") and bundle.getResource("/META-INF/") i.e., asking for directory with or without trailing file separator.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame170a" name  = "Frame170a" status = "passed">
+  <description><![CDATA[Test of ServiceReference.getUsingBundles() and SynchronousBundleListener.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame175a" name  = "Frame175a" status = "passed">
+  <description><![CDATA[Check of resource integrity when using intermixed reading of differenent resources from bundleR2_test.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame180a" name  = "Frame180a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR3_test.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame181a" name  = "Frame181a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR3_test.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame185a" name  = "Frame185a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR4_test,
+that has an unresolvable package imported]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame186a" name  = "Frame186a" status = "passed">
+  <description><![CDATA[Check of resource on top of bundle name space from bundleR4_test,
+that has an unresolvable package imported]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame190a" name  = "Frame190a" status = "passed">
+  <description><![CDATA[Check of resource access inside bundle name space from bundleR5_test and
+bundleR6_test, that bundleR5_test exports a resource that is accessed via 
+the bundle context of bundleR6_test]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame210a" name  = "Frame210a" status = "passed">
+  <description><![CDATA[Deadlock test when using synchronous serviceChange listener and updating different threads.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame211a" name  = "Frame211a" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame260a" name  = "Frame260a" status = "passed">
+  <description><![CDATA[Start bundleA_lazy according to its activation policy, check that 
+it gets state STARTING. Then start the bundle eagerly and check that 
+its state is ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame265a" name  = "Frame265a" status = "passed">
+  <description><![CDATA[Restart bundleA_lazy according to its activation policy, check that 
+it gets state STARTING. Then load a class from it, check that is started
+and its state is ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame270a" name  = "Frame270a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it, check that 
+is started and its state is ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame275a" name  = "Frame275a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it that shall 
+not trigger activation, check that the bundle is still in state STARTING.
+ Load a class that shall trigger activation and check that the state 
+changes to ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame280a" name  = "Frame280a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it that shall 
+not trigger activation (via excludes directive), this class depends on 
+another class thatt will be loaded and is not mentioned in either the 
+includes nor the excludes directive. Thus this second class will will 
+trigger activation. Check that the state changes to ACTIVE and that the 
+service it registers becomes available.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame285a" name  = "Frame285a" status = "passed">
+  <description><![CDATA[Start newly installed bundleA_lazy according to its activation policy, 
+check that it gets state STARTING. Then load a class from it that shall 
+not trigger activation (via excludes directive), check that the 
+bundle is still in state STARTING. Load a class that shall trigger 
+activation (via includes directive) and check that the state 
+changes to ACTIVE and that the service it registers exist]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Frame290a" name  = "Frame290a" status = "passed">
+  <description><![CDATA[Start bundleT_test that sleeps 3s in start, at the same time
+try to stop the bundle, we should get an exception and the
+bundle should remain started.
+Then stop and start again and at the same time uninstall
+this time the bundle should be uninstalled correctly.]]></description>
+</case>
+     <case class = "org.knopflerfish.bundle.framework_test.FrameworkTestSuite$Cleanup" name  = "Cleanup" status = "passed">
+  <description><![CDATA[]]></description>
+</case>
+    </suite>
+  <testresult wasSuccessful = "true"
+              runCount      = "50"
+              failureCount  = "0"
+              errorCount    = "0"
+  >
+  </testresult>
+ </testcase>
+</junit>

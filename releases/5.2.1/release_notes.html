@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<!-- This is a generated file. Do not edit. Built by jan on Thu October 20 2016, 16:05:57 -->
+
+<html>
+
+  <head>
+    <meta http-equiv = "Content-Type"
+	  content    = "text/html; charset=ISO-8859-1"/>
+    
+    <meta http-equiv = "CACHE-CONTROL"
+	  content    = "NO-CACHE"/>
+
+    <meta name       = "description"
+	  content    = "Release notes for Knopflerfish OSGi, version 5.2.1 - "/>
+    
+    <meta name       = "title"
+	  content    = "Knopflerfish OSGi, version 5.2.1 -  Release Notes"/>
+
+    <title>Knopflerfish OSGi, version 5.2.1 -  Release Notes</title>
+
+    <style>
+BODY  {
+  background: #ccc;
+}
+
+#main {
+  width: 1000; 
+  background: #fff;
+  border:		1px solid #000;
+  margin: 0px auto;
+  font-family: Lucida Grande, Tahoma, Helvetica, sans-serif;
+  padding: 0px 0px 0px 0px;
+}
+
+#mainblock {
+  margin-left: 20px; 
+  padding-right: 15px;
+  font-family: "Lucida Grande", Tahoma, Lucida Sans, Verdana, Helvetica, sans-serif;
+  font-size: 12.8px;
+}
+
+#footer {
+  clear:both;
+  border-style: solid;
+  border-color: #802060;
+  border-width: 1px 0px 0px 0px;
+  margin:	20px 15px 15px 15px;
+}
+
+#copyright {
+  margin-left: 200px;
+  font-size:10px;
+  color: #000;
+  text-align: right;
+  padding: 5px 10px 0px 0px;
+}	  
+
+H1, H1.kf {
+    font-family: Helvetica Neue, Helvetica, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight:bold;
+    border-style: solid;
+    border-color: #802060;
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 2px;
+    margin: 2.0em 0 0.6em 0;
+    color: #444444;
+}
+
+H2.kf  {
+    font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+    font-size:	1.3em;
+    font-weight:bold;
+    border-style: solid;
+    color:		#444444;
+    border-style:  solid;
+    border-color:	#ccc;
+    border-width:	1px 0px 1px 0px;
+    background-image: url('../images/shortfadeout_20px.png');
+    background-repeat: repeat-x;
+    padding:	3px 0px 3px 6px;
+    margin: 1.4em 0 0.8em 0;
+}
+
+.note_group {
+    margin: 1.5em 0 0.5em 0;
+}
+
+.note_name {
+    font-weight: bold;
+    color:#333333;
+}
+
+.note_item {
+    display: list-item;
+    margin: 0.5em 0 0.5em 2em;
+}
+a {
+    color:#111111;
+    text-decoration:none;
+}
+    </style>
+
+  </head>
+
+
+  <body>
+    <div id="main">
+      <div id="mainblock">
+	<!-- The first line in this file is used by the desktop to check -->
+<!-- for new releases, i.e., do not change its format.           -->
+<!-- It must contain the word "Knopflerfish" followed by a space -->
+<!-- and then the version followed by another space.             -->
+
+<h1 class="kf">Release Notes Knopflerfish 5.2.1 (OSGi R5)</h1>
+<p>
+
+  Maintenance release of Knopflerfish 5 available from
+  http://www.knopflerfish.org/releases/5.2.1. Released 2016-10-20.
+
+</p>
+<p>
+
+  Knopflerfish 5 is an implementation of the "OSGi Service Platform
+  Release 5". It contains all services specified in the "Core
+  Specification" and most of the non Enterprise Edition related
+  services specified in the "Compendium Specification".
+
+</p>
+
+<p>
+
+  The Release Notes include all new features & changes for
+  Knopflerfish 5.2.1 compared to the release of Knopflerfish
+  5.2.0.
+
+</p>
+
+<h2 class="filled">Knopflerfish Framework - OSGi Core Specification</h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name">Framework 7.2.4</div>
+    <div class="note_item">
+    Fixed so optional imports in fragment bundles do not block attach
+    to resolved fragment hosts.
+    </div>
+    <div class="note_item">
+    Updated resolve process so that it can find and attach fragments that
+    adds new export packages.
+    </div>
+    <div class="note_name">Framework 7.2.3</div>
+    <div class="note_item">
+    Fixed so that we can use security manager without persistent storage
+    (e.g. read-only mode).
+    </div>
+    <div class="note_name">Framework 7.2.2</div>
+    <div class="note_item">
+    Added missing check in resolver, caused the resolver under certain conditions
+    to go into an infinite loop when a bundle wasn't resolvable.
+    </div>
+    <div class="note_name">Framework 7.2.1</div>
+    <div class="note_item">
+    Added some packages from org.apache.commons... to be exported package
+    on Android systems by default.
+    </div>
+    <div class="note_item">
+    Set default value to true for the property 
+    <code>org.knopflerfish.framework.is_doublechecked_locking_safe</code>
+    on Android systems.
+    </div>
+  </div>
+
+</div>
+
+
+<h2 class="filled">OSGi Compendium Specification</h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name">CM 5.0.2</div>
+    <div class="note_item">
+      Fixed race condition that could cause a NullPointerException in
+      ConfigurationAdminFactory.createEvent().
+    </div>
+  </div>
+
+  <div class="note_group">
+    <div class="note_name">HTTP 5.1.2</div>
+    <div class="note_item">
+      Removed debug printout that incorrectly indicated a NPE problem.
+    </div>
+    <div class="note_item">
+      HttpServletResponse.getLocale() incorrectly returned null if no locale had been set.
+      Corrected to return the default locale.
+    </div>
+    <div class="note_name">HTTP 5.1.1</div>
+    <div class="note_item">
+      Corrected issues in the HttpServletRequest class. Some methods
+      caused NPE or gave incorrect results during the second GET call in a Keep-Alive connection. Methods affected: getLocalAddr(), getLocalName(), getRemteAddr(), getRemoteHost(), getLocalPort(), getRemotePort().
+    </div>
+  </div>
+
+</div>
+
+
+<h2 class="filled">Knopflerfish Services</h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name">HttpClientConnector 3.1.3.kf5-001</div>
+    <div class="note_item">
+    Re-packaged the bundle to avoid classloader problems on Android systems.
+    </div>
+    <div class="note_item">
+    Export org.apache.commons.codec packages.
+    </div>
+  </div>
+
+</div>
+
+
+<h2 class="filled">Misc, start scripts, build system etc </h2>
+<div class="release_notes">
+
+  <div class="note_group">
+    <div class="note_name">BundleDexifier 1.0.0</div>
+    <div class="note_item">
+    Added version number to bundledexifier.
+    </div>
+    <div class="note_item">
+    Don't add classes.dex when bundle doesn't contain java classes.
+    </div>
+  </div>
+
+  <div class="note_group">
+    <div class="note_name">junit 3.8.1.kf4-003</div>
+    <div class="note_item">
+      Corrected issue with published JUntiResult being included every test suite result even they were not related.
+    </div>
+
+    <div class="note_name">junit 3.8.1.kf4-002</div>
+    <div class="note_item">
+      New support interface for distributed testing and publishing JUnitTestResults services in the registry.
+      The junit bundle will after the test run collect these publish results and include them in the xml test result output.
+    </div>
+  </div>
+
+  <div class="note_group">
+    <div class="note_name">junit_runner 4.1.0</div>
+    <div class="note_item">
+      Updated xsl for handling collected test results originating from published JUnitTestResult services.
+    </div>
+  </div>
+
+  <div class="note_group">
+    <div class="note_name">http_servlet_test 1.1.0</div>
+    <div class="note_item">
+      Update to use HttpClient / httpclient_connector for all request testing. More test cases added.
+    </div>
+    
+    <div class="note_name">http_servlet_test 1.0.0</div>
+    <div class="note_item">
+      New regression test: http_servlet_test for testing the Servlet API from within a test servlet,
+      running inside the KF HTTP server,
+    </div>
+  </div>
+  
+
+</div>
+
+      </div>
+      <div id="footer">
+	<div id="copyright">
+	  Copyright &copy; 2008-2016 The Knopflerfish Project. All rights reserved.
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

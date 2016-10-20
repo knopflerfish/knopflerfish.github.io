@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>http</artifactId>
+  <version>5.1.2</version>
+  <versioning>
+    <versions>
+      <version>5.1.2</version>
+    </versions>
+    <lastUpdated>20161020140829</lastUpdated>
+  </versioning>
+</metadata>

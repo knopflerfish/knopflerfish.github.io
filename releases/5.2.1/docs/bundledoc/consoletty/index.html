@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <link href="../../css/knopflerfish.css" rel="stylesheet" type="text/css">
+    <link href="../../css/kf_man.css" rel="stylesheet" type="text/css">
+    <title>Bundle User Documentation - consoletty, v4.0.1</title>
+    <script type="text/javascript">
+      function windowTitle() {
+        if (location.href.indexOf('is-external=true') == -1) {
+           parent.document.title=document.title;
+        }
+      }
+    </script>
+    <noscript></noscript>
+  </head>
+  <body class="mainblock" onload="windowTitle();">
+    <div class="manpage">
+      <div class="userdoc_hdr_left">
+	Bundle: consoletty
+      </div>
+      <div class="userdoc_hdr_right">
+	Version 4.0.1
+      </div>
+      <h1 class="man">Console TTY</h1>
+<div class="abstract">
+  This bundle provides a console session on standard input for the JRE.
+</div>
+<h2 class="man">Description</h2>
+
+<p>
+
+The Console TTY bundle provides a tty console session on top of
+System.in and System.out (the standard input / output of the JVM).
+
+<p>
+This bundle is typically used during development.
+
+
+<h3 class="man">Configuration using the Configuration Manager</h3>
+
+The tty console bundle accepts a configuration with the PID
+<pre>
+  org.knopflerfish.bundle.consoletty.ConsoleTty
+</pre>
+
+and with the following properties:
+
+<dl>
+
+<dt>nonblocking</dt>
+<dd>Use non-blocking tty access. Some JVM-OS combinations cannot
+    handle blocking access to standard input.</dd>
+
+</dl>
+
+
+      <h2 class="man">Bundle Jar docs</h2>
+      <a target="_top" href="../../jars/index.html?bundle=consoletty/consoletty-4.0.1.html">consoletty-4.0.1</a>
+
+      <h2 class="man">Exported Packages</h2>
+      No exported packages.
+    </div>
+  </body>
+</html>
+
