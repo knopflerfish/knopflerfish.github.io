@@ -1,0 +1,933 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  <link href="../style.css" rel="stylesheet" type="text/css">
+  <title>httpclient_connector-3.1.3.kf5-001.jar</title>
+  <script type="text/javascript">
+    function windowTitle() {
+      if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title=document.title;
+      }
+    }
+  </script>
+</head>
+
+<body onload="windowTitle();">
+
+<h2>httpclient_connector-3.1.3.kf5-001.jar</h2>
+
+<p>
+<a href="../../../osgi/jars/httpclient_connector/httpclient_connector-3.1.3.kf5-001.jar">download</a> (368598 bytes)
+</p>
+
+<table width="100%">
+ <tr>
+  <td class="mfheader" colspan=2>OSGi manifest attributes</td>
+ </tr>
+
+ <tr>
+  <td>Bundle-Name</td>
+  <td>httpclient_connector</td>
+ </tr>
+ <tr>
+  <td>Bundle-SymbolicName</td>
+  <td>org.knopflerfish.bundle.httpclient_connector</td>
+ </tr>
+ <tr>
+  <td>Bundle-Version</td>
+  <td>3.1.3.kf5-001</td>
+ </tr>
+ <tr>
+  <td>Bundle-Description</td>
+  <td>A HTTP IO-Connector with proxy support,based on apache commons http client 3.1.</td>
+ </tr>
+ <tr>
+  <td>Bundle-Vendor</td>
+  <td>Knopflerfish</td>
+ </tr>
+ <tr>
+  <td>Bundle-ContactAddress</td>
+  <td>http://www.knopflerfish.org</td>
+ </tr>
+ <tr>
+  <td>Bundle-License</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>Bundle-DocURL</td>
+  <td><a target="_top" href="http://www.knopflerfish.org">http://www.knopflerfish.org</a></td>
+ </tr>
+ <tr>
+  <td>Bundle-ManifestVersion</td>
+  <td>2</td>
+ </tr>
+ <tr>
+  <td>Bundle-Activator</td>
+  <td>org.knopflerfish.bundle.httpclient_connector.Activator</td>
+ </tr>
+ <tr>
+  <td>Bundle-Classpath</td>
+  <td>., codec/commons-codec-1.3.jar</td>
+ </tr>
+
+ <tr>
+  <td>Export-Package</td>
+  <td>org.apache.commons.codec&nbsp;1.3.0<br>
+org.apache.commons.codec.binary&nbsp;1.3.0<br>
+org.apache.commons.codec.digest&nbsp;1.3.0<br>
+org.apache.commons.codec.language&nbsp;1.3.0<br>
+org.apache.commons.codec.net&nbsp;1.3.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/package-summary.html">org.apache.commons.httpclient</a>&nbsp;3.1.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/auth/package-summary.html">org.apache.commons.httpclient.auth</a>&nbsp;3.1.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/cookie/package-summary.html">org.apache.commons.httpclient.cookie</a>&nbsp;3.1.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/package-summary.html">org.apache.commons.httpclient.methods</a>&nbsp;3.1.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/multipart/package-summary.html">org.apache.commons.httpclient.methods.multipart</a>&nbsp;3.1.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/params/package-summary.html">org.apache.commons.httpclient.params</a>&nbsp;3.1.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/protocol/package-summary.html">org.apache.commons.httpclient.protocol</a>&nbsp;3.1.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/util/package-summary.html">org.apache.commons.httpclient.util</a>&nbsp;3.1.0<br>
+</td>
+ </tr>
+ <tr>
+  <td>Import-Package</td>
+  <td>javax.crypto&nbsp;0.0.0<br>
+javax.crypto.spec&nbsp;0.0.0<br>
+javax.microedition.io&nbsp;0.0.0<br>
+javax.net&nbsp;0.0.0<br>
+javax.net.ssl&nbsp;0.0.0<br>
+org.apache.commons.codec&nbsp;0.0.0<br>
+org.apache.commons.codec.binary&nbsp;[1.3.0,2.0.0)<br>
+org.apache.commons.codec.digest&nbsp;[1.3.0,2.0.0)<br>
+org.apache.commons.codec.language&nbsp;[1.3.0,2.0.0)<br>
+org.apache.commons.codec.net&nbsp;0.0.0<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/package-summary.html">org.apache.commons.httpclient</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/auth/package-summary.html">org.apache.commons.httpclient.auth</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/cookie/package-summary.html">org.apache.commons.httpclient.cookie</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/package-summary.html">org.apache.commons.httpclient.methods</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/multipart/package-summary.html">org.apache.commons.httpclient.methods.multipart</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/params/package-summary.html">org.apache.commons.httpclient.params</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/protocol/package-summary.html">org.apache.commons.httpclient.protocol</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/util/package-summary.html">org.apache.commons.httpclient.util</a>&nbsp;[3.1.0,4.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/apache/commons/logging/package-summary.html">org.apache.commons.logging</a>&nbsp;0.0.0<br>
+<a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a>&nbsp;[1.2.0,2.0.0)<br>
+<a target="_top" href="../../javadoc/index.html?org/osgi/framework/package-summary.html">org.osgi.framework</a>&nbsp;0.0.0<br>
+<a target="_top" href="../../javadoc/index.html?org/osgi/service/io/package-summary.html">org.osgi.service.io</a>&nbsp;0.0.0<br>
+</td>
+ </tr>
+ <tr>
+  <td>Dynamic-ImportPackage</td>
+  <td></td>
+ </tr>
+
+ <tr>
+  <td>Provide-Capability</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>Require-Capability</td>
+  <td>osgi.ee; filter:="(&(osgi.ee=JavaSE)(version>=1.6))"</td>
+ </tr>
+
+
+ <tr>
+  <td  class="mfheader" colspan=2>Other manifest attributes</td>
+ </tr>
+
+ <tr>
+ <td>Build-Date</td>
+ <td>Fri October 21 2016, 12:21:06</td>
+</tr>
+<tr>
+ <td>Built-From</td>
+ <td>/Users/jan/git/knopflerfish/knopflerfish.org/osgi/bundles_opt/httpclient_connector</td>
+</tr>
+<tr>
+ <td>Bundle-GitURL</td>
+ <td><a target="_top" href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/">https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/</a></td>
+</tr>
+<tr>
+ <td>Bundle-UUID</td>
+ <td>org.knopflerfish:httpclient_connector:3.1.3.kf5-001</td>
+</tr>
+<tr>
+ <td>Knopflerfish-Version</td>
+ <td>6.0.0</td>
+</tr>
+
+
+</table>
+
+
+<h4>Depends on (<tt>osgi.wiring.package</tt>)</h4>
+
+This section lists bundles that can provide one or more of the
+capabilities that is required in the <tt>osgi.wiring.package</tt>
+namespace. Only one provider of each capability is required.
+
+<p>
+
+The first column is the providing bundle and the second column lists
+the sub-set of its provided packages that are required by this bundle.
+
+<p>
+
+<table>
+<tr><td><a href="../commons-logging/commons-logging_all-2.0.0.kf4-001.html">commons-logging_all-2.0.0.kf4-001</a></td><td><a target="_top" href="../../javadoc/index.html?org/apache/commons/logging/package-summary.html">org.apache.commons.logging</a>, <a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a></td></tr>
+<tr><td><a href="../desktop/desktop_all-6.0.0.html">desktop_all-6.0.0</a></td><td><a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a></td></tr>
+<tr><td><a href="../http/http_all-5.2.0.html">http_all-5.2.0</a></td><td><a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a></td></tr>
+<tr><td><a href="../httpclient_connector/httpclient_connector-3.1.3.kf5-001.html">httpclient_connector-3.1.3.kf5-001</a></td><td>org.apache.commons.codec, org.apache.commons.codec.binary, org.apache.commons.codec.digest, org.apache.commons.codec.language, org.apache.commons.codec.net, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/package-summary.html">org.apache.commons.httpclient</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/auth/package-summary.html">org.apache.commons.httpclient.auth</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/cookie/package-summary.html">org.apache.commons.httpclient.cookie</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/package-summary.html">org.apache.commons.httpclient.methods</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/multipart/package-summary.html">org.apache.commons.httpclient.methods.multipart</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/params/package-summary.html">org.apache.commons.httpclient.params</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/protocol/package-summary.html">org.apache.commons.httpclient.protocol</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/util/package-summary.html">org.apache.commons.httpclient.util</a></td></tr>
+<tr><td><a href="../io/io_all-4.1.0.html">io_all-4.1.0</a></td><td>javax.microedition.io, <a target="_top" href="../../javadoc/index.html?org/osgi/service/io/package-summary.html">org.osgi.service.io</a></td></tr>
+<tr><td><a href="../io/io_api-4.1.0.html">io_api-4.1.0</a></td><td>javax.microedition.io, <a target="_top" href="../../javadoc/index.html?org/osgi/service/io/package-summary.html">org.osgi.service.io</a></td></tr>
+<tr><td><a href="../useradmin/useradmin_all-4.1.2.html">useradmin_all-4.1.2</a></td><td><a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a></td></tr>
+<tr><td><a href="../useradmin/useradmin-4.1.2.html">useradmin-4.1.2</a></td><td><a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a></td></tr>
+<tr><td><a href="../framework-8.0.0.html">framework-8.0.0</a></td><td><a target="_top" href="../../javadoc/index.html?org/osgi/framework/package-summary.html">org.osgi.framework</a></td></tr>
+<tr><td><a href="../log/log_all-5.0.0.html">log_all-5.0.0</a></td><td><a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a></td></tr>
+<tr><td><a href="../log/log_api-5.0.0.html">log_api-5.0.0</a></td><td><a target="_top" href="../../javadoc/index.html?org/knopflerfish/service/log/package-summary.html">org.knopflerfish.service.log</a></td></tr>
+
+</table>
+
+<h4>Other bundles depending on this bundle (<tt>osgi.wiring.package</tt>)</h4>
+
+This section lists bundles that requires one or more of the
+capabilities that is provided in the namespace
+<tt>osgi.wiring.package</tt> by the current bundle.
+
+<p>
+
+The first column is the requiring bundle and the second column lists
+the sub-set of capabilities that this bundle may provide to the
+requiring bundle.
+
+<p>
+
+<table>
+<tr><td><a href="../httpclient_connector/httpclient_connector-3.1.3.kf5-001.html">httpclient_connector-3.1.3.kf5-001</a></td><td>org.apache.commons.codec, org.apache.commons.codec.binary, org.apache.commons.codec.digest, org.apache.commons.codec.language, org.apache.commons.codec.net, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/package-summary.html">org.apache.commons.httpclient</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/auth/package-summary.html">org.apache.commons.httpclient.auth</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/cookie/package-summary.html">org.apache.commons.httpclient.cookie</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/package-summary.html">org.apache.commons.httpclient.methods</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/methods/multipart/package-summary.html">org.apache.commons.httpclient.methods.multipart</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/params/package-summary.html">org.apache.commons.httpclient.params</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/protocol/package-summary.html">org.apache.commons.httpclient.protocol</a>, <a target="_top" href="../../javadoc/index.html?org/apache/commons/httpclient/util/package-summary.html">org.apache.commons.httpclient.util</a></td></tr>
+
+</table>
+
+
+<a name="source"></a>
+<h4>Bundle source</h4>
+
+Here are links to the source files of this bundle.
+
+<table> <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/AutoCloseInputStream.java">org/apache/commons/httpclient/AutoCloseInputStream.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ChunkedInputStream.java">org/apache/commons/httpclient/ChunkedInputStream.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ChunkedOutputStream.java">org/apache/commons/httpclient/ChunkedOutputStream.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/CircularRedirectException.java">org/apache/commons/httpclient/CircularRedirectException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ConnectMethod.java">org/apache/commons/httpclient/ConnectMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ConnectTimeoutException.java">org/apache/commons/httpclient/ConnectTimeoutException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ConnectionPoolTimeoutException.java">org/apache/commons/httpclient/ConnectionPoolTimeoutException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ContentLengthInputStream.java">org/apache/commons/httpclient/ContentLengthInputStream.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/Cookie.java">org/apache/commons/httpclient/Cookie.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/Credentials.java">org/apache/commons/httpclient/Credentials.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/DefaultHttpMethodRetryHandler.java">org/apache/commons/httpclient/DefaultHttpMethodRetryHandler.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/DefaultMethodRetryHandler.java">org/apache/commons/httpclient/DefaultMethodRetryHandler.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/Header.java">org/apache/commons/httpclient/Header.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HeaderElement.java">org/apache/commons/httpclient/HeaderElement.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HeaderGroup.java">org/apache/commons/httpclient/HeaderGroup.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HostConfiguration.java">org/apache/commons/httpclient/HostConfiguration.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpClient.java">org/apache/commons/httpclient/HttpClient.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpClientError.java">org/apache/commons/httpclient/HttpClientError.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpConnection.java">org/apache/commons/httpclient/HttpConnection.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpConnectionManager.java">org/apache/commons/httpclient/HttpConnectionManager.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpConstants.java">org/apache/commons/httpclient/HttpConstants.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpContentTooLargeException.java">org/apache/commons/httpclient/HttpContentTooLargeException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpException.java">org/apache/commons/httpclient/HttpException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpHost.java">org/apache/commons/httpclient/HttpHost.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpMethod.java">org/apache/commons/httpclient/HttpMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpMethodBase.java">org/apache/commons/httpclient/HttpMethodBase.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpMethodDirector.java">org/apache/commons/httpclient/HttpMethodDirector.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpMethodRetryHandler.java">org/apache/commons/httpclient/HttpMethodRetryHandler.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpParser.java">org/apache/commons/httpclient/HttpParser.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpRecoverableException.java">org/apache/commons/httpclient/HttpRecoverableException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpState.java">org/apache/commons/httpclient/HttpState.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpStatus.java">org/apache/commons/httpclient/HttpStatus.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpURL.java">org/apache/commons/httpclient/HttpURL.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpVersion.java">org/apache/commons/httpclient/HttpVersion.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/HttpsURL.java">org/apache/commons/httpclient/HttpsURL.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/InvalidRedirectLocationException.java">org/apache/commons/httpclient/InvalidRedirectLocationException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/MethodRetryHandler.java">org/apache/commons/httpclient/MethodRetryHandler.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/MultiThreadedHttpConnectionManager.java">org/apache/commons/httpclient/MultiThreadedHttpConnectionManager.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/NTCredentials.java">org/apache/commons/httpclient/NTCredentials.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/NameValuePair.java">org/apache/commons/httpclient/NameValuePair.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/NoHttpResponseException.java">org/apache/commons/httpclient/NoHttpResponseException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ProtocolException.java">org/apache/commons/httpclient/ProtocolException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ProxyClient.java">org/apache/commons/httpclient/ProxyClient.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ProxyHost.java">org/apache/commons/httpclient/ProxyHost.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/RedirectException.java">org/apache/commons/httpclient/RedirectException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/ResponseConsumedWatcher.java">org/apache/commons/httpclient/ResponseConsumedWatcher.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/SimpleHttpConnectionManager.java">org/apache/commons/httpclient/SimpleHttpConnectionManager.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/StatusLine.java">org/apache/commons/httpclient/StatusLine.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/URI.java">org/apache/commons/httpclient/URI.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/URIException.java">org/apache/commons/httpclient/URIException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/UsernamePasswordCredentials.java">org/apache/commons/httpclient/UsernamePasswordCredentials.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/Wire.java">org/apache/commons/httpclient/Wire.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/WireLogInputStream.java">org/apache/commons/httpclient/WireLogInputStream.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/WireLogOutputStream.java">org/apache/commons/httpclient/WireLogOutputStream.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthChallengeException.java">org/apache/commons/httpclient/auth/AuthChallengeException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthChallengeParser.java">org/apache/commons/httpclient/auth/AuthChallengeParser.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthChallengeProcessor.java">org/apache/commons/httpclient/auth/AuthChallengeProcessor.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthPolicy.java">org/apache/commons/httpclient/auth/AuthPolicy.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthScheme.java">org/apache/commons/httpclient/auth/AuthScheme.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthSchemeBase.java">org/apache/commons/httpclient/auth/AuthSchemeBase.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthScope.java">org/apache/commons/httpclient/auth/AuthScope.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthState.java">org/apache/commons/httpclient/auth/AuthState.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/AuthenticationException.java">org/apache/commons/httpclient/auth/AuthenticationException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/BasicScheme.java">org/apache/commons/httpclient/auth/BasicScheme.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/CredentialsNotAvailableException.java">org/apache/commons/httpclient/auth/CredentialsNotAvailableException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/CredentialsProvider.java">org/apache/commons/httpclient/auth/CredentialsProvider.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/DigestScheme.java">org/apache/commons/httpclient/auth/DigestScheme.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/HttpAuthRealm.java">org/apache/commons/httpclient/auth/HttpAuthRealm.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/HttpAuthenticator.java">org/apache/commons/httpclient/auth/HttpAuthenticator.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/InvalidCredentialsException.java">org/apache/commons/httpclient/auth/InvalidCredentialsException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/MalformedChallengeException.java">org/apache/commons/httpclient/auth/MalformedChallengeException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/NTLM.java">org/apache/commons/httpclient/auth/NTLM.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/NTLMScheme.java">org/apache/commons/httpclient/auth/NTLMScheme.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/auth/RFC2617Scheme.java">org/apache/commons/httpclient/auth/RFC2617Scheme.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/Cookie2.java">org/apache/commons/httpclient/cookie/Cookie2.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/CookieAttributeHandler.java">org/apache/commons/httpclient/cookie/CookieAttributeHandler.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/CookieOrigin.java">org/apache/commons/httpclient/cookie/CookieOrigin.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/CookiePathComparator.java">org/apache/commons/httpclient/cookie/CookiePathComparator.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/CookiePolicy.java">org/apache/commons/httpclient/cookie/CookiePolicy.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/CookieSpec.java">org/apache/commons/httpclient/cookie/CookieSpec.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/CookieSpecBase.java">org/apache/commons/httpclient/cookie/CookieSpecBase.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/CookieVersionSupport.java">org/apache/commons/httpclient/cookie/CookieVersionSupport.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/IgnoreCookiesSpec.java">org/apache/commons/httpclient/cookie/IgnoreCookiesSpec.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/MalformedCookieException.java">org/apache/commons/httpclient/cookie/MalformedCookieException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/NetscapeDraftSpec.java">org/apache/commons/httpclient/cookie/NetscapeDraftSpec.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/RFC2109Spec.java">org/apache/commons/httpclient/cookie/RFC2109Spec.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/cookie/RFC2965Spec.java">org/apache/commons/httpclient/cookie/RFC2965Spec.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/ByteArrayRequestEntity.java">org/apache/commons/httpclient/methods/ByteArrayRequestEntity.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/DeleteMethod.java">org/apache/commons/httpclient/methods/DeleteMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/EntityEnclosingMethod.java">org/apache/commons/httpclient/methods/EntityEnclosingMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/ExpectContinueMethod.java">org/apache/commons/httpclient/methods/ExpectContinueMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/FileRequestEntity.java">org/apache/commons/httpclient/methods/FileRequestEntity.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/GetMethod.java">org/apache/commons/httpclient/methods/GetMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/HeadMethod.java">org/apache/commons/httpclient/methods/HeadMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/InputStreamRequestEntity.java">org/apache/commons/httpclient/methods/InputStreamRequestEntity.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/MultipartPostMethod.java">org/apache/commons/httpclient/methods/MultipartPostMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/OptionsMethod.java">org/apache/commons/httpclient/methods/OptionsMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/PostMethod.java">org/apache/commons/httpclient/methods/PostMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/PutMethod.java">org/apache/commons/httpclient/methods/PutMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/RequestEntity.java">org/apache/commons/httpclient/methods/RequestEntity.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/StringRequestEntity.java">org/apache/commons/httpclient/methods/StringRequestEntity.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/TraceMethod.java">org/apache/commons/httpclient/methods/TraceMethod.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/ByteArrayPartSource.java">org/apache/commons/httpclient/methods/multipart/ByteArrayPartSource.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/FilePart.java">org/apache/commons/httpclient/methods/multipart/FilePart.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/FilePartSource.java">org/apache/commons/httpclient/methods/multipart/FilePartSource.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/MultipartRequestEntity.java">org/apache/commons/httpclient/methods/multipart/MultipartRequestEntity.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/Part.java">org/apache/commons/httpclient/methods/multipart/Part.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/PartBase.java">org/apache/commons/httpclient/methods/multipart/PartBase.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/PartSource.java">org/apache/commons/httpclient/methods/multipart/PartSource.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/methods/multipart/StringPart.java">org/apache/commons/httpclient/methods/multipart/StringPart.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/DefaultHttpParams.java">org/apache/commons/httpclient/params/DefaultHttpParams.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/DefaultHttpParamsFactory.java">org/apache/commons/httpclient/params/DefaultHttpParamsFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/HostParams.java">org/apache/commons/httpclient/params/HostParams.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/HttpClientParams.java">org/apache/commons/httpclient/params/HttpClientParams.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/HttpConnectionManagerParams.java">org/apache/commons/httpclient/params/HttpConnectionManagerParams.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/HttpConnectionParams.java">org/apache/commons/httpclient/params/HttpConnectionParams.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/HttpMethodParams.java">org/apache/commons/httpclient/params/HttpMethodParams.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/HttpParams.java">org/apache/commons/httpclient/params/HttpParams.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/params/HttpParamsFactory.java">org/apache/commons/httpclient/params/HttpParamsFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/protocol/ControllerThreadSocketFactory.java">org/apache/commons/httpclient/protocol/ControllerThreadSocketFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/protocol/DefaultProtocolSocketFactory.java">org/apache/commons/httpclient/protocol/DefaultProtocolSocketFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/protocol/Protocol.java">org/apache/commons/httpclient/protocol/Protocol.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/protocol/ProtocolSocketFactory.java">org/apache/commons/httpclient/protocol/ProtocolSocketFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/protocol/ReflectionSocketFactory.java">org/apache/commons/httpclient/protocol/ReflectionSocketFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/protocol/SSLProtocolSocketFactory.java">org/apache/commons/httpclient/protocol/SSLProtocolSocketFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/protocol/SecureProtocolSocketFactory.java">org/apache/commons/httpclient/protocol/SecureProtocolSocketFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/DateParseException.java">org/apache/commons/httpclient/util/DateParseException.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/DateParser.java">org/apache/commons/httpclient/util/DateParser.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/DateUtil.java">org/apache/commons/httpclient/util/DateUtil.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/EncodingUtil.java">org/apache/commons/httpclient/util/EncodingUtil.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/ExceptionUtil.java">org/apache/commons/httpclient/util/ExceptionUtil.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/HttpURLConnection.java">org/apache/commons/httpclient/util/HttpURLConnection.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/IdleConnectionHandler.java">org/apache/commons/httpclient/util/IdleConnectionHandler.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/IdleConnectionTimeoutThread.java">org/apache/commons/httpclient/util/IdleConnectionTimeoutThread.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/LangUtils.java">org/apache/commons/httpclient/util/LangUtils.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/ParameterFormatter.java">org/apache/commons/httpclient/util/ParameterFormatter.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/ParameterParser.java">org/apache/commons/httpclient/util/ParameterParser.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/TimeoutController.java">org/apache/commons/httpclient/util/TimeoutController.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/apache/commons/httpclient/util/URIUtil.java">org/apache/commons/httpclient/util/URIUtil.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/knopflerfish/bundle/httpclient_connector/Activator.java">org/knopflerfish/bundle/httpclient_connector/Activator.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/knopflerfish/bundle/httpclient_connector/HttpClientConnection.java">org/knopflerfish/bundle/httpclient_connector/HttpClientConnection.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/knopflerfish/bundle/httpclient_connector/HttpClientFactory.java">org/knopflerfish/bundle/httpclient_connector/HttpClientFactory.java<a>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/httpclient_connector/src/org/knopflerfish/bundle/httpclient_connector/ProxySelector.java">org/knopflerfish/bundle/httpclient_connector/ProxySelector.java<a>
+  </td>
+ </tr>
+</table>
+
+</body>
+</html>
+
+

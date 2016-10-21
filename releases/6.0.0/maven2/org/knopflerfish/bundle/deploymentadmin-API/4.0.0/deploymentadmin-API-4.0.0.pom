@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>deploymentadmin-API</artifactId>
+  <version>4.0.0</version>
+  <name>deploymentadmin-API</name>
+  <description>Deployment Admin API (API)</description>
+  <organization>
+    <name>Knopflerfish</name>
+    <url>http://www.knopflerfish.org/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>&lt;&lt;EXTERNAL>></name>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>org.knopflerfish</groupId>
+      <artifactId>framework</artifactId>
+      <version>8.0.0</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

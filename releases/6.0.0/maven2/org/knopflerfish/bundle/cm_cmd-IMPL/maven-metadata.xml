@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>cm_cmd-IMPL</artifactId>
+  <version>5.0.1</version>
+  <versioning>
+    <versions>
+      <version>5.0.1</version>
+    </versions>
+    <lastUpdated>20161021102537</lastUpdated>
+  </versioning>
+</metadata>

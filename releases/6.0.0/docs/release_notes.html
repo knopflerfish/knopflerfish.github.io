@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<!-- This is a generated file. Do not edit. Built by jan on Fri October 21 2016, 12:24:03 -->
+
+<html>
+
+  <head>
+    <meta http-equiv = "Content-Type"
+	  content    = "text/html; charset=ISO-8859-1"/>
+    
+    <meta http-equiv = "CACHE-CONTROL"
+	  content    = "NO-CACHE"/>
+
+    <meta name       = "description"
+	  content    = "Release notes for this release of Knopflerfish OSGi, version 6.0.0 - "/>
+    
+    <meta name       = "title"
+	  content    = "Knopflerfish OSGi, version 6.0.0 -  Release Notes"/>
+
+    <title>Knopflerfish OSGi, version 6.0.0 -  Release Notes</title>
+
+    <LINK href="./css/knopflerfish.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+
+  <body>
+    <div id="main">
+      <a name="top"></a>
+      <div id="header">
+	<div id="header_logo">
+	  <a href="index.html"><img src="images/kf300_black.png" border="0" alt="knopflerfish logo"/></a>
+	</div>
+	<div id="header_centerbox">
+	  <div class="header_centerinfo_top">
+	    Distribution Documentation
+	  </div>
+	  <div class="header_centerinfo_bottom">
+	    Knopflerfish OSGi 6.0.0
+	  </div>
+	</div>
+	<div id="header_rightinfo">
+	  <div class="header_stylish">
+	    Open Source OSGi Service Platform Maintained by
+	  </div>
+	  <a href="http://www.makewave.com">
+	    <img border="0" alt="Makewave" src="./images/makewave_logo.png" border="0" style="margin-top: 4px;">
+	  </a>
+	</div>
+	<div id="header_fade">
+	</div>
+      </div>
+      <div id="leftmenu">
+	<dl class="leftmenu2">
+	  <dt class="leftmenu2"><a class="navigation_enabled" href="index.html">Knopflerfish 6.0.0</a></dt>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="components.html">Contents</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_disabled" href="release_notes.html">Release Notes</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="license.html">License</a></dd>
+	</dl>
+	<dl class="leftmenu2">
+	  <dt class="leftmenu2">Getting Started</dt>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="installing.html">Installing</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="running.html">Running</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="building.html">Building</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="programming.html">Programming</a></dd> 
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="testing.html">Testing</a></dd>
+	</dl>
+	<dl class="leftmenu2">
+	  <dt class="leftmenu2">Developer's Doc</dt>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="tutorials.html">Tutorials</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="javadoc/index.html">Java API docs</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="bundledoc/index.html">Framework and Bundle docs</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="jars/index.html">Bundle jar docs</a></dd>
+	</dl>
+
+	<dl class="leftmenu2">
+	  <dt class="leftmenu2"><a class="navigation_enabled" href="http://www.knopflerfish.org/">www.knopflerfish.org</a></dt>
+          <dd class="leftmenu2"><a class="navigation_enabled" href="http://github.com/knopflerfish/knopflerfish.org/issues">Bug tracker</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="../osgi/jars/index.xml">Bundle repository</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="https://github.com/knopflerfish/knopflerfish.org/tree/master">Source (git)</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="http://www.knopflerfish.org/eclipse_plugin.html">Eclipse plugin</a></dd>
+	</dl>
+
+	<dl class="leftmenu2_last">
+	  <dt class="leftmenu2"><a class="navigation_enabled" href="http://www.makewave.com/">Maintained by Makewave</a></dt>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="http://www.makewave.com/site.en/products/knopflerfish_pro_osgi.shtml">Knopflerfish Pro</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="http://www.makewave.com/site.en/products/osgi_expert.shtml">Professional Services</a></dd>
+	  <dd class="leftmenu2"><a class="navigation_enabled" href="http://www.makewave.com/site.en/products/osgi_training.shtml">Training</a></dd>
+	  <dd class="leftmenu2"> </dd>
+	  <dd class="leftmenu2" style="margin-top: 10px;"><a class="navigation_enabled" href="http://www.makewave.com"><img src="./images/makewave_logo_126x16.gif" border="0"></a><br>
+	  <dd><div style="font-size: 0.75em; color: #444444; font-family: Helvetica, Sans-Serif; margin-left: -10px;">
+	      <em>OSGi for Business Use</em></div>
+	  </dd>
+	</dl>
+      </div>
+      <div id="mainblock">
+	<h1 class="release_notes">Release Notes Knopflerfish 6.0.0 (OSGi R6)</h1>
+<p>Maintenance release of Knopflerfish 6 available from http://www.knopflerfish.org/releases/6.0.0. Released 2016-10-21.</p>
+<p>Knopflerfish 6 is an implementation of the "OSGi Service Platform Release 6". It contains all services specified in the "Core Specification" and most of the non Enterprise Edition related services specified in the "Compendium Specification".</p>
+<p>The Release Notes include all new features &amp; changes for Knopflerfish 6.0.0 compared to the release of Knopflerfish 5.2.1</p>
+<p><b>NOTE!</b> Version numbers are shown as the expected version numbers in the first official release.</p>
+<h2 class="release_notes">Knopflerfish Framework - OSGi Core Specification</h2>
+<div class="note_name">OSGi R6 Specifications</div>
+<div class="note_item">All the Core Specification Services and API:s are included and are  designed to be compliant with the OSGi R6 specification.  Please refer to the <a href="components.html">Contents</a> page in the  release documentation for a more detailed description of news in R6  and KF6 implementation status.</div>
+<div class="note_name">Framework 8.0.0</div>
+<div class="note_item">
+<p>Updated framework to be OSGi R6 compliant.</p></div>
+<div class="note_item">
+<p>New property <code>org.knopflerfish.framework.resolver.implicituses</code>.  Controls if framework should implicitly check all imports if no uses directive is  specified. This used to be the default behaviour in previous releases.  Default value is false.</p></div>
+<div class="note_item">
+<p>New property <code>org.knopflerfish.framework.resolver.prefersystembundle</code>.  Set to true if resolver should actively provide system bundle packages  from the start. This will cause the resolver to prefer these packages  if possible. Default value is false.</p></div>
+<div class="note_item">
+<p>Fixed too strict check in <code>ServiceReference.isAssignableTo(Bundle,String)</code>.</p></div>
+<h2 class="release_notes">OSGi Compendium Specification</h2>
+<div class="note_name">Application Admin 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Blueprint 5.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">CM 5.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_item">Fixed missing CM_LOCATION_UPDATE events.</div>
+<div class="note_item">Fixed missing security check for <code>Configuration.getBundleLocation()</code>.</div>
+<div class="note_name">Component (SCR) 6.0.0</div>
+<div class="note_item">Updated API and functionality to match OSGI R6, new minor version 1.3.</div>
+<div class="note_item">Added dependency to new Promise bundle.</div>
+<div class="note_name">Component Annotation 1.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6, new minor version 1.3.</div>
+<div class="note_name">Coordinator API 1.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">DAL 1.0.0</div>
+<div class="note_item">DAL, the Device Abstraction Layer API has been added to Knopflerfish</div>
+<div class="note_name">DMT 5.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Event 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Http 5.2.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">IO 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">KF Metatype 5.1.0</div>
+<div class="note_item">Updated to match OSGi R6 API minor version 1.3.</div>
+<div class="note_name">Measurement 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Metatype API 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6, new minor version 1.3.</div>
+<div class="note_name">Metatype Annotations API 1.0.0</div>
+<div class="note_item">New API bundle providing the <code>org.osgi.service.metatype.annotations</code> package.</div>
+<div class="note_item">This API-bundle is for compile time use, since the annotations are used by the build system to create the XML-file describing metatype information.</div>
+<div class="note_name">Position 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Prefs 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Promise 1.0.0</div>
+<div class="note_item">New library bundle providing the <code>org.osgi.util.function.</code> and <code>org.osgi.util.promise</code> packages.</div>
+<div class="note_name">Provisioning 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Remote service admin 1.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6, new minor version 1.1.</div>
+<div class="note_name">Repository API 1.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6, new minor version 1.1.</div>
+<div class="note_name">Repository XML 1.1.0</div>
+<div class="note_item">Support for new methods in OSGi R6 Repository API version 1.1.</div>
+<div class="note_item">Added dependency to new Promise bundle.</div>
+<div class="note_name">Resolver API 1.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">Service loader API 1.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">UPnP 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">WireAdmin 5.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<div class="note_name">XML 4.1.0</div>
+<div class="note_item">Updated API classes to match OSGi R6.</div>
+<h2 class="release_notes">Knopflerfish Services</h2>
+<div class="note_name">Desktop 6.0.0</div>
+<div class="note_item">Added new Promise bundle.</div>
+<div class="note_name">Dirdeployer 4.1.0</div>
+<div class="note_item">Marker files can be used to control and inspect the deployment. Controlled by the boolean property: <code>org.knopflerfish.fileinstall.filemarkers.use</code> Default is false.</div>
+<div class="note_item">DeployedBundleControl instances are optionally registered for every deployed bundle. Controlled by the boolean property: <code>org.knopflerfish.fileinstall.bundlecontrols.use</code> Default is false.</div>
+<div class="note_name">Repository manager 1.3.0</div>
+<div class="note_item">Include new Promise bundle packages.</div>
+<h2 class="release_notes">Misc, start scripts, build system etc</h2>
+<div class="note_name">Distribution build</div>
+<div class="note_item">Add timestamp to bundle and SDK version numbers by default during distribution builds.</div>
+<div class="note_item">Changed SVN references to Git.</div>
+<div class="note_name">Travis CI</div>
+<div class="note_item">Added support for CI builds using travis. Check <a href="http://travis-ci.org">http://travis-ci.org</a> for more information.</div>
+      </div>
+      <div id="footer">
+	<div id="copyright">
+	  Copyright &copy; 2008-2016 The Knopflerfish Project. All rights reserved.
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

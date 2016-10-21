@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.knopflerfish.bundle</groupId>
+  <artifactId>provisioning-API</artifactId>
+  <version>4.1.0</version>
+  <versioning>
+    <versions>
+      <version>4.1.0</version>
+    </versions>
+    <lastUpdated>20161021102541</lastUpdated>
+  </versioning>
+</metadata>

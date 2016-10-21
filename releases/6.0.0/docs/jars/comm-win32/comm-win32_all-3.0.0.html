@@ -1,0 +1,198 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+  <link href="../style.css" rel="stylesheet" type="text/css">
+  <title>comm-win32_all-3.0.0.jar</title>
+  <script type="text/javascript">
+    function windowTitle() {
+      if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title=document.title;
+      }
+    }
+  </script>
+</head>
+
+<body onload="windowTitle();">
+
+<h2>comm-win32_all-3.0.0.jar</h2>
+
+<p>
+<a href="../../../osgi/jars/comm-win32/comm-win32_all-3.0.0.jar">download</a> (38890 bytes)
+</p>
+
+<table width="100%">
+ <tr>
+  <td class="mfheader" colspan=2>OSGi manifest attributes</td>
+ </tr>
+
+ <tr>
+  <td>Bundle-Name</td>
+  <td>comm-win32</td>
+ </tr>
+ <tr>
+  <td>Bundle-SymbolicName</td>
+  <td>org.knopflerfish.bundle.comm-win32</td>
+ </tr>
+ <tr>
+  <td>Bundle-Version</td>
+  <td>3.0.0</td>
+ </tr>
+ <tr>
+  <td>Bundle-Description</td>
+  <td>Native driver for win32 javax.comm using Sun's COMM library</td>
+ </tr>
+ <tr>
+  <td>Bundle-Vendor</td>
+  <td>Knopflerfish/Sun</td>
+ </tr>
+ <tr>
+  <td>Bundle-ContactAddress</td>
+  <td>http://www.knopflerfish.org</td>
+ </tr>
+ <tr>
+  <td>Bundle-License</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>Bundle-DocURL</td>
+  <td><a target="_top" href="http://www.knopflerfish.org/releases/6.0.0/docs/bundledoc/index.html?docpage=serial">http://www.knopflerfish.org/releases/6.0.0/docs/bundledoc/index.html?docpage=serial</a></td>
+ </tr>
+ <tr>
+  <td>Bundle-ManifestVersion</td>
+  <td>2</td>
+ </tr>
+ <tr>
+  <td>Bundle-Activator</td>
+  <td>org.knopflerfish.bundle.comm.w32.Activator</td>
+ </tr>
+ <tr>
+  <td>Bundle-Classpath</td>
+  <td>.,comm.jar</td>
+ </tr>
+
+ <tr>
+  <td>Export-Package</td>
+  <td>javax.comm&nbsp;2.0.0<br>
+</td>
+ </tr>
+ <tr>
+  <td>Import-Package</td>
+  <td>javax.comm&nbsp;2.0.0<br>
+<a target="_top" href="../../javadoc/index.html?org/osgi/framework/package-summary.html">org.osgi.framework</a>&nbsp;0.0.0<br>
+</td>
+ </tr>
+ <tr>
+  <td>Dynamic-ImportPackage</td>
+  <td></td>
+ </tr>
+
+ <tr>
+  <td>Provide-Capability</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>Require-Capability</td>
+  <td>osgi.ee; filter:="(&(osgi.ee=JavaSE)(version>=1.6))"</td>
+ </tr>
+
+
+ <tr>
+  <td  class="mfheader" colspan=2>Other manifest attributes</td>
+ </tr>
+
+ <tr>
+ <td>Build-Date</td>
+ <td>Fri October 21 2016, 12:20:45</td>
+</tr>
+<tr>
+ <td>Built-From</td>
+ <td>/Users/jan/git/knopflerfish/knopflerfish.org/osgi/bundles_opt/serial/comm-win32</td>
+</tr>
+<tr>
+ <td>Bundle-APIVendor</td>
+ <td>Knopflerfish/Sun</td>
+</tr>
+<tr>
+ <td>Bundle-Category</td>
+ <td>service</td>
+</tr>
+<tr>
+ <td>Bundle-GitURL</td>
+ <td><a target="_top" href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/serial/comm-win32/">https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/serial/comm-win32/</a></td>
+</tr>
+<tr>
+ <td>Bundle-NativeCode</td>
+ <td>win32com.dll ; processor = x86 ;osname = Windows NT ; osname = Windows 98 ; osname = Windows 95 ; osname = Windows 2000 ; osname = Windows XP ;osname = Windows Vista ;osname = Windows 7 ;osname = Windows 8 ;osname = Windows 8.1 ;osname = Windows 10 ;osname = Windows Server 2008 ;osname = Windows Server 2012</td>
+</tr>
+<tr>
+ <td>Bundle-UUID</td>
+ <td>org.knopflerfish:comm-win32:3.0.0</td>
+</tr>
+<tr>
+ <td>Knopflerfish-Version</td>
+ <td>6.0.0</td>
+</tr>
+
+
+</table>
+
+
+<h4>Depends on (<tt>osgi.wiring.package</tt>)</h4>
+
+This section lists bundles that can provide one or more of the
+capabilities that is required in the <tt>osgi.wiring.package</tt>
+namespace. Only one provider of each capability is required.
+
+<p>
+
+The first column is the providing bundle and the second column lists
+the sub-set of its provided packages that are required by this bundle.
+
+<p>
+
+<table>
+<tr><td><a href="../comm-linux/comm-linux_all-3.0.0.html">comm-linux_all-3.0.0</a></td><td>javax.comm</td></tr>
+<tr><td><a href="../comm-win32/comm-win32_all-3.0.0.html">comm-win32_all-3.0.0</a></td><td>javax.comm</td></tr>
+<tr><td><a href="../framework-8.0.0.html">framework-8.0.0</a></td><td><a target="_top" href="../../javadoc/index.html?org/osgi/framework/package-summary.html">org.osgi.framework</a></td></tr>
+
+</table>
+
+<h4>Other bundles depending on this bundle (<tt>osgi.wiring.package</tt>)</h4>
+
+This section lists bundles that requires one or more of the
+capabilities that is provided in the namespace
+<tt>osgi.wiring.package</tt> by the current bundle.
+
+<p>
+
+The first column is the requiring bundle and the second column lists
+the sub-set of capabilities that this bundle may provide to the
+requiring bundle.
+
+<p>
+
+<table>
+<tr><td><a href="../comm-linux/comm-linux_all-3.0.0.html">comm-linux_all-3.0.0</a></td><td>javax.comm</td></tr>
+<tr><td><a href="../comm-win32/comm-win32_all-3.0.0.html">comm-win32_all-3.0.0</a></td><td>javax.comm</td></tr>
+<tr><td><a href="../serialportdevice/serialportdevice_all-4.0.0.html">serialportdevice_all-4.0.0</a></td><td>javax.comm</td></tr>
+<tr><td><a href="../serialportdevice/serialportdevice_api-4.0.0.html">serialportdevice_api-4.0.0</a></td><td>javax.comm</td></tr>
+
+</table>
+
+
+<a name="source"></a>
+<h4>Bundle source</h4>
+
+Here are links to the source files of this bundle.
+
+<table> <tr>
+  <td>
+    <a href="https://github.com/knopflerfish/knopflerfish.org/tree/6.0.0/osgi/bundles_opt/serial/comm-win32/src/org/knopflerfish/bundle/comm/w32/Activator.java">org/knopflerfish/bundle/comm/w32/Activator.java<a>
+  </td>
+ </tr>
+</table>
+
+</body>
+</html>
+
+
