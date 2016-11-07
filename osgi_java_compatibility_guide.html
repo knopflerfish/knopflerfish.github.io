@@ -149,12 +149,12 @@
 <p>
   In general, the Knopflerfish distributions are always compiled into
   the least Java/JDK version the source code supports. This is to
-  support the embedded market where many JVM:s are still on JDK1.4
-  level.
+  support the embedded market where many JVM:s are still on JDK1.6
+  level, or even older.
 </p>
 <p>
   Since all code is upwards compatible Knopflerfish can easily be
-  compiled into a more recent version of Java, including Java7. Please
+  compiled into a more recent version of Java, including Java8. Please
   see the table later on this page presenting javac compatibility issues.
 </p>
 <p>
@@ -169,6 +169,15 @@
     <td class="subhead">Byte code</td>
     <td class="subhead">Supported Java Run-times</td>
     <td class="subhead">EE</td>
+  </tr>
+
+  <tr>
+    <td>6.*</td>
+    <td>OSGi R6</td>
+    <td>1.6</td>
+    <td>50</td>
+    <td> 1.6+ </td>
+    <td>OSGi min 1.2</td>
   </tr>
 
   <tr>
@@ -220,6 +229,15 @@ higher.
   which JDK versions can be used to build them.
 </p>
 <p>
+  KF6 is designed to run on Java 1.6 and upwards. To run Knopflerfish on older
+  versions of Java KF5 or earlier must be used.
+</p>
+<p>
+  KF6 can be built using Java 1.6 or higher and the byte code generated will be made
+  for the tool chain used. E.g. if building KF6 with Java 8 the
+  bundles will be built for Java 8 by default.  
+</p>  
+<p>
   KF5 and KF4 are both designed to run on Java 1.4 and
   upwards. With OSGi R4 v4.3 Java 5 generics were introduced in the OSGi
   APIs. To be able to build a KF distribution that is compatible JDK
@@ -246,6 +264,28 @@ higher.
     <td class="subhead">Generates byte code for</td>
     <td class="subhead">Tool Chains<sup>1</sup></td>
     <td class="subhead">Comment</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">6.*</td>
+    <td rowspan="3">R6</td>
+    <td rowspan="3">1.6</td>
+    <td>1.6</td>
+    <td>JDK 1.6 (50)</td>
+    <td>1.6+</td>
+    <td>The default is to build for JDK used</td>
+  </tr>
+  <tr>
+    <td>1.7</td>
+    <td>JDK 1.7 (51)</td>
+    <td>1.7+</td>
+    <td>The default is to build for JDK used</td>
+  </tr>
+  <tr>
+    <td>1.8</td>
+    <td>JDK 1.8 (52)</td>
+    <td>1.8+</td>
+    <td>The default is to build for JDK used</td>
   </tr>
 
   <tr>
